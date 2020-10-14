@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{% if page.title %}{{ page.title }} |{% else %}{% endif %} {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/github-markdown.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/syntax.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
+  <link rel="icon" href="{{ site.baseurl }}/assets/favicon.png">
+</head>
+
+<body>
+
+  <header>
+    {% include header.liquid %}
+  </header>
+
+  <nav>
+    {% include top-nav.liquid %}
+  </nav>
+
+  <main>
+
+    {{ content }}
+
+  </main>
+
+  <footer>
+    {% include footer.liquid %}
+  </footer>
+
+</body>
+
+</html>

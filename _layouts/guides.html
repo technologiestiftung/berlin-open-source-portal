@@ -1,0 +1,25 @@
+--- 
+layout: wrapper
+---
+
+<article class="markdown-body">
+  {{ content }}
+</article>
+
+<h2 class="section-header"><a href=""><a href="{{ site.baseurl }}/guides">Alle Dokumente</a></a></h2>
+
+{% assign guides = site.pages | where: "layout", "guides" %}
+
+{% comment %} Don't display this section if there is only one result {% endcomment %}
+{% if guides[1] %}
+
+<section class="cards">
+  {% for page in guides %} {% if page.name != "index.md" %}
+  <a href="{{ site.baseurl }}{{ page.url }}">
+    <h3>{{ page.title }}</h3>
+    <p>{{ page.explains }}</p>
+  </a>
+  {% endif %} {% endfor %}
+</section>
+
+{% endif %}

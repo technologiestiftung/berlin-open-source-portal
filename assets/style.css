@@ -1,0 +1,254 @@
+/**
+ * This CSS file provides basic styling
+ */
+
+ html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial,sans-serif;
+  font-weight: 500;
+  background-color: #e5e5e5;
+  color: #434343;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+a:link, a:visited {
+  color: #004699;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #b5050e;
+}
+
+/* Layout of the contents */
+body, body>nav, body>footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+body>main, body>header, body>nav>ul {
+  width: 100vw;
+  max-width: 1000px;
+  box-sizing: border-box;
+  padding: 20px 30px;
+  margin: 0;
+}
+
+/* The main navigation */
+body>nav {
+  width: 100vw;
+  background-color: #fafafa;
+}
+
+body>nav>ul {
+  list-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+body>nav>ul>li {
+  display: inline;
+  margin-right: 1em;
+}
+body>nav>ul>li>a:link, body>nav>ul>li>a:visited {
+  font-size: 1.125em;  
+  font-weight: 500;
+  color: #253276;
+  text-decoration: none;
+}
+body>nav>ul>li>a:hover {
+  color: #b5050e;
+  text-decoration: underline;
+}
+
+/* The header */
+header {
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+
+header>a>img {
+  width: 20%;
+  max-width: 30em;
+}
+header>a:link, header>a:visited {
+  color: #253276;
+  text-decoration: none;
+}
+@media screen and (min-width: 1050px) {
+  header>a>img {
+    margin-left: -100px;
+  }
+}
+
+/* The main content */
+main {
+  flex: 1 1 auto;
+}
+
+main>article {
+  max-width: 600px;
+  width: 100%;
+  display: inline-block;
+}
+
+main>article.markdown-body {
+  padding: 2em 2em 4em;
+}
+
+main>aside, main>ul.table-of-contents {
+  padding: 0 0 4em 0;
+}
+@media screen and (min-width: 1050px) {
+  main>aside, main>ul.table-of-contents {
+    display: inline-block;
+    padding: 4.5em 2em 4em 0;   
+    max-width: 25%; 
+    vertical-align: top;
+  }
+}
+
+main>aside span.score {
+  display: inline-block;
+  background: #e5e5e5;
+  border-radius: 999em;
+  width: 1.5em;
+  height: 1.5em;
+  text-align: center;
+}
+
+main>aside ul, main>ul.table-of-contents ul {
+  list-style: none;
+  padding: 0.5rem;
+}
+
+ul.table-of-contents {
+  font-size: 1.125em;
+  list-style-type: none;
+}
+ul.table-of-contents li {
+  padding: 0.25rem 0;
+}
+
+ul.table-of-contents li li li {
+  font-size: 1rem;
+}
+
+ul.table-of-contents a:link, ul.table-of-contents a:visited {
+  color: #253276;
+  text-decoration: underline;
+  text-decoration-color: #e5e5e5;
+}
+ul.table-of-contents a:hover {
+  color: #b5050e;
+  text-decoration-color: #b5050e;
+}
+
+/* The cards section in Projects and Guides */
+main>.cards {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0 -15px;
+}
+main>.cards>a {
+  display: block;
+  background: #fafafa;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 15px;
+  min-width: 220px;
+  max-width: 455px;
+  min-height: 126px;
+  border-right: 3px solid rgb(229, 229, 229);
+  border-bottom: 3px solid rgb(229, 229, 229);  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1em;
+}
+main>.cards>a:link, main>.cards>a:visited {
+  color: #253276;
+  text-decoration: none;
+}
+main>.cards>a:hover {
+  border-right: 3px solid #b5050e;
+  border-bottom: 3px solid #b5050e; 
+}
+main>.cards>a>p {
+  font-weight: normal;
+  margin: 0;
+}
+main>.cards>a>h3 {
+  font-size: 1.125rem;
+  margin: 0 0 10px;
+}
+main>.cards>a:hover>h3 {
+  text-decoration: underline;
+}
+main>.cards>a>small {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+/* The footer */
+body>footer {
+  background: #253276;
+  width: 100%;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 0 15px;
+}
+body>footer, body>footer h3, body>footer a:link, body>footer a:visited {
+  color: white;
+  min-width: inherit;
+}
+
+body>footer a:link:before, body>footer a:visited:before, 
+aside li>a:link:before, aside li>a:visited:before {
+  font-family: Arial,sans-serif;  
+  display: inline-block;
+  content: '›';
+  width: 12px;
+  font-size: 1.5rem;
+  line-height: 0;
+  opacity: 0.5;
+  margin-left: -0.75rem;
+}
+
+body>footer>* {
+  width: 242.5px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body>footer>* h3, body>footer h3>a:link, body>footer h3>a:visited {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+body>footer a:link, body>footer a:visited {
+  text-decoration: none;
+}
+body>footer a:hover {
+  text-decoration: underline;
+  text-decoration-color: #e5e5e5;
+}
+
+body>footer ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10px;
+}

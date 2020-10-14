@@ -1,0 +1,13 @@
+---
+layout: wrapper
+---
+
+{% if page.toc != false and site.toc == true or page.toc == true %}
+  {% include toc.liquid html=content h_min=2 sanitize=true class="table-of-contents" %}
+{% endif %}
+
+<article class="markdown-body">
+  {{content}}
+</article>
+
+

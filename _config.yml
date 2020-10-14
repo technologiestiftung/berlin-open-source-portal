@@ -1,0 +1,18 @@
+defaults:
+  -
+    scope:
+      path: "guides"
+    values:
+      layout: "guides"
+  -
+    scope:
+      path: "projects"
+    values:
+      layout: "projects"
+include: [README.md,CONTRIBUTING.md]
+permalink: pretty
+
+headerHideTitle: false
+
+url: bnjmnsbl.github.io
+baseurl: /berlinOS-demo/

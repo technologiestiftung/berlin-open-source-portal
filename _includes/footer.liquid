@@ -1,0 +1,51 @@
+<article>
+  <h3>
+      Berlin Open Source
+  </h3>
+  <ul>
+    <li>
+      <a href="{{ site.baseurl }}/">Home</a>
+    </li>
+  </ul>
+</article>
+<article>
+  <h3>
+    <a href="{{ site.baseurl }}/projects/">Projekte</a>
+  </h3>
+  <ul>
+      {% for page in site.pages %} {% if page.abstract and page.title and page.name != "index.md" %}
+      <li>
+          <a href="{% if page.link %}{{page.link}}{% else %}{{ site.baseurl }}{{ page.url }}{% endif %}">{{ page.title }}</a>
+      </li>
+      {% endif %} {% endfor %}
+    </ul>
+</article>
+<article>
+  <h3>
+    <a href="{{ site.baseurl }}/guides/">Dokumente</a>
+  </h3>
+  <ul>
+    {% for page in site.pages %} {% if page.explains and page.title and page.name != "index.md" %}
+    <li>
+      <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+    </li>
+    {% endif %} {% endfor %}
+  </ul>
+</article>
+<article>
+  <h3>
+    <a href="mailto:info@technologiestiftung-berlin.de">Kontakt</a>
+  </h3>
+  <ul>
+    <li>
+      <a href="https://GitHub.com/technologiestiftung">Technologiestiftung Berlin</a>
+    </li>
+    <li>
+      <a href="http://daten.berlin.de">Berlin Open Data</a>
+    </li>
+    <li>
+      <a href="http://github.com/itdz-berlin">ITDZ Berlin</a>
+    </li>
+  
+  </ul>
+</article>

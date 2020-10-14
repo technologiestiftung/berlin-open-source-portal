@@ -1,0 +1,68 @@
+--- 
+layout: wrapper
+---
+
+<article class="markdown-body">
+  {{ content }}
+</article>
+
+{% if page.reusability %}
+<aside>
+
+    <h3>Nachnutzbarkeit: <span class="score reusability-{{ page.reusability }}">{{ page.reusability }}</span></h3>
+
+    {% case page.reusability %}
+      {% when 1 %}
+      <h4>Sehr gering</h4>
+      <p>
+        Dieses Projekt ist schwer übertragbar und wenig oder nicht dokumentiert.
+      </p>
+      {% when 2 %}
+      <h4>Gering</h4>
+      <p>
+        Dieses Projekt ist speziell für den Berliner Kontext entwickelt, enthält aber eine Dokumentation.
+      </p>
+      {% when 3 %}
+      <h4>Mittel</h4>
+      <p>
+        This project is hinreichend dokumentiert und eine Adapation ist problemlos möglich.
+      </p>
+      {% when 4 %}
+      <h4>Hoch</h4>
+      <p>
+        Dieses Projekt enthält eine spezifische Konfiguration, kann jedoch mit wenig Aufwand rekonfiguriert werden.
+      </p>
+      {% when 5 %}
+      <h4>Sehr hoch</h4>
+      <p>
+        Diese Software lässt sich mit ohne Änderungen in verschiedenen Kontexten nutzen. 
+      </p>
+    {% endcase %}
+
+    {% if page.reusability < 4 %}
+    <h4>Wir freuen uns über Vorschläge, wie die Nachnutzbarkeit verbessert werden kann!</h4>
+
+    <p>Unser Ziel ist es, die Nachnutzung der hier bereitgestellten Software so einfach wie möglich zu machen. Wenn Sie Hinweise haben, wie wir die Benutzbarkeit verbessern können, können Sie gerne bei GitHub ein Issue erstellen.</p>
+    {% endif %}
+
+  </aside>
+{% endif %}
+
+{% assign projects = site.pages | where: "layout", "projects" %}
+
+{% comment %} Don't display this section if there is only one result {% endcomment %}
+{% if projects[1] %}
+
+<h2 class="section-header"><a href=""><a href="{{ site.baseurl }}/projects/">Alle Projekte</a></a></h2>
+
+<section class="cards">
+  {% for page in projects %} {% if page.name != "index.md" %}
+  <a href="{% if page.link %}{{page.link}}{% else %}{{ site.baseurl }}{{ page.url }}{% endif %}">
+    <h3>{{ page.title }}</h3>
+    <p>{{ page.abstract }}</p>
+    {% if page.link %}<small>{{ page.link }}</small>{% endif %}
+  </a>
+  {% endif %} {% endfor %}
+</section>
+
+{% endif %}
