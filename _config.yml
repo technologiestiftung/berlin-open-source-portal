@@ -13,4 +13,4 @@ include: [README.md,CONTRIBUTING.md]
 permalink: pretty
 
 url: bnjmnsbl.github.io
-baseurl: /berlinOS-demo
+baseurl: /berlin-open-source-portal
