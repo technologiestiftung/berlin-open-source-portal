@@ -1,9 +1,10 @@
-<a href="{{ site.baseurl }}/">
-  {% if site.headerHideLogo != true %}
-    <img src="{{ site.baseurl }}/assets/new-logo.svg" alt="Berlin.de Open Source" id="city-logo">
-  {% endif %}
-  {% if site.headerHideTitle != true %}
-    <h1>Open Source</h1>
-    
-  {% endif %}
+<a href="{{ site.baseurl }}/" class="main">
+  <img src="{{ site.baseurl }}/assets/logo.svg" alt="Logo des Open Source" class="open-source-logo">    
+  <h2 class="project-name">Berlin <span class="font-weight-normal">Open Source</span>
+  </h2>
 </a>
+
+<div class="appendix">
+  <div class="css-vurnku">Ein Projekt der:</div>
+  <a href="https://technologiestiftung-berlin.de/" class="imageLink"><img src="{{ site.baseurl }}/assets/tsb-logo.svg" alt="Logo der Technologiestiftung Berlin" class="tsb-logo"></a>
+</div>
