@@ -9,7 +9,7 @@
       </li>
     </ul>
   </article> {% endcomment %}
-  <article>
+  {% comment %} <article>
     <h3>
       <a href="{{ site.baseurl }}/projects/">Projekte</a>
     </h3>
@@ -32,11 +32,25 @@
       </li>
       {% endif %} {% endfor %}
     </ul>
+  </article> {% endcomment %}
+  <article>
+    {% comment %} <h3>
+      <a href="mailto:info@technologiestiftung-berlin.de">Kontakt</a>
+    </h3> {% endcomment %}
+    <ul>
+      <li>
+        <a href="mailto:info@technologiestiftung-berlin.de">E-Mail Kontakt</a>
+      </li>  
+      <li>
+        <a href="https://www.technologiestiftung-berlin.de/de/impressum/">Impressum</a>
+      </li>  
+    
+    </ul>
   </article>
   <article>
-    <h3>
+    {% comment %} <h3>
       <a href="mailto:info@technologiestiftung-berlin.de">Kontakt</a>
-    </h3>
+    </h3> {% endcomment %}
     <ul>
       <li>
         <a href="https://GitHub.com/technologiestiftung">Technologiestiftung Berlin</a>
@@ -50,4 +64,5 @@
     
     </ul>
   </article>
+  
 </div>

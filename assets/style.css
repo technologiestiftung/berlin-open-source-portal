@@ -338,10 +338,12 @@ body>footer>* h3, body>footer h3>a:link, body>footer h3>a:visited {
 
 body>footer a:link, body>footer a:visited {
   text-decoration: none;
+  color: inherit;
 }
 body>footer a:hover {
   text-decoration: underline;
-  text-decoration-color: #e5e5e5;
+  text-decoration-color: white;
+  /* color: #b5050e; */
 }
 
 body>footer ul {
