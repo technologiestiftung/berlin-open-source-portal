@@ -1,4 +1,4 @@
-# Open Source im Land Berlin
+<!-- # Open Source im Land Berlin -->
 
 Diese Seite bietet einen Überblick über [Open Source-Projekte](https://de.wikipedia.org/wiki/Open_Source), die im Land Berlin eingesetzt oder aktiv weiterentwickelt werden. Mit diesem Angebot möchten wir die Digital-Community in Berlin und darüber hinaus einladen, kollaborativ an der Entwicklung innovativer Softwarelösungen für unsere Stadt zu arbeiten. 
 
