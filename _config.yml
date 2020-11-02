@@ -3,12 +3,14 @@ defaults:
     scope:
       path: "guides"
     values:
-      layout: "guides"
+      layout: "projects-and-documents"
+      type : "document"
   -
     scope:
       path: "projects"
     values:
-      layout: "projects"
+      layout: "projects-and-documents"
+      type: "project"
 include: [README.md,CONTRIBUTING.md]
 permalink: pretty
 
