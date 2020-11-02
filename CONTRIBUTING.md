@@ -1,6 +1,6 @@
 ---
 explains: Wie kann ich mich beteiligen?
-layout: guides
+type: document
 ---
 
 # Mitmachen
