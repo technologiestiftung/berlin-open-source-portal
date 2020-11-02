@@ -6,5 +6,5 @@ command = "jekyll build"
 # routing internally.
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/_site/index.html"
   status = 200
