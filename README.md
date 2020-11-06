@@ -1,4 +1,4 @@
-Live at [https://bnjmnsbl.github.io/berlinOS-demo/](https://bnjmnsbl.github.io/berlinOS-demo/)
+Live at [https://open-source-portal-berlin.netlify.app/](https://open-source-portal-berlin.netlify.app/)
 
 # Berlin Open Source
 
