@@ -1,5 +1,6 @@
 ---
 explains: Wie kann ich mich beteiligen?
+abstract: Hinweise zur Beteiligung an Open Source-Projekten
 type: document
 ---
 
