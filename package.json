@@ -1,0 +1,25 @@
+{
+  "name": "berlin-open-source-portal",
+  "version": "1.0.0",
+  "description": "A prototype to showcase Open Source Software that is built, maintained and/or funded by Berlin state governmental agencies",
+  "main": "index.js",
+  "scripts": {
+    "eleventy:default": "eleventy",
+    "eleventy:watch": "eleventy --serve --quiet",
+    "dev": "npm run eleventy:watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technologiestiftung/berlin-open-source-portal.git"
+  },
+  "author": "Dennis Ostendorf",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/technologiestiftung/berlin-open-source-portal/issues"
+  },
+  "homepage": "https://github.com/technologiestiftung/berlin-open-source-portal#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
+}
