@@ -3,9 +3,12 @@ const config = {
 };
 
 if (process.env.NODE_ENV === "production") {
-  config.plugins.cssnano = require("cssnano")({
-    preset: "default",
-  });
+  config.plugins = [
+    ...config.plugins,
+    require("cssnano")({
+      preset: "default",
+    }),
+  ];
 }
 
 module.exports = config;
