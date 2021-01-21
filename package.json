@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf _site",
-    "dev:css": "postcss src/assets/css/style.css -o src/assets/css/style.compiled.css --watch --verbose",
+    "css": "postcss src/assets/css/style.css -o src/assets/css/style.compiled.css",
+    "dev:css": "run-s css -- --watch --verbose",
     "dev:eleventy": "eleventy --serve --quiet",
+    "build:css": "NODE_ENV=${NODE_ENV:=production} run-s css",
     "build:eleventy": "ELEVENTY_ENV=production eleventy",
-    "build:css": "NODE_ENV=production postcss src/assets/css/style.css -o src/_includes/style.compiled.css",
     "dev": "npm-run-all clean --parallel dev:* --print-label",
-    "build": "run-s clean build:* --print-label",
+    "build": "run-s clean build:css build:eleventy --print-label",
     "test": "echo \"Currently no tests, so this passes\" && exit 0"
   },
   "repository": {
