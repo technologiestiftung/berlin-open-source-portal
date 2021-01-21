@@ -1,12 +1,15 @@
-<a href="{{ site.baseurl }}/" class="main">
-  <img
-    src="{{ site.baseurl }}/assets/images/logo.svg"
-    alt="Logo des Open-Source Portals"
-    class="open-source-logo"
-  />
-  <h2 class="project-name">
-    Berlin <span class="font-weight-normal">Open-Source Portal</span>
-  </h2>
-</a>
-<hr />
-<nav>{% include partials/top-nav.liquid %}</nav>
+<header
+  class="sticky top-0 p-4 md:p-8 flex justify-between bg-white shadow-md z-50"
+>
+  <a href="{{ site.baseurl }}/" class="flex items-center">
+    <img
+      src="{{ site.baseurl }}/assets/images/logo.svg"
+      alt="Logo des Berlin Open-Source Portals"
+      class="h-8 md:h-12"
+    />
+    <h2 class="text-lg md:text-2xl font-bold text-gray-900 ml-2 md:ml-4">
+      Berlin <span class="font-normal">Open-Source Portal</span>
+    </h2>
+  </a>
+  {% include partials/nav.liquid %}
+</header>
