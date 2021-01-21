@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/technologiestiftung/berlin-open-source-portal#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.1"
+    "@11ty/eleventy": "0.11.1"
   }
 }
