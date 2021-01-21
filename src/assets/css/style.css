@@ -47,7 +47,7 @@ body > main {
 
   min-width: 100vw;
   /* min-height: 100vh; */
-  background-image: url("./tsb-background.svg");
+  background-image: url("/assets/images/tsb-background.svg");
   background-size: cover;
   background-attachment: fixed;
 }

@@ -1,8 +1,10 @@
 ---
+layout: layouts/project.liquid
+tags: ["projects"]
+title: Bikesharing-Skripte
 abstract: Python-Skript zur Analyse von Bikesharing-Daten
 reusability: 2
 ---
-
 
 # Bikesharing-Skripte
 

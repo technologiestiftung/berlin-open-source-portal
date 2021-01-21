@@ -1,11 +1,14 @@
 ---
+layout: layouts/project.liquid
+tags: ["projects"]
+title: Gieß den Kiez
 abstract: Alle Berliner Stadtbäume in einer Anwendung
 reusability: 4
 ---
 
 # Gieß den Kiez
 
-Kartenanwendung zur Koordination der Bewässerung von Stadtbäumen – Informiere Dich über den Baumbestand, adoptiere einzelne Bäume und markiere, dass Du sie gegossen hast.  
+Kartenanwendung zur Koordination der Bewässerung von Stadtbäumen – Informiere Dich über den Baumbestand, adoptiere einzelne Bäume und markiere, dass Du sie gegossen hast.
 
 Online unter [giesdenkiez.de](https://www.giessdenkiez.de).
 
@@ -15,20 +18,17 @@ Source Code bei [GitHub](https://github.com/technologiestiftung/giessdenkiez-de)
 
 ### Alle Bäume auf einer Karte
 
-[![Giess den Kiez](../images/giessdenkiez-screenshot.png)](https://www.giessdenkiez.de)
+[![Giess den Kiez](/assets/images/projects/giessdenkiez-screenshot.png)](https://www.giessdenkiez.de)
 
 Gieß den Kiez ist eine kartenbasierte Web-Anwendung. Einige Features:
 
-* Mehr als 625.000 verzeichnete Stadtbäume mit Infos zu Alter, Art und Wasserbedarf
-* Tagesaktuelle, hochaufgelöste Niederschlagsdaten des Deutschen Wetterdienstes
-* Abonniere Bäume und markiere, wenn Du Sie gegossen hast. 
-* Standorte aller öffentlichen Wasserpumpen
+- Mehr als 625.000 verzeichnete Stadtbäume mit Infos zu Alter, Art und Wasserbedarf
+- Tagesaktuelle, hochaufgelöste Niederschlagsdaten des Deutschen Wetterdienstes
+- Abonniere Bäume und markiere, wenn Du Sie gegossen hast.
+- Standorte aller öffentlichen Wasserpumpen
 
-[![Wetterdaten](../images/giessdenkiez_weather.png)](https://www.giessdenkiez.de)
+[![Wetterdaten](/assets/images/projects/giessdenkiez_weather.png)](https://www.giessdenkiez.de)
 
-
-### Für Entwickler*innen
+### Für Entwickler\*innen
 
 Einen Überblick über die Systemarchitektur gibt es [hier](https://github.com/technologiestiftung/giessdenkiez-de)
-
-
