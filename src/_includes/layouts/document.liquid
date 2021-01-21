@@ -1,0 +1,17 @@
+---
+layout: layouts/wrapper.liquid
+eleventyComputed:
+  title: "{{ title }}"
+---
+
+<div class="overview">
+  <h1>{{ title }}</h1>
+</div>
+
+<div>
+  <article class="markdown-body">
+    {{ content }}
+  </article>
+</div>
+
+{% include partials/documents-overview.liquid %}
