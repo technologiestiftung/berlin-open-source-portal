@@ -1,20 +1,15 @@
+---
+defaultTitle: Open-Source Portal Berlin
+---
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>
-      {% if page.title %}{{ page.title }} |{% else %}{% endif %}
-      {{ site.title }}
-    </title>
-    <link
-      rel="stylesheet"
-      href="{{ site.baseurl }}/assets/css/github-markdown.css"
-    />
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fonts.css" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
+    <title>{% if title %}{{ title }} | {% endif %}{{ defaultTitle }}</title>
+    <link rel="stylesheet" href="/assets/css/style.compiled.css">
 
     <link
       rel="icon"
