@@ -4,8 +4,6 @@ A prototype to showcase Open Source Software that is built, maintained and/or fu
 
 We built this prototype in order to make a case for the use of FOSS (Free and Open Source Software) in government and to convince the related stakeholders that there is value in making your Open Source infrastructure more visible and accessible.
 
-This site is based on a fork of the [Amsterdam Open Source Repository](https://github.com/Amsterdam/amsterdam.github.io), because not reinventing the wheel is kind of the point of Open Source.
-
 ---
 
 ## Adding content
@@ -28,7 +26,7 @@ abstract: A drop in replacement for CKAN
 
 ### Adding a document
 
-To add a document just make a new markdown file in `/src/documents/`. In order to give your guide the right subtitle on the guides page you should add the `title` in the [Jekyll front matter](https://jekyllrb.com/docs/frontmatter/). Keep the `title` short and simple to understand.
+To add a document just make a new markdown file in `/src/documents/`. In order to give your document the right title on the documents page you should add the `title` in the font matter. Keep the `title` short and simple to understand.
 
 ```yaml
 ---
