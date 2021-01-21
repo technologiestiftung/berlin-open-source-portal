@@ -1,6 +1,6 @@
 ---
 layout: layouts/project.liquid
-tags: ["projects"]
+tags: ["projects","internet","smart city","telekommunikation","bedarfsmeldung","karte"]
 title: Berliner-Breitband-Portal
 abstract: Tool zur Bedarfsmeldung für den Breitbandausbau
 reusability: 1
@@ -8,8 +8,6 @@ language: ["JavaScript", "PHP"]
 author: Senatsverwaltung für Wirtschaft, Energie und Betriebe
 url: https://www.breitband.berlin.de
 sourcecode: https://github.com/BerlinerBreitbandPortal/BBP
-tags_:
-  ["breitband","internet","smart city","telekommunikation","bedarfsmeldung","karte"]
 ---
 
 
