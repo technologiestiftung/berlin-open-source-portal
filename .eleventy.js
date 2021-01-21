@@ -7,7 +7,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/css/style.compiled.css");
   eleventyConfig.addPassthroughCopy({ "src/assets/common": "." });
 
-  eleventyConfig.addWatchTarget("./src/assets/css/style.compiled.css");
+  eleventyConfig.addWatchTarget("./src/assets/css/*.css");
 
   return {
     dir: {
