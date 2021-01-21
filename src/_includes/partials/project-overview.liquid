@@ -1,0 +1,17 @@
+<div class="section-header">
+  <h2>Alle Projekte</h2>
+  <hr />
+</div>
+
+<section class="cards">
+  {% for project in collections.projects %}
+  <a href="{{ project.url }}">
+    <div class="card">
+      <h3>{{ project.data.title }}</h3>
+      <p>{{ project.data.abstract }}</p>
+      {% if project.data.link %}<small>{{ project.data.link }}</small
+      >{% endif %}
+    </div>
+  </a>
+  {% endfor %}
+</section>

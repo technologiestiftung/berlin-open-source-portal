@@ -1,0 +1,17 @@
+<div class="section-header">
+  <h2>Alle Dokumente</h2>
+  <hr />
+</div>
+
+<section class="cards">
+  {% for document in collections.documents %}
+  <a href="{{ document.url }}">
+    <div class="card">
+      <h3>{{ document.data.title }}</h3>
+      <p>{{ document.data.abstract }}</p>
+      {% if document.data.link %}<small>{{ document.data.link }}</small
+      >{% endif %}
+    </div>
+  </a>
+  {% endfor %}
+</section>

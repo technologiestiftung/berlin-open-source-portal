@@ -1,0 +1,70 @@
+---
+layout: layouts/wrapper.liquid
+eleventyComputed:
+  title: "{{ title }}"
+  reusability: "{{ reusability }}"
+---
+
+<div class="overview">
+  <h1>{{ title }}</h1>
+
+  {% if reusability %}
+  <div class="reusability">
+    <h3>
+      Nachnutzbarkeit:
+      <span class="score reusability-{{ reusability }}">{{ reusability }}</span>
+    </h3>
+
+    {% if reusability == "1" %}
+    <h4>Sehr gering</h4>
+    <p>
+      Dieses Projekt ist schwer übertragbar und wenig oder nicht dokumentiert.
+    </p>
+    {% endif %} {% if reusability == "2" %}
+    <h4>Gering</h4>
+    <p>
+      Dieses Projekt ist speziell für den Berliner Kontext entwickelt, enthält
+      aber eine Dokumentation.
+    </p>
+    {% endif %} {% if reusability == "3" %}
+    <h4>Mittel</h4>
+    <p>
+      Dieses Projekt ist hinreichend dokumentiert und eine Adapation ist
+      problemlos möglich.
+    </p>
+    {% endif %} {% if reusability == "4" %}
+    <h4>Hoch</h4>
+    <p>
+      Dieses Projekt enthält eine spezifische Konfiguration, kann jedoch mit
+      wenig Aufwand rekonfiguriert werden.
+    </p>
+    {% endif %} {% if reusability == "5" %}
+    <h4>Sehr hoch</h4>
+    <p>
+      Diese Software lässt sich mit ohne Änderungen in verschiedenen Kontexten
+      nutzen.
+    </p>
+    {% endif %} {% if reusability <= 4 %}
+    <h4>
+      Wir freuen uns über Vorschläge, wie die Nachnutzbarkeit verbessert werden
+      kann!
+    </h4>
+
+    <p>
+      Unser Ziel ist es, die Nachnutzung der hier bereitgestellten Software so
+      einfach wie möglich zu machen. Wenn Sie Hinweise haben, wie wir die
+      Benutzbarkeit verbessern können, können Sie gerne bei GitHub ein Issue
+      erstellen.
+    </p>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>
+
+<div>
+  <article class="markdown-body">
+    {{ content }}
+  </article>
+</div>
+
+{% include partials/project-overview.liquid %}

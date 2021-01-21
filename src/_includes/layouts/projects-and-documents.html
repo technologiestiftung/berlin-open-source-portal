@@ -1,0 +1,18 @@
+--- 
+layout: layouts/wrapper.liquid
+---
+
+<div>
+  <section class="cards">
+    {% for page in projects %} {% if page.name != "index.md" %}
+    <a href="{% if page.link %}{{page.link}}{% else %}{{ site.baseurl }}{{ page.url }}{% endif %}">
+      <div class="card">
+        <h3>{{ page.title }}</h3>
+        <p>{{ page.abstract }}</p>
+        {% if page.link %}<small>{{ page.link }}</small>{% endif %}
+      </div>
+    </a>
+    {% endif %} {% endfor %}
+  </section>
+</div>
+  {% endif %}

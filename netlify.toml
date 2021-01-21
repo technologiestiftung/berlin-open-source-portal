@@ -1,6 +1,6 @@
 [build]
 publish = "_site"
-command = "jekyll build"
+command = "npm run build"
 
 # The following redirect is intended for use with most SPAs that handle
 # routing internally.
