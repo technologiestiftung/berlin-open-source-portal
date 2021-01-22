@@ -1,9 +1,11 @@
 ---
 layout: layouts/project.liquid
-tags: ["projects"]
+tags: ["Wasser","Baden","Gewässerqualität"]
 title: Berliner Badestellen
 abstract: Übersicht über Berliner Badestellen mit aktuellen Informationen zur Wasserqualität
-reusability: 2
+language: ["Typescript"] 
+license: MIT
+link: [https://badegewaesser-berlin.de/](https://badegewaesser-berlin.de/)
 ---
 
 # Berliner Badestellen
