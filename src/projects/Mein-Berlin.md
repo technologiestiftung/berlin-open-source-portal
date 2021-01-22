@@ -1,6 +1,6 @@
 ---
 layout: layouts/project.liquid
-tags: ["Projekt","Beteilung"]
+tags: ["project","Projekt","Beteilung"]
 title: Mein-Berlin
 abstract: Beteilungsplattform des Landes Berlin
 language: ["Python","HTML","Javascript"] 

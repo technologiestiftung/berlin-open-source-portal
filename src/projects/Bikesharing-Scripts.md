@@ -1,6 +1,6 @@
 ---
 layout: layouts/project.liquid
-tags: ["Fahrrad","Mobilität"]
+tags: ["project","Fahrrad","Mobilität"]
 title: Bikesharing-Skripte
 abstract: Python-Skript zur Analyse von Bikesharing-Daten
 language: ["Jupyter Notebook"] 

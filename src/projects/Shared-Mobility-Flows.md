@@ -1,6 +1,6 @@
 ---
 layout: layouts/project.liquid
-tags: ["Fahrrad","Mobilität"]
+tags: ["project","Fahrrad","Mobilität"]
 title: Shared Mobility Flows
 abstract: Visualisierung von Leihfahrrad-Routen in Berlin
 language: ["Javascript"] 

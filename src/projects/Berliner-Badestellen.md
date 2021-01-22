@@ -1,6 +1,6 @@
 ---
 layout: layouts/project.liquid
-tags: ["Wasser","Baden","Gewässerqualität"]
+tags: ["project","Wasser","Baden","Gewässerqualität"]
 title: Berliner Badestellen
 abstract: Übersicht über Berliner Badestellen mit aktuellen Informationen zur Wasserqualität
 language: ["Typescript"] 
