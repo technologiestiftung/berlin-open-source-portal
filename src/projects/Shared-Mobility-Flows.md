@@ -8,7 +8,7 @@ reusability: 4
 
 # Shared Mobility Flows
 
-Online unter [http://bikesharing.citylab-berlin.org/](http://bikesharing.citylab-berlin.org/)
+Online unter <a href="https://bikesharing.citylab-berlin.org/" target="_blank" rel="noopener noreferrer">bikesharing.citylab-berlin.org</a>
 
 Source Code auf <a href="https://github.com/technologiestiftung/bikesharing-vis" target="_blank" rel="noopener noreferrer">GitHub</a>
 
