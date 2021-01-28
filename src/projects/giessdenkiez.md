@@ -1,9 +1,11 @@
 ---
 layout: layouts/project.liquid
-tags: ["projects"]
+tags: ["project", "Bäume", "Wasser"]
 title: Gieß den Kiez
 abstract: Alle Berliner Stadtbäume in einer Anwendung
-reusability: 4
+language: ["Typescript"]
+license: MIT
+link: https://www.giessdenkiez.de
 ---
 
 # Gieß den Kiez

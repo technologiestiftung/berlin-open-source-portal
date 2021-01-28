@@ -1,9 +1,11 @@
 ---
 layout: layouts/project.liquid
-tags: ["projects"]
+tags: ["project", "Fahrrad", "Mobilität"]
 title: Shared Mobility Flows
 abstract: Visualisierung von Leihfahrrad-Routen in Berlin
-reusability: 4
+language: ["Javascript"]
+license: MIT
+link: http://bikesharing.citylab-berlin.org/
 ---
 
 # Shared Mobility Flows
