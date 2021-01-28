@@ -1,11 +1,11 @@
 ---
 layout: layouts/project.liquid
-tags: ["project","Fahrrad","Mobilität"]
+tags: ["project", "Fahrrad", "Mobilität"]
 title: Bikesharing-Skripte
 abstract: Python-Skript zur Analyse von Bikesharing-Daten
-language: ["Jupyter Notebook"] 
+language: ["Jupyter Notebook"]
 license: MIT
-link: [http://bikesharing.citylab-berlin.org/](http://bikesharing.citylab-berlin.org/)
+link: http://bikesharing.citylab-berlin.org/
 ---
 
 # Bikesharing-Skripte

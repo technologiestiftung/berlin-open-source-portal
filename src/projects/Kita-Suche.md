@@ -1,11 +1,11 @@
 ---
 layout: layouts/project.liquid
-tags: ["project","Kita","Kinder"]
+tags: ["project", "Kita", "Kinder"]
 title: Berliner Kita-Suche
 abstract: Interaktive Karte mit allen Berliner Kitas und zahlreichen Zusatzinformationen
-language: ["Javascript","CSS","HTML"] 
+language: ["Javascript", "CSS", "HTML"]
 license: GNU General Public License
-link: [https://kita-suche.berlin](https://kita-suche.berlin)
+link: https://kita-suche.berlin
 ---
 
 # Berliner Kita-Suche
