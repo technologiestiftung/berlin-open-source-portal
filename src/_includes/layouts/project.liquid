@@ -8,9 +8,11 @@ tags: project
   {% if tags %}
   <div class="mt-8">
     {% for tag in tags %} {% unless tag == "project" or tag == "documents" %}
-    <span class="mr-1 py-1 px-2 bg-blue-500 text-white rounded-full">{{
-      tag
-    }}</span>
+    <a
+      href="/tag/{{ tag | slug }}"
+      class="mr-1 py-1 px-2 bg-blue-500 hover:bg-red-500 text-white hover:text-white rounded-full"
+      >{{ tag }}</a
+    >
     {% endunless %} {% endfor %}
   </div>
   {% endif %}

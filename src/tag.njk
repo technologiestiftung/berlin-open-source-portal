@@ -1,0 +1,25 @@
+---
+layout: layouts/wrapper.liquid
+eleventyExcludeFromCollections: true
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - project
+    - documents
+permalink: /tag/{{ tag | slug }}/
+eleventyComputed:
+  title: "Projekte zu: {{ tag }}"
+---
+
+<h1>{{ tag }}</h1>
+
+<ul>
+  {% set taglist = collections[ tag ] %} {% for post in taglist | reverse %}
+  <li>
+    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
