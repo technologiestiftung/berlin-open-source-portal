@@ -45,6 +45,10 @@
     @apply text-red-500;
   }
 
+  address {
+    @apply not-italic;
+  }
+
   h3 {
     @apply text-4xl font-bold;
   }
