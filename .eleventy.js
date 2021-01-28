@@ -2,6 +2,8 @@ module.exports = function (eleventyConfig) {
   // This allows Eleventy to watch for file changes during local development.
   eleventyConfig.setUseGitIgnore(false);
 
+  eleventyConfig.setDataDeepMerge(true);
+
   eleventyConfig.addPassthroughCopy("src/assets/fonts");
   eleventyConfig.addPassthroughCopy("src/assets/images");
   eleventyConfig.addPassthroughCopy("src/assets/css/style.compiled.css");
