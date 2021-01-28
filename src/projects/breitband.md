@@ -1,20 +1,13 @@
 ---
 layout: layouts/project.liquid
-tags:
-  [
-    "project",
-    "internet",
-    "smart city",
-    "telekommunikation",
-    "bedarfsmeldung",
-    "karte",
-  ]
+tags: ["internet", "smart city", "telekommunikation", "bedarfsmeldung", "karte"]
 id: breitband
 title: Berliner-Breitband-Portal
 abstract: Tool zur Bedarfsmeldung für den Breitbandausbau
 languages: ["JavaScript", "PHP"]
 license: MIT License
 link: https://www.breitband.berlin.de
+repository: https://github.com/BerlinerBreitbandPortal/BBP
 ---
 
 # Berliner-Breitband-Portal
