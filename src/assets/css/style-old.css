@@ -31,8 +31,6 @@ body > main {
 
 body > main > .wrapper {
   box-sizing: border-box;
-
-  margin-bottom: 16px;
   padding: 32px;
   margin-left: auto;
   margin-right: auto;
@@ -46,15 +44,8 @@ body > main > .wrapper {
    grid-template-columns: repeat(1,1fr); */
 }
 
-@media only screen and (min-width: 768px) {
-  body > main > .wrapper {
-    margin-top: 64px;
-  }
-}
-
 body > main .inner-wrapper {
   box-sizing: border-box;
-  margin: 0;
   min-width: 0;
   display: grid;
 
