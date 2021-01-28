@@ -1,39 +1,26 @@
+---
+defaultTitle: Open-Source Portal Berlin
+---
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>
-      {% if page.title %}{{ page.title }} |{% else %}{% endif %}
-      {{ site.title }}
-    </title>
-    <link
-      rel="stylesheet"
-      href="{{ site.baseurl }}/assets/css/github-markdown.css"
-    />
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fonts.css" />
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css" />
+    <title>{% if title %}{{ title }} | {% endif %}{{ defaultTitle }}</title>
+    {%- comment -%} All of the following CSS files are legacy stuff. TODO:
+    Refactor to Tailwind and remove them step by step. {%- endcomment -%}
+    <link rel="stylesheet" href="/assets/css/github-markdown.css" />
+    <link rel="stylesheet" href="/assets/css/syntax.css" />
+    <!-- <link rel="stylesheet" href="/assets/css/fonts.css" /> -->
+    <link rel="stylesheet" href="/assets/css/style-old.css" />
+    {%- comment -%} Legacy CSS end {%- endcomment -%}
+    <link rel="stylesheet" href="/assets/css/style.compiled.css" />
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="96x96"
-      href="/assets/favicon-96x96.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/assets/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/assets/favicon-16x16.png"
-    />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 
     <!-- Matomo -->
     <script type="text/javascript">
@@ -58,7 +45,7 @@
   </head>
 
   <body>
-    <header>{% include partials/header.liquid %}</header>
+    {% include partials/header.liquid %}
 
     <main>
       <div class="wrapper">
