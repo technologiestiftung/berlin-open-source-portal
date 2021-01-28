@@ -9,9 +9,10 @@ tags:
     "bedarfsmeldung",
     "karte",
   ]
+id: breitband
 title: Berliner-Breitband-Portal
 abstract: Tool zur Bedarfsmeldung für den Breitbandausbau
-language: ["JavaScript", "PHP"]
+languages: ["JavaScript", "PHP"]
 license: MIT License
 link: https://www.breitband.berlin.de
 ---

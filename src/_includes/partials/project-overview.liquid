@@ -3,12 +3,16 @@
   <hr />
 </div>
 
-<section class="cards">
+<section class="grid md:grid-cols-2 gap-4">
   {% for project in collections.project %}
-  <a href="{{ project.url }}">
-    <div class="card">
+  <a
+    href="{{ project.url }}"
+    class="p-4 bg-white shadow-md grid grid-cols-2 gap-2"
+  >
+    <img src="/assets/images/projects/{{ project.data.id }}-hero.png" alt="Alt text" />
+    <div>
       <h3>{{ project.data.title }}</h3>
-      <p>{{ project.data.abstract }}</p>
+      <p class="text-gray-900">{{ project.data.abstract }}</p>
       {% if project.data.link %}<small>{{ project.data.link }}</small
       >{% endif %}
     </div>

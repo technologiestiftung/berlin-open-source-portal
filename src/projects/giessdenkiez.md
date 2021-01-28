@@ -1,9 +1,10 @@
 ---
 layout: layouts/project.liquid
 tags: ["project", "Bäume", "Wasser"]
+id: giessdenkiez
 title: Gieß den Kiez
 abstract: Alle Berliner Stadtbäume in einer Anwendung
-language: ["Typescript"]
+languages: ["Typescript"]
 license: MIT
 link: https://www.giessdenkiez.de
 ---
@@ -20,7 +21,7 @@ Source Code bei <a href="https://github.com/technologiestiftung/giessdenkiez-de"
 
 ### Alle Bäume auf einer Karte
 
-![Gieß den Kiez](/assets/images/projects/giessdenkiez-screenshot.png)
+![Gieß den Kiez](/assets/images/projects/giessdenkiez-hero.png)
 
 Gieß den Kiez ist eine kartenbasierte Web-Anwendung. Einige Features:
 
