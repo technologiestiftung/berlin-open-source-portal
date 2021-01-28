@@ -1,11 +1,38 @@
 ---
 layout: layouts/wrapper.liquid
-eleventyComputed:
-  title: "{{ title }}"
+tags: project
 ---
 
 <div class="overview">
   <h1>{{ title }}</h1>
+  {% if tags %}
+  <div class="mt-8">
+    {% for tag in tags %} {% unless tag == "project" or tag == "documents" %}
+    <span class="mr-1 py-1 px-2 bg-blue-500 text-white rounded-full">{{
+      tag
+    }}</span>
+    {% endunless %} {% endfor %}
+  </div>
+  {% endif %}
+  <table class="mt-8 w-full text-left">
+    {% if repository %}
+    <tr
+      class="grid grid-cols-2 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
+    >
+      <th class="font-normal">Source Code:</th>
+      <td><a href="{{ repository }}">GitHub</a></td>
+    </tr>
+    {% endif %} {% if link %}
+    <tr
+      class="grid grid-cols-2 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
+    >
+      <th class="font-normal">Link:</th>
+      <td>
+        <a href="{{ link }}">{{ link }}</a>
+      </td>
+    </tr>
+    {% endif %}
+  </table>
 </div>
 
 <div>
