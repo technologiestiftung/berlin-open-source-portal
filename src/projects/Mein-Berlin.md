@@ -1,9 +1,10 @@
 ---
 layout: layouts/project.liquid
 tags: ["project", "Projekt", "Beteilung"]
+id: mein-berlin
 title: Mein-Berlin
 abstract: Beteilungsplattform des Landes Berlin
-language: ["Python", "HTML", "Javascript"]
+languages: ["Python", "HTML", "Javascript"]
 license: GNU Affero General Public License
 link: https://mein.berlin.de/
 ---
