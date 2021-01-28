@@ -107,3 +107,6 @@ _site/
 .sass-cache/
 .vscode/settings.json
 .DS_Store
+
+# Compiled CSS
+src/assets/css/style.compiled.css
