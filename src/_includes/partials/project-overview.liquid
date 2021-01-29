@@ -1,7 +1,8 @@
-<section class="text-center pb-9">
+<section>
+<div class="text-center pb-9">
   <h1>Alle Projekte auf einen Blick:</h1>
-</section>
-<section class="grid md:grid-cols-2 gap-4">
+</div>
+<div class="grid md:grid-cols-2 gap-4">
   {% for project in collections.project %}
   <a
     href="{{ project.url }}"
@@ -16,4 +17,4 @@
     </div>
   </a>
   {% endfor %}
-</section>
+</div>

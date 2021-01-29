@@ -56,4 +56,16 @@
   h3 {
     @apply text-3xl font-bold;
   }
+
+  .intro{
+    @apply grid md:grid-cols-2 pb-20 mx-20
+  }
+
+  .intro-title{
+   @apply md:text-right pr-6
+  }
+
+  .intro-text{
+    @apply text-left pt-6
+  }
 }
