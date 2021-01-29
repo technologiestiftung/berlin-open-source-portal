@@ -53,6 +53,10 @@
     @apply text-4xl font-bold;
   }
 
+  h2 {
+    @apply text-3xl;
+  }
+
   h3 {
     @apply text-3xl font-bold;
   }
@@ -67,5 +71,13 @@
 
   .intro-text{
     @apply text-left pt-6
+  }
+
+  .content-title{
+    @apply text-center pb-9
+  }
+
+  .darkblue{
+    color:rgba(30, 55, 145, 1);
   }
 }
