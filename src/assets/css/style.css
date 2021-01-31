@@ -62,20 +62,20 @@
   }
 
   .intro{
-    @apply grid md:grid-cols-2 pb-20 mx-20
+    @apply md:grid md:grid-cols-2 md:pb-20 md:mx-20
   }
 
   .intro-title{
-   @apply md:text-right pr-6
+   @apply md:text-right md:pr-6 pb-2 md:pb-0
   }
 
   .intro-text{
-    @apply text-left pt-6
+    @apply md:text-left md:pt-6
   }
 
   .content-title{
-    @apply text-center pb-9
-  }
+   @apply text-center pb-9
+ }
 
   .darkblue{
     color:rgba(30, 55, 145, 1);
