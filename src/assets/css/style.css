@@ -81,8 +81,4 @@
   .content-title {
     @apply text-center pb-9;
   }
-
-  .darkblue {
-    color: rgba(30, 55, 145, 1);
-  }
 }
