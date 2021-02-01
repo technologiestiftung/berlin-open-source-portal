@@ -50,34 +50,34 @@
   }
 
   h1 {
-    @apply text-4xl font-bold;
+    @apply text-4xl md:text-6xl font-bold;
   }
 
   h2 {
-    @apply text-3xl;
+    @apply text-3xl md:text-4xl font-bold;
   }
 
   h3 {
     @apply text-3xl font-bold;
   }
 
-  .intro{
-    @apply md:grid md:grid-cols-2 md:pb-20 md:mx-20
+  .intro {
+    @apply md:grid md:grid-cols-2 md:pb-20 md:mx-20;
   }
 
-  .intro-title{
-   @apply md:text-right md:pr-6 pb-2 md:pb-0
+  .intro-title {
+    @apply md:text-right md:pr-6 pb-2 md:pb-0;
   }
 
-  .intro-text{
-    @apply md:text-left md:pt-6
+  .intro-text {
+    @apply md:text-left md:pt-6;
   }
 
-  .content-title{
-   @apply text-center pb-9
- }
+  .content-title {
+    @apply text-center pb-9;
+  }
 
-  .darkblue{
-    color:rgba(30, 55, 145, 1);
+  .darkblue {
+    color: rgba(30, 55, 145, 1);
   }
 }
