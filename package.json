@@ -5,10 +5,9 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf _site",
-    "css": "postcss src/assets/css/style.css -o src/assets/css/style.compiled.css",
-    "dev:css": "run-s css -- --watch --verbose",
+    "dev:css": "postcss src/assets/css/style.css -o src/assets/css/style.compiled.css --watch --verbose",
     "dev:eleventy": "eleventy --serve --quiet",
-    "build:css": "NODE_ENV=${NODE_ENV:=production} run-s css",
+    "build:css": "NODE_ENV=${NODE_ENV:=production} postcss src/assets/css/style.css -o src/assets/css/style.compiled.css",
     "build:eleventy": "ELEVENTY_ENV=production eleventy",
     "dev": "npm-run-all clean --parallel dev:* --print-label",
     "build": "run-s clean build:css build:eleventy --print-label",
@@ -26,10 +25,10 @@
   "homepage": "https://github.com/technologiestiftung/berlin-open-source-portal#readme",
   "devDependencies": {
     "@11ty/eleventy": "0.11.1",
-    "autoprefixer": "^10.2.3",
-    "cssnano": "^4.1.10",
-    "npm-run-all": "^4.1.5",
-    "postcss-cli": "^8.3.1",
-    "tailwindcss": "^2.0.2"
+    "autoprefixer": "10.2.3",
+    "cssnano": "4.1.10",
+    "npm-run-all": "4.1.5",
+    "postcss-cli": "8.3.1",
+    "tailwindcss": "2.0.2"
   }
 }

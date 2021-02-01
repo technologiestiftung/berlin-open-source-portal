@@ -1,0 +1,7 @@
+<ul>
+  {% for tag in collections.tagList %}
+  <li class="inline-block mt-2">
+    {% include partials/tag.liquid, tag: tag %}
+  </li>
+  {% endfor %}
+</ul>
