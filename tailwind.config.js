@@ -46,6 +46,7 @@ module.exports = {
             color: "#18181b",
             a: {
               color: "#1e3791",
+              textDecoration: "none",
               "&:hover": {
                 color: "#e60032",
               },
