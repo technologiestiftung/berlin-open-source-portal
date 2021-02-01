@@ -2,7 +2,6 @@
 layout: layouts/document.liquid
 title: Wie kann ich mich beteiligen?
 abstract: Hinweise zur Beteiligung an Open Source-Projekten
-tags: ["documents"]
 ---
 
 # Mitmachen

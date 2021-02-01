@@ -2,7 +2,6 @@
 layout: layouts/document.liquid
 title: Public Money, Public Code
 abstract: Broschüre der Free Software Foundation
-tags: ["documents"]
 ---
 
 # Public Money, Public Code

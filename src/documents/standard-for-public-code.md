@@ -2,7 +2,6 @@
 layout: layouts/document.liquid
 title: Open Source Standards
 abstract: Nützliche Hinweise der Foundation for Public Code
-tags: ["documents"]
 ---
 
 # Open Source-Standards
