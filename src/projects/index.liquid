@@ -3,30 +3,34 @@ layout: layouts/wrapper.liquid
 eleventyExcludeFromCollections: true
 title: Projekte
 ---
+<section class="intro">
+  <h1 class="intro-title">Projekte</h1>
 
-<h1>Projekte</h1>
+  <div class="intro-text pb-6 md:pb-0">
+     <p class="pb-6">
+      Diese Liste gibt einen Überblick über aktuelle Open Source-Projekte, die vom
+      Land Berlin oder mit dessen Unterstützung entwickelt wurden. Wir arbeiten
+      daran, die Liste kontinuierlich zu erweitern.
+    </p>
+    <p>
+      Viele Open Source-Projekte, die offene Daten des Landes Berlin nutzen,
+      finden sich im
+      <a
+        href="https://github.com/technologiestiftung"
+        target="_blank"
+        rel="noopener noreferrer"
+        >GitHub-Account der Technologiestiftung Berlin</a
+      >.
+    </p>
+  </div>
+</section>
 
-<div>
-  <p>
-    Diese Liste gibt einen Überblick über aktuelle Open Source-Projekte, die vom
-    Land Berlin oder mit dessen Unterstützung entwickelt wurden. Wir arbeiten
-    daran, die Liste kontinuierlich zu erweitern.
-  </p>
+<h2 class="content-title">Alle Projekte auf einen Blick:</h2>
 
-  <p>
-    Viele Open Source-Projekte, die offene Daten des Landes Berlin nutzen,
-    finden sich im
-    <a
-      href="https://github.com/technologiestiftung"
-      target="_blank"
-      rel="noopener noreferrer"
-      >GitHub-Account der Technologiestfitung Berlin</a
-    >.
-  </p>
-</div>
+<section class="max-w-screen-md mx-auto text-center">
+  {% include partials/tag-list.liquid %}
+</section>
 
-{%- comment -%}
-{% include partials/tag-list.liquid %}
-{%- endcomment -%}
-
-{% include partials/project-overview.liquid %}
+<section class="mt-9">
+  {% include partials/project-overview.liquid %}
+</section>

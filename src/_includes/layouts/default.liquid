@@ -2,22 +2,84 @@
 layout: layouts/wrapper.liquid
 ---
 
-<div class="overview">
-  <img
+<section class="intro">
+  
+  <h1 class="intro-title md:pl-10"> Berlin <br> Open-Source Portal
+    </h1>
+    
+  
+    <img
+    class="hidden md:block intro-text pt-0 w-44"
     src="{{ site.baseurl }}/assets/images/logo.svg"
     alt="Logo des Berlin Open-Source-Portal"
-    class="logo"
   />
-  <h1 class="project-name">
-    Berlin <span class="font-weight-normal">Open-Source Portal</span>
-  </h1>
-  <h2 class="">Open-Source Projekte im Land Berlin</h2>
-</div>
+  <h2 class="intro-title darkblue text-3xl md:text-4xl font-normal">Open-Source Projekte im Land Berlin</h2>
+  <div class="intro-text pt-2">
+    <p class= "pb-6">
+      Diese Seite bietet einen Überblick über
+      <a
+        href="https://de.wikipedia.org/wiki/Open_Source"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Open Source-Projekte</a
+      >, die im Land Berlin eingesetzt oder aktiv weiterentwickelt werden. Mit
+      diesem Angebot möchten wir die Digital-Community in Berlin und darüber hinaus
+      einladen, kollaborativ an der Entwicklung innovativer Softwarelösungen für
+      unsere Stadt zu arbeiten.
+    </p>
+    <p class= "pb-6">
+      Erste erfolgreiche Open Source-Anwendungen, die vom Land Berlin gefördert und
+      mit dessen Beteiligung umgesetzt werden sind etwa die
+      <a
+        href="https://www.badegewaesser-berlin.de/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Berliner Badestellen</a
+      >
+      oder
+      <a href="https://www.gießdenkiez.de" target="_blank" rel="noopener noreferrer"
+        >Gieß den Kiez</a
+      >.
+    </p>
+    <p class= "pb-6">
+      Beim
+      <a
+        href="https://www.citylab-berlin.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >CityLAB Berlin</a
+      >
+      und der
+      <a
+        href="https://www.technologiestiftung-berlin.de/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Technologiestiftung Berlin</a
+      >
+      finden Open Source-Entwickler*innen zahlreiche Projekte, bei denen eine aktive
+      Beteiligung möglich und erwünscht ist. Das Berliner
+      <a
+        href="https://www.itdz-berlin.de/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >IT-Dienstleistungszentrum (ITDZ)</a
+      >
+      bietet zudem in seinem
+      <a
+        href="https://github.com/itdz-berlin"
+        target="_blank"
+        rel="noopener noreferrer"
+        >GitHub-Account</a
+      >
+      ein Demo-Fachverfahren an.
+    </p>
+  </div>
+</section>
 
 <!-- {% if page.toc != false and site.toc == true or page.toc == true %}
   {% include toc.liquid html=content h_min=2 sanitize=true class="table-of-contents" %}
 {% endif %} -->
 
-<article class="markdown-body">
+<article>
   {{ content }}
 </article>
