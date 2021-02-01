@@ -4,15 +4,22 @@
 </div>
 <ul class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
   {% for principle in principles.items %}
-  <li class="p-8 bg-white border-2 border-gray-200 grid grid-cols-4 gap-4">
-    <div class="col-span-1 w-full h-12 bg-gray-300"></div>
-    <div class="col-span-3">
-      <h3>{{ principle.title }}</h3>
-      {% for item in principle.content %}
-      <p class="my-3">
-        {{ item }}
-      </p>
-      {% endfor %}
+  <li class="{% if principle.title == "Kollaboration" %}
+    md:col-span-2
+    {% endif %}
+    p-8 bg-white border-2 border-gray-200">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+      <div class="col-span-1 flex items-center md:justify-center">
+        <div class="w-24 h-24 bg-gray-300 rounded-full"></div>
+      </div>
+      <div class="md:col-span-3">
+        <h3>{{ principle.title }}</h3>
+        {% for item in principle.content %}
+        <p class="my-3">
+          {{ item }}
+        </p>
+        {% endfor %}
+      </div>
     </div>
   </li>
   {% endfor %}
