@@ -25,8 +25,12 @@ title: Projekte
   </div>
 </section>
 
-{%- comment -%}
-{% include partials/tag-list.liquid %}
-{%- endcomment -%}
+<h1 class="content-title">Alle Projekte auf einen Blick:</h1>
 
-{% include "partials/project-overview.liquid" %}
+<section class="max-w-screen-md mx-auto text-center">
+  {% include partials/tag-list.liquid %}
+</section>
+
+<section class="mt-9">
+  {% include partials/project-overview.liquid %}
+</section>
