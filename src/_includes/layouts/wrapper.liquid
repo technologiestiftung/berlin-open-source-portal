@@ -9,13 +9,6 @@ defaultTitle: Open-Source Portal Berlin
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>{% if title %}{{ title }} | {% endif %}{{ defaultTitle }}</title>
-    {%- comment -%} All of the following CSS files are legacy stuff. TODO:
-    Refactor to Tailwind and remove them step by step. {%- endcomment -%}
-   <!--  <link rel="stylesheet" href="/assets/css/github-markdown.css" /> -->
-    <link rel="stylesheet" href="/assets/css/syntax.css" />
-    <!-- <link rel="stylesheet" href="/assets/css/fonts.css" /> -->
-    <link rel="stylesheet" href="/assets/css/style-old.css" />
-    {%- comment -%} Legacy CSS end {%- endcomment -%}
     <link rel="stylesheet" href="/assets/css/style.compiled.css" />
 
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
@@ -46,17 +39,9 @@ defaultTitle: Open-Source Portal Berlin
 
   <body>
     {% include partials/header.liquid %}
-
-    <main>
-      <div class="wrapper">
-        <!-- it might be possible to merge main and .wrapper   -->
-
-        <div>
-          {{ content }}
-        </div>
-      </div>
+    <main class="max-w-screen-lg mx-auto p-8 lg:p-2">
+      {{ content }}
     </main>
-
     {% include partials/footer.liquid %}
   </body>
 </html>
