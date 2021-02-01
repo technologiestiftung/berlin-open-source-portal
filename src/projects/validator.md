@@ -7,7 +7,7 @@ abstract: Tool zur Schemavalidierung von Geodaten im GML-Format
 languages: ["JavaScript", "Python"]
 license: MIT License
 link: https://odis-berlin.de/projekte/xml-validator/tool
-repository: https://github.com/BerlinerBreitbandPortal/BBP
+repository: https://github.com/technologiestiftung/xml-schema-validator-for-berlins-geodata
 ---
 
 # Berliner-Breitband-Portal
