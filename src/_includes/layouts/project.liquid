@@ -8,11 +8,7 @@ tags: project
   {% if tags %}
   <div class="mt-8">
     {% for tag in tags %} {% unless tag == "project" or tag == "documents" %}
-    <a
-      href="/tag/{{ tag | slug }}"
-      class="mr-1 py-1 px-2 bg-blue-500 hover:bg-red-500 text-white hover:text-white rounded-full"
-      >{{ tag }}</a
-    >
+    {% include partials/tag.liquid, tag: tag %}
     {% endunless %} {% endfor %}
   </div>
   {% endif %}

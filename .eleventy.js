@@ -17,6 +17,11 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addWatchTarget("./src/assets/css/style.compiled.css");
 
+  eleventyConfig.addCollection(
+    "tagList",
+    require("./src/_filters/getTagList.js")
+  );
+
   return {
     dir: {
       data: "_data",
