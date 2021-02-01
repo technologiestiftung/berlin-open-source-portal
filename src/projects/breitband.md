@@ -10,8 +10,6 @@ link: https://www.breitband.berlin.de
 repository: https://github.com/BerlinerBreitbandPortal/BBP
 ---
 
-# Berliner-Breitband-Portal
-
 ## Hintergrund
 
 Cloud-Computing, IoT oder auch Live-Streaming in HD-Qualität: Die voranschreitende Digitalisierung birgt allerhand neue Möglichkeiten für viele Lebens- und Wirtschaftsbereiche, doch damit auch hohe Anforderungen an eine zukunftssichere technische Infrastruktur. Nicht alle Bereiche Berlins weisen heute eine gute Breitbandversorgung im Gigabitbereich auf, die eine stabile und schnelle Datenverbindungen sicherstellen könnte.
