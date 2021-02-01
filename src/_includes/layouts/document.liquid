@@ -5,14 +5,10 @@ eleventyComputed:
   title: "{{ title }}"
 ---
 
-<div class="overview">
-  <h1>{{ title }}</h1>
-</div>
-
-<div>
-  <article class="markdown-body">
-    {{ content }}
-  </article>
-</div>
-
-{% include partials/documents-overview.liquid %}
+<h1 class="md:mt-12">{{ title }}</h1>
+<article class="prose mt-8">
+  {{ content }}
+</article>
+<section class="max-w-screen-md mx-auto mt-12 md:mt-20 mb-12">
+  {% include partials/documents-overview.liquid %}
+</section>

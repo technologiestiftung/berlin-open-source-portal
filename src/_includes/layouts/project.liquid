@@ -7,7 +7,7 @@ tags: project
   <h1 class="col-span-12">{{ title }}</h1>
   <div class="col-span-12 md:col-span-5">
     {% if tags %}
-    <div class="mt-8">
+    <div class="mt-4 md:mt-0">
       {% for tag in tags %} {% unless tag == "project" or tag == "documents" %}
       <li class="inline-block mt-2">
         {% include partials/tag.liquid, tag: tag %}
@@ -35,7 +35,7 @@ tags: project
       {% endif %}
     </table>
   </div>
-  <article class="col-span-12 md:col-span-7 prose">
+  <article class="col-span-12 md:col-span-7 mt-8 md:mt-0 prose">
     {{ content }}
   </article>
   <aside class="col-span-12 mt-12">
