@@ -37,6 +37,11 @@
       url(/assets/fonts/IBMPlexSans-BoldItalic.woff) format("woff");
   }
 
+  html,
+  body {
+    @apply text-gray-900;
+  }
+
   a {
     @apply text-blue-500 transition-colors;
   }
