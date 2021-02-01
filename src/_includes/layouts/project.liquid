@@ -3,7 +3,7 @@ layout: layouts/wrapper.liquid
 tags: project
 ---
 
-<div class="grid grid-cols-12 gap-8 md:mt-12 mb-12">
+<div class="grid grid-cols-12 md:gap-8 md:mt-12 mb-12">
   <h1 class="col-span-12">{{ title }}</h1>
   <div class="col-span-12 md:col-span-5">
     {% if tags %}
@@ -39,7 +39,7 @@ tags: project
     {{ content }}
   </article>
   <aside class="col-span-12 mt-12">
-    <h3 class="mx-auto text-center">Alle Projekte auf einen Blick</h3>
+    <h2 class="mx-auto text-center">Alle Projekte auf einen Blick</h2>
     <div class="mt-8">{% include partials/project-overview.liquid %}</div>
   </aside>
 </div>
