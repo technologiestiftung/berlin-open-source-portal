@@ -15,7 +15,7 @@ layout: layouts/wrapper.liquid
   />
   <h2 class="intro-title darkblue text-3xl md:text-4xl font-normal">Open-Source Projekte im Land Berlin</h2>
   <div class="intro-text pt-2">
-    <p class= "pb-6">
+    <p class= "mt-6">
       Diese Seite bietet einen Überblick über
       <a
         href="https://de.wikipedia.org/wiki/Open_Source"
@@ -27,7 +27,7 @@ layout: layouts/wrapper.liquid
       einladen, kollaborativ an der Entwicklung innovativer Softwarelösungen für
       unsere Stadt zu arbeiten.
     </p>
-    <p class= "pb-6">
+    <p class="mt-6">
       Erste erfolgreiche Open Source-Anwendungen, die vom Land Berlin gefördert und
       mit dessen Beteiligung umgesetzt werden sind etwa die
       <a
@@ -41,7 +41,7 @@ layout: layouts/wrapper.liquid
         >Gieß den Kiez</a
       >.
     </p>
-    <p class= "pb-6">
+    <p class= "mt-6">
       Beim
       <a
         href="https://www.citylab-berlin.org/"
@@ -76,10 +76,4 @@ layout: layouts/wrapper.liquid
   </div>
 </section>
 
-<!-- {% if page.toc != false and site.toc == true or page.toc == true %}
-  {% include toc.liquid html=content h_min=2 sanitize=true class="table-of-contents" %}
-{% endif %} -->
-
-<article>
-  {{ content }}
-</article>
+{{ content }}

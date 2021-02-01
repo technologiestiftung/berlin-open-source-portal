@@ -62,7 +62,7 @@
   }
 
   .intro {
-    @apply md:grid md:grid-cols-2 md:pb-20 md:mx-20;
+    @apply md:grid md:grid-cols-2 mt-0 md:mt-16;
   }
 
   .intro-title {
