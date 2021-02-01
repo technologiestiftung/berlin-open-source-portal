@@ -4,8 +4,6 @@ title: Public Money, Public Code
 abstract: Broschüre der Free Software Foundation
 ---
 
-# Public Money, Public Code
-
 Wie kann Open Source dazu beitragen, öffentliche IT-Infrastrukturen zu modernisieren? Was sind die Vorzüge und welche Herausforderungen bringt das Arbeiten im Offenen mit sich?
 
 Die <a href="https://fsfe.org/index.de.html" target="_blank" rel="noopener noreferrer">Free Software Foundation Europe</a> und das <a href="https://www.oeffentliche-it.de/" target="_blank" rel="noopener noreferrer">Kompetenzzentrum Öffentliche IT</a> haben zu diesen Fragen die lesenswerte Broschüre <a href="https://download.fsfe.org/campaigns/pmpc/PMPC-Modernising-with-Free-Software.de.pdf" target="_blank" rel="noopener noreferrer">"Public Money, Public Code"</a> veröffentlicht.

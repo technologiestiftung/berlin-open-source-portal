@@ -4,8 +4,6 @@ title: Wie kann ich mich beteiligen?
 abstract: Hinweise zur Beteiligung an Open Source-Projekten
 ---
 
-# Mitmachen
-
 Wir freuen uns über Hinweise, Feedback und Verbesserungsvorschläge zu unseren Open Source-Projekten.
 
 Issues und Pull Requests sind jederzeit willkommen!
