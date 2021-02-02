@@ -32,6 +32,48 @@ tags: project
           <a href="{{ link }}">{{ link }}</a>
         </td>
       </tr>
+      {% endif %} {% if githubData.repos[repository] %}
+      <tr
+        class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
+      >
+        <th class="col-span-1 font-normal">Sprache:</th>
+        <td class="col-span-3">
+          {{ githubData.repos[repository].language }}
+        </td>
+      </tr>
+      <tr
+        class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
+      >
+        <th class="col-span-1 font-normal">Archiviert:</th>
+        <td class="col-span-3">
+          {% if githubData.repos[repository].isArchived == true %} Ja {% else %}
+          Nein {% endif %}
+        </td>
+      </tr>
+      <tr
+        class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
+      >
+        <th class="col-span-1 font-normal">Letztes Update:</th>
+        <td class="col-span-3">
+          {{ githubData.repos[repository].updated_at }}
+        </td>
+      </tr>
+      <tr
+        class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
+      >
+        <th class="col-span-1 font-normal">Offene Issues:</th>
+        <td class="col-span-3">
+          {{ githubData.repos[repository].open_issues_count }}
+        </td>
+      </tr>
+      <tr
+        class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
+      >
+        <th class="col-span-1 font-normal">Lizenz:</th>
+        <td class="col-span-3">
+          {{ githubData.repos[repository].license }}
+        </td>
+      </tr>
       {% endif %}
     </table>
   </div>
