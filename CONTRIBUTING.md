@@ -12,7 +12,7 @@ Falls du ein Open-Source Projekt kennst, das nicht in der Berliner Verwaltung be
 
 ## Wie kann ich ein Projekt einreichen?
 
-Neue Einreichungen können entweder als Pull Request über GitHub gestellt oder über **dieses Formular** eingereicht werden. Bei Pull Requests solltest du einfach die Struktur eines existierenden Projekts als Template nutzen ([z.B. dieses Projekt](https://github.com/technologiestiftung/berlin-open-source-portal/blob/main/src/projects/breitband.md))
+Einreichungen können entweder als Pull Request über GitHub gestellt oder per Mail an uns eingereicht werden (schreib uns einfach an, und wir schicken dich gerne ein Template zum Ausfüllen). Bei Pull Requests solltest du einfach die Struktur eines existierenden Projekts als Template nutzen ([z.B. dieses Projekt](https://github.com/technologiestiftung/berlin-open-source-portal/blob/main/src/projects/breitband.md))
 
 ## Welche Informationen zu einem Projekt sollen eingereicht werden?
 
