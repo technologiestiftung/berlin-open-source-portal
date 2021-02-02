@@ -39,10 +39,25 @@ module.exports = {
       },
       white: "#fff",
     },
-    extend: {},
+    extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            color: "#18181b",
+            a: {
+              color: "#1e3791",
+              textDecoration: "none",
+              "&:hover": {
+                color: "#e60032",
+              },
+            },
+          },
+        },
+      },
+    },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };

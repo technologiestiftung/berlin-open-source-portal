@@ -37,6 +37,11 @@
       url(/assets/fonts/IBMPlexSans-BoldItalic.woff) format("woff");
   }
 
+  html,
+  body {
+    @apply text-gray-900;
+  }
+
   a {
     @apply text-blue-500 transition-colors;
   }
@@ -58,11 +63,11 @@
   }
 
   h3 {
-    @apply text-3xl font-bold;
+    @apply text-2xl md:text-3xl font-bold;
   }
 
   .intro {
-    @apply md:grid md:grid-cols-2 md:pb-20 md:mx-20;
+    @apply md:grid md:grid-cols-2 mt-0 md:mt-16;
   }
 
   .intro-title {
@@ -75,9 +80,5 @@
 
   .content-title {
     @apply text-center pb-9;
-  }
-
-  .darkblue {
-    color: rgba(30, 55, 145, 1);
   }
 }

@@ -10,12 +10,6 @@ link: http://bikesharing.citylab-berlin.org/
 repository: https://github.com/technologiestiftung/bikesharing-vis
 ---
 
-# Shared Mobility Flows
-
-Online unter <a href="https://bikesharing.citylab-berlin.org/" target="_blank" rel="noopener noreferrer">bikesharing.citylab-berlin.org</a>
-
-Source Code auf <a href="https://github.com/technologiestiftung/bikesharing-vis" target="_blank" rel="noopener noreferrer">GitHub</a>
-
 Immer mehr Mobilitäts-Sharing-Anbieter (Leihfahrräder, E-Scooter, etc.) sind auf Berlins Straßen präsent. Das stellt die Stadt vor neue Herausforderungen, eröffnet aber auch Chancen: Neben einem breiteren Mobilitätsangebot können die Daten der Sharing-Anbieter wertvolle Einsichten für Verwaltung und Stadtplanung liefern und intelligentere Verkehrsplanung ermöglichen. In dem Projekt "Shared Mobility Flows" haben wir Datenstandards für Sharing Services entwickelt und einen digitalen Prototypen entwickelt, der Leihfahrradrouten auf einer Karte analysiert und visualisiert.
 
 ![Shared Mobility Flows](/assets/images/projects/bikesharing.png)

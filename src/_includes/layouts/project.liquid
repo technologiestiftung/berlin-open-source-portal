@@ -3,40 +3,43 @@ layout: layouts/wrapper.liquid
 tags: project
 ---
 
-<div class="overview">
-  <h1>{{ title }}</h1>
-  {% if tags %}
-  <div class="mt-8">
-    {% for tag in tags %} {% unless tag == "project" or tag == "documents" %}
-    {% include partials/tag.liquid, tag: tag %}
-    {% endunless %} {% endfor %}
-  </div>
-  {% endif %}
-  <table class="mt-8 w-full text-left">
-    {% if repository %}
-    <tr
-      class="grid grid-cols-2 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
-    >
-      <th class="font-normal">Source Code:</th>
-      <td><a href="{{ repository }}">GitHub</a></td>
-    </tr>
-    {% endif %} {% if link %}
-    <tr
-      class="grid grid-cols-2 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
-    >
-      <th class="font-normal">Link:</th>
-      <td>
-        <a href="{{ link }}">{{ link }}</a>
-      </td>
-    </tr>
+<div class="grid grid-cols-12 md:gap-8 md:mt-12 mb-12">
+  <h1 class="col-span-12">{{ title }}</h1>
+  <div class="col-span-12 md:col-span-5">
+    {% if tags %}
+    <div class="mt-4 md:mt-0">
+      {% for tag in tags %} {% unless tag == "project" or tag == "documents" %}
+      <li class="inline-block mt-2">
+        {% include partials/tag.liquid, tag: tag %}
+      </li>
+      {% endunless %} {% endfor %}
+    </div>
     {% endif %}
-  </table>
-</div>
-
-<div>
-  <article class="markdown-body">
+    <table class="mt-8 w-full text-left">
+      {% if repository %}
+      <tr
+        class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
+      >
+        <th class="col-span-1 font-normal">Source Code:</th>
+        <td class="col-span-3"><a href="{{ repository }}">GitHub</a></td>
+      </tr>
+      {% endif %} {% if link %}
+      <tr
+        class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
+      >
+        <th class="col-span-1 font-normal">Link:</th>
+        <td class="col-span-3">
+          <a href="{{ link }}">{{ link }}</a>
+        </td>
+      </tr>
+      {% endif %}
+    </table>
+  </div>
+  <article class="col-span-12 md:col-span-7 mt-8 md:mt-0 prose">
     {{ content }}
   </article>
+  <aside class="col-span-12 mt-12">
+    <h2 class="mx-auto text-center">Alle Projekte auf einen Blick</h2>
+    <div class="mt-8">{% include partials/project-overview.liquid %}</div>
+  </aside>
 </div>
-
-{% include partials/project-overview.liquid %}

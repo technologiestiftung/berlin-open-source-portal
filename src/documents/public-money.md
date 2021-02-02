@@ -2,10 +2,7 @@
 layout: layouts/document.liquid
 title: Public Money, Public Code
 abstract: Broschüre der Free Software Foundation
-tags: ["documents"]
 ---
-
-# Public Money, Public Code
 
 Wie kann Open Source dazu beitragen, öffentliche IT-Infrastrukturen zu modernisieren? Was sind die Vorzüge und welche Herausforderungen bringt das Arbeiten im Offenen mit sich?
 
