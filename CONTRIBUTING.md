@@ -6,7 +6,7 @@ Das Berlin Open-Source Portal will Open-Source Projekte aus und für Berlin sich
 
 ## Welche Arten von Projekten akzeptieren wir?
 
-Das Berlin Open-Source Portal sammelt **Open-Source Projekte, die entweder vom Land Berlin (mit)entwickelt wurden, die in der Berliner Verwaltung aktiv benutzt werden, oder die explizit für die Zielgruppe der Berliner Verwaltung entwickelt wurden.**
+Das Berlin Open-Source Portal sammelt **Open-Source Projekte, die entweder direkt vom Land Berlin (mit)entwickelt wurden, oder die durch Finanzierung vom Land Berlin entwickelt wurden.**
 
 Falls du ein Open-Source Projekt kennst, das nicht in der Berliner Verwaltung benutzt wird aber in einer anderer öffentlichen Verwaltung, kannst du [diese Liste](https://github.com/okfde/awesome-behoerden-floss) von der Open Knowledge Foundation Deutschland ergänzen.
 
@@ -16,9 +16,9 @@ Neue Einreichungen können entweder als Pull Request über GitHub gestellt oder 
 
 ## Welche Informationen zu einem Projekt sollen eingereicht werden?
 
-### Grunddaten
+### Metadaten
 
-Die Grunddaten werden benutzt, um Projekte zu filtern und Nutzer:innen einen schnellen Überblick über Projekte anzubieten. Falls du ein Projekt über ein Pull Request einreichst, werden die Grunddaten alle im Front Matter des Projekt-Markdown angegeben.
+Die Metadaten werden benutzt, um Projekte zu filtern und Nutzer:innen einen schnellen Überblick über Projekte anzubieten. Falls du ein Projekt über ein Pull Request einreichst, werden die Metadaten alle im Front Matter des Projekt-Markdown angegeben.
 
 Folgende Daten können als Grunddaten angegeben werden (Pflichtfelder müssen angegeben werden): 
 
@@ -39,8 +39,8 @@ Zusätzlich zu den Grunddaten, braucht jedes Projekt eine Beschreibung. Diese Be
 
 Die Beschreibung sollte aus 3 Teile bestehen:
 
-**Kurzbeschreibung:** Eine Zusammenfassung des Projektzwecks in 1 oder 2 Sätzen. Eine Art "Elevator Pitch" für das Projekt.
+**Zusammenfassung:** Eine Kurzbeschreibung des Projektzwecks in 1 oder 2 Sätzen. Eine Art "Elevator Pitch" für das Projekt.
 
 **Beschreibung des Projekts:** 5-8 Sätze die erklären, was das Projekt ist, von wem es entwickelt wurde und in welchem Kontext, für welche Zielgruppe das Projekt gedacht ist, usw. Hier könnten gerne auch Stichpunkte benutzt werden. Wenn du ein **Screenshot** vom Projekt hast, kannst du das auch gerne hier ergänzen.
 
-**Möglichkeiten zur Weiterentwicklung:** 1-3 Sätze dazu, ob das Projekt voraussichtlich weiterentwickelt wird und ob aktiv Mitentwickler:innen gesucht werden. 
+**Weitere Informationen:** Falls du noch was zum Projekt sagen willst – zum Beispiel, ob das Projekt voraussichtlich weiterentwickelt wird oder ob aktiv Mitentwickler:innen gesucht werden, kann das hier ergänzt werden.
