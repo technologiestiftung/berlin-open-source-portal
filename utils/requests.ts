@@ -3,11 +3,11 @@ const nodeFetch = require("node-fetch");
 require("dotenv").config();
 
 const fetchGithubRepo = async (url) => {
-  const isAuthorized = process.env.GITHUB_API_TOKEN;
+  const isAuthorized = process.env.API_TOKEN_GITHUB;
   const options = isAuthorized
     ? {
         headers: {
-          Authorization: `token ${process.env.GITHUB_API_TOKEN}`,
+          Authorization: `token ${process.env.API_TOKEN_GITHUB}`,
         },
       }
     : {};
