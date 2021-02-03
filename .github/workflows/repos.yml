@@ -1,0 +1,23 @@
+# This workflow will fetch repository data from the GitHub API and store it in a file in our codebase (runs daily)
+
+name: Repository data CI
+
+on:
+  workflow_dispatch:
+  schedule:
+    # every early morning at 4:00
+    - cron: "0 4 * * *"
+
+jobs:
+  fetch_repos:
+    runs-on: ubuntu-latest
+    name: Fetches repository data from the GitHub API and stores it in a file in our codebase
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+      - name: Install dependencies
+        run: npm ci
+      - name: Fetch repo data
+        run: node ./utils/fetchGithubData.ts
