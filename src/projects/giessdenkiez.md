@@ -10,13 +10,7 @@ link: https://www.giessdenkiez.de
 repository: https://github.com/technologiestiftung/giessdenkiez-de
 ---
 
-# Gieß den Kiez
-
 Kartenanwendung zur Koordination der Bewässerung von Stadtbäumen – Informiere Dich über den Baumbestand, adoptiere einzelne Bäume und markiere, dass Du sie gegossen hast.
-
-Online unter <a href="https://www.giessdenkiez.de" target="_blank" rel="noopener noreferrer">www.giessdenkiez.de</a>
-
-Source Code bei <a href="https://github.com/technologiestiftung/giessdenkiez-de" target="_blank" rel="noopener noreferrer">GitHub</a>
 
 ## Features
 

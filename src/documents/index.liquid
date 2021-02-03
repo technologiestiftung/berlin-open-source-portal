@@ -3,13 +3,16 @@ layout: layouts/wrapper.liquid
 eleventyExcludeFromCollections: true
 title: Dokumente
 ---
+
 <section class="intro">
   <h1 class="intro-title">Dokumente</h1>
-
   <div class="intro-text pb-6 md:pb-0">
     <p>
-      Hier finden Sie Dokumente und Informationen rund um unsere Projekte, Open Source und die Berliner IT-Landschaft.
+      Hier finden Sie Dokumente und Informationen rund um unsere Projekte, Open
+      Source und die Berliner IT-Landschaft.
     </p>
   </div>
 </section>
-{% include partials/documents-overview.liquid %}
+<section class="max-w-screen-md mx-auto mt-12 md:mt-20 mb-12">
+  {% include partials/documents-overview.liquid %}
+</section>

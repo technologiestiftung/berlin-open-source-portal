@@ -14,12 +14,17 @@ eleventyComputed:
   title: "Projekte zu: {{ tag }}"
 ---
 
+<p class="text-sm md:text-base mt-0 md:mt-12">Projekte zum Thema:</p>
 <h1>{{ tag }}</h1>
 
-<ul>
+<ul class="mt-4 md:mt-12 mb-12 grid md:grid-cols-2 gap-4 md:gap-8">
   {% set taglist = collections[ tag ] %} {% for post in taglist | reverse %}
   <li>
-    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+    {% set title = post.data.title %}
+    {% set abstract = post.data.abstract %}
+    {% set id = post.data.id %}
+    {% set url = post.url %}
+    {% include "partials/project-card.liquid" %}
   </li>
   {% endfor %}
 </ul>

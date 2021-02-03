@@ -1,0 +1,50 @@
+{
+  "title": "Warum Open Source Software?",
+  "subtitle": "Die Nutzung und Entwicklung von Open Source Software bietet für öffentliche Verwaltungen zahlreiche Vorteile:",
+  "items": [
+    {
+      "title": "Kollaboration",
+      "content": [
+        "Städte und Kommunen in aller Welt sehen sich mit globalen Herausforderungen – Klimawandel, Wachstum, Verkehrswende, soziale Ungleichheit – konfrontiert, die gemeinsame Antworten erfordern. Statt jedes Mal das Rad neu zu erfinden, sollten wir Kräfte bündeln und Wissen teilen.",
+        "Mit der Digitalisierung entstehen auch für Verwaltungen völlig neue Möglichkeiten der Zusammenarbeit. Mit der Entwicklung und Unterstützung von Open Source-Projekten trägt Berlin einen Teil zur Entstehung eines globalen Software-Ökosystems für den öffentlichen Sektor bei."
+      ]
+    },
+    {
+      "title": "Sicherheit",
+      "content": [
+        "Datenschutz und IT-SIcherheit haben für öffentliche Verwaltungen höchste Priorität. Der konsequente Einsatz von Open Source-Software bietet ein hohes Maß an Sicherheit, weil Bugs und Schwachstellen leichter erkannt und beseitigt werden können."
+      ]
+    },
+    {
+      "title": "Transparenz",
+      "content": [
+        "Durch den Einsatz von Open Source-Software ist transparent einsehbar, wie Daten erhoben, gespeichert und weiterverarbeitet werden. Diese Transparenz schafft nicht nur Vertrauen bei Bürger*innen und externen Partnern, sondern erleichtert auch die Pflege und Weiterentwicklung unserer Software."
+      ]
+    },
+    {
+      "title": "Wartung und Weiterentwicklung",
+      "content": [
+        "Bei der Entwicklung und Wartung bieten Open Source-Projekte viele Vorteile. Nicht nur verringert sich die Abhängigkeit von einzelnen Dienstleistern, sondern der Source Code bleibt grundsätzlich offen für Reviews, Tests und Weiterentwicklungen durch eine diverse Communit."
+      ]
+    },
+    {
+      "title": "Agilität",
+      "content": [
+        "Die Nutzung von Open Source-Modellen erleichtert zu jeder Projektphase transparente Einsicht in den aktuellen Entwicklungsstand und ermöglicht so eine bessere Kontrolle über den Gesamtprozess. Fehler können frühzeitiger erkannt und behoben, Reibungsverluste minimiert werden."
+      ]
+    },
+    {
+      "title": "Wiederverwendung",
+      "content": [
+        "Open Source bedeutet, dass Projekte und deren Komponenten mit wenig Aufwand wiederverwendet werden können. Open Source-Projekte sind damit tendenziell besser skalierbar.",
+        "Durch die wiederholte Verwendung interoperabler Komponenten entsteht mit der Zeit ein Open Source-Ökosystem, das mit zunehmendem Reifegrad eine immer schnellere und kostengünstigere Entwicklung von Lösungen ermöglicht."
+      ]
+    },
+    {
+      "title": "Attraktivität",
+      "content": [
+        "Für viele Entwickler*innen bedeutet es einen zusätzlichen Anreiz, an Open Source-Projekten arbeiten zu können. Die Nutzung von Open Source-Software in der öffentlichen Verwaltung stärkt zugleich die Rolle der Verwaltung als attraktivem IT-Arbeitgeber und kann dabei helfen, Tech-Talente für gemeinwohlorientierte Arbeit zu gewinnen."
+      ]
+    }
+  ]
+}
