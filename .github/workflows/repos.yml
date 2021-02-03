@@ -10,6 +10,10 @@ on:
   pull_request:
     branches: [main]
 
+  # Triggers the workflow every morning at 04:00
+  schedule:
+    - cron: "0 4 * * *"
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
