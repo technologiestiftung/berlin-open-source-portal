@@ -1,8 +1,12 @@
+import { GithubResponseType } from "./types";
+
 const nodeFetch = require("node-fetch");
 
 require("dotenv").config();
 
-const fetchGithubRepo = async (url) => {
+const fetchGithubRepo: (
+  url: string
+) => Promise<GithubResponseType> | Error = async (url) => {
   const isAuthorized = process.env.API_TOKEN_GITHUB;
   const options = isAuthorized
     ? {
@@ -25,12 +29,12 @@ const fetchGithubRepo = async (url) => {
       )}`
     );
 
-    return await response.json();
+    return (await response.json()) as GithubResponseType;
   } catch (error) {
     throw new Error(error);
   }
 };
 
 module.exports = {
-  fetchGithubRepo: fetchGithubRepo,
+  fetchGithubRepo,
 };
