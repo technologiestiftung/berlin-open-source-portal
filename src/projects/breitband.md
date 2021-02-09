@@ -8,6 +8,7 @@ languages: ["JavaScript", "PHP"]
 license: MIT License
 link: https://www.breitband.berlin.de
 repository: https://github.com/BerlinerBreitbandPortal/BBP
+has-hero: true
 ---
 
 ## Hintergrund

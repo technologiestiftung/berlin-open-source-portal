@@ -8,6 +8,7 @@ languages: ["Jupyter Notebook"]
 license: MIT
 link: http://bikesharing.citylab-berlin.org/
 repository: https://github.com/technologiestiftung/bike-sharing
+has-hero: false
 ---
 
 Python-Skript, um Daten von Bikesharing-Anbietern zu sammeln und in einer Datenbank für weitere Analyse und Visualisierung zu speichern.
