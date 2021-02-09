@@ -8,6 +8,7 @@ languages: ["Typescript"]
 license: MIT
 link: https://www.giessdenkiez.de
 repository: https://github.com/technologiestiftung/giessdenkiez-de
+has-hero: true
 ---
 
 Kartenanwendung zur Koordination der Bewässerung von Stadtbäumen – Informiere Dich über den Baumbestand, adoptiere einzelne Bäume und markiere, dass Du sie gegossen hast.
