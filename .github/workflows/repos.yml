@@ -5,10 +5,10 @@ name: CI
 # Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+  #push:
+  #branches: [main]
+  #pull_request:
+  #branches: [main]
 
   # Triggers the workflow every morning at 04:00
   schedule:
@@ -41,3 +41,15 @@ jobs:
         run: npm run fetch:repos
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+
+      # Commit to repository
+      - name: Add & Commit
+        uses: EndBug/add-and-commit@v7 # You can change this to use a specific version
+        with:
+          add: src/_data/githubData.json
+          author_name: tsboter
+          author_email: roboter@tsb-berlin.de
+          message: "Update GitHub repository data via workflow"
+        env:
+          # This is necessary in order to push a commit to the repo
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
