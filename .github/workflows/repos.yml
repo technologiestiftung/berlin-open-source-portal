@@ -38,10 +38,6 @@ jobs:
 
       # Runs fetch script
       - name: Fetch repo data
-        run: node ./utils/fetchGithubData.ts
+        run: npm run fetch:repos
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
-
-      # Runs a set of commands using the runners shell
-      - name: Run a script to see if it still works
-        run: echo This is printed if the action run succeeds
