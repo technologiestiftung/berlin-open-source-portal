@@ -82,3 +82,12 @@
     @apply text-center pb-9;
   }
 }
+
+@layer utilities {
+  .clip-path-slanted {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+  }
+  .bg-multiply {
+    background-blend-mode: multiply;
+  }
+}
