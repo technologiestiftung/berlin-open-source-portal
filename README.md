@@ -12,17 +12,28 @@ Feel free to make pull requests, we'll review and merge them as soon as we can. 
 
 ### Adding a project
 
-To add a project just make a new markdown file in `src/projects/`. Add a `title` and an `abstract` in the front matter.
+To add a project just create a new markdown file in `src/projects/`. Take a look at the already existing projects and define your own front matter accordingly.
+
+#### Example project markdown front matter:
 
 ```yaml
 ---
-title: Catalog
-abstract: A drop in replacement for CKAN
+layout: layouts/project.liquid
+tags: ["Bäume", "Wasser"] # optional
+id: giessdenkiez
+title: Gieß den Kiez
+abstract: Alle Berliner Stadtbäume in einer Anwendung
+languages: ["Typescript"] # optional
+license: MIT # optional
+link: https://www.giessdenkiez.de # optional
+repository: https://github.com/technologiestiftung/giessdenkiez-de
 ---
 
 ```
 
----
+If you want your project to be presented with images, you add them in `src/assets/images/projects/`. Make sure to name your images according to your `id` value in the markdown front matter, e.g. `giessdenkiez-thumb.jpg` or `giessdenkiez-hero.jpg`.
+
+> Optional: After you've created your project, you may run `npm run fetch:repos` to manually add the latest GitHub repository data to your project page. If you do not do this, don't worry. Repository data is automatically fetched once a day, so you may just need to wait a bit to see your GitHub repository data appear after merge.
 
 ### Adding a document
 
