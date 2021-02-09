@@ -48,8 +48,5 @@ jobs:
         with:
           add: src/_data/githubData.json
           author_name: tsboter
-          author_email: roboter@tsb-berlin.de
+          author_email: roboter@tsbberlin.de
           message: "Update GitHub repository data via workflow"
-        env:
-          # This is necessary in order to push a commit to the repo
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
