@@ -11,7 +11,7 @@ module.exports = function (collectionApi) {
         switch (item) {
           case "all":
           case "project":
-          case "documents":
+          case "document":
             return false;
         }
         return true;
