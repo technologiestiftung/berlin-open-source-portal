@@ -1,5 +1,5 @@
 <div class="grid md:grid-cols-2 gap-4 md:gap-8">
   {% for project in collections.project %} {% include
   partials/project-card.liquid, url: project.url, title: project.data.title,
-  abstract: project.data.abstract, id: project.data.id updated_at: githubData.repos[project.data.repository].updated_at %} {% endfor %}
+  abstract: project.data.abstract, id: project.data.id, updated_at: githubData.repos[project.data.repository].updated_at %} {% endfor %}
 </div>
