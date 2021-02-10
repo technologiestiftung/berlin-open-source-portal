@@ -57,6 +57,9 @@ module.exports = {
       gridTemplateRows: {
         "stretch-last": "auto minmax(auto, 1fr)",
       },
+      backgroundImage: (_theme) => ({
+        "intro-pattern": "url('/assets/images/bg_default.svg')",
+      }),
     },
   },
   variants: {
