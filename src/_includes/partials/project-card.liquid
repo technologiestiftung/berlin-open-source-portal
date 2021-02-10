@@ -13,11 +13,6 @@
     <h3>{{ title }}</h3>
     <div class="flex flex-wrap place-content-between">
       <p class="text-gray-900">{{ abstract }}</p>
-      {% if updated_at %}
-      <p class="mt-3 md:mt-6 text-blue-500 text-sm">
-        Aktualisiert: {{ updated_at | date: "%d.%m.%Y" }}
-      </p>
-      {% endif %}
     </div>
   </div>
 </a>
