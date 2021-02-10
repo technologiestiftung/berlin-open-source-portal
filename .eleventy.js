@@ -43,6 +43,10 @@ module.exports = function (eleventyConfig) {
         return "Vor über 3 Monaten aktualisiert";
       case delta <= year:
         return "Vor über 6 Monaten aktualisiert";
+      case delta <= year * 2:
+        return "Vor über einem Jahr aktualisiert";
+      case delta <= year * 3:
+        return "Vor über zwei Jahren aktualisiert";
       default:
         return `Aktualisiert: ${new Date(date).toLocaleDateString("de-DE")}`;
     }
