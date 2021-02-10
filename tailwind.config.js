@@ -54,6 +54,9 @@ module.exports = {
           },
         },
       },
+      gridTemplateRows: {
+        "stretch-last": "auto minmax(auto, 1fr)",
+      },
     },
   },
   variants: {
