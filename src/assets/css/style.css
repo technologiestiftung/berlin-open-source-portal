@@ -83,11 +83,21 @@
   }
 }
 
+@layer components {
+  button,
+  .component-button {
+    @apply px-2 py-1 border-2 border-blue-50 rounded-md;
+  }
+}
+
 @layer utilities {
   .clip-path-slanted {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
   }
-  .bg-multiply {
+  .bg-blend-multiply {
     background-blend-mode: multiply;
+  }
+  .bg-blend-soft-light {
+    background-blend-mode: soft-light;
   }
 }

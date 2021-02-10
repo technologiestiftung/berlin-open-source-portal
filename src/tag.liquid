@@ -11,11 +11,8 @@ pagination:
     - documents
 permalink: /tag/{{ tag | slug }}/
 eleventyComputed:
-  title: "Projekte zum Thema: {{ tag }}"
+  title: "{{ tag | capitalize }}"
 ---
-
-<p class="text-sm md:text-base mt-0 md:mt-12">Projekte zum Thema:</p>
-<h1>{{ tag }}</h1>
 
 <ul class="mt-4 md:mt-12 mb-12 grid md:grid-cols-2 gap-4 md:gap-8">
   {% for project in collections[tag] %}
