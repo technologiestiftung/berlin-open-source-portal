@@ -1,7 +1,7 @@
 ---
-layout: layouts/document.liquid
 title: Wie kann ich mich beteiligen?
 abstract: Hinweise zur Beteiligung an Open Source-Projekten
+tags: document
 ---
 
 Wir freuen uns über Hinweise, Feedback und Verbesserungsvorschläge zu unseren Open Source-Projekten.
