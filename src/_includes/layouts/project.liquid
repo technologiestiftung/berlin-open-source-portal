@@ -124,7 +124,7 @@ permalink: /projekt/{{ id | slug }}/
       >
         <th class="col-span-1 font-normal">Letztes Update:</th>
         <td class="col-span-3">
-          {{ githubData.repos[repository].updated_at | date: "%d.%m.%Y" }}
+          {{ githubData.repos[repository].updated_at | relativeTime }}
         </td>
       </tr>
       <tr
