@@ -3,11 +3,10 @@ layout: layouts/root.liquid
 tags: project
 ---
 
-{% if has-hero == true %}
-  {% capture heroURL %}/assets/images/projects/{{ id }}-hero.jpg{% endcapture %}
-{% else %}
-  {% capture heroURL %}/assets/images/bg_project_default.png{% endcapture %}
-{% endif %}
+{% if has-hero == true %} {% capture heroURL %}/assets/images/projects/{{
+  id
+}}-hero.jpg{% endcapture %} {% else %} {% capture heroURL
+%}/assets/images/bg_default.svg{% endcapture %} {% endif %}
 
 <style>
   #hero {
@@ -17,12 +16,7 @@ tags: project
 
 <section
   id="hero"
-  {%- comment -%} Some redundancy here. Find a way to make this more DRY {%- endcomment -%}
-  {% if has-hero == true %}
-  class="w-full h-56 md:h-96 bg-blue-500 text-white bg-cover clip-path-slanted bg-multiply"
-  {% else %}
-  class="w-full h-56 md:h-96 bg-blue-500 text-white bg-cover clip-path-slanted"
-  {% endif %}
+  class="w-full h-56 md:h-96 bg-blue-500 text-white bg-cover clip-path-slanted bg-blend-soft-light"
 >
   <div class="max-w-screen-lg h-full mx-auto p-8 grid grid-cols-12 md:gap-8">
     <h1 class="col-span-12 md:col-start-6 md:col-span-7 self-center">
