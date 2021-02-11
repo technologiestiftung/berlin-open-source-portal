@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* The base layer should only include styling for bare HTML tags. */
 @layer base {
-  /* everything in here will be included in the packagedvanilla CSS stylesheet */
   @font-face {
     font-family: "IBM Plex Sans";
     font-style: normal;
@@ -65,31 +65,20 @@
   h3 {
     @apply text-2xl lg:text-3xl font-bold;
   }
-
-  .intro {
-    @apply md:grid md:grid-cols-2 mt-0 md:mt-16;
-  }
-
-  .intro-title {
-    @apply md:text-right md:pr-6 pb-2 md:pb-0;
-  }
-
-  .intro-text {
-    @apply md:text-left md:pt-6;
-  }
-
-  .content-title {
-    @apply text-center pb-9;
-  }
 }
 
+/* For clear distinction of component classes, please prefix your custom classes with a "component-". */
 @layer components {
   button,
   .component-button {
     @apply px-2 py-1 border-2 border-blue-50 rounded-md;
   }
+  .component-card {
+    @apply h-full p-4 bg-white shadow-md focus:shadow-none grid grid-cols-4 gap-4 transform focus:scale-95 transition-transform;
+  }
 }
 
+/* Custom utility classes can be added here. */
 @layer utilities {
   .clip-path-slanted {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
