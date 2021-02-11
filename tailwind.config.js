@@ -51,6 +51,7 @@ module.exports = {
                 color: "#e60032",
               },
             },
+            lineHeight: 1.5,
           },
         },
       },
