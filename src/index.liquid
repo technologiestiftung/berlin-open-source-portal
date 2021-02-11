@@ -3,21 +3,23 @@ eleventyExcludeFromCollections: true
 layout: layouts/root.liquid
 ---
 
-<main class="w-full mb-16 md:mb-32 p-8 max-w-screen-lg mx-auto">
-  <section class="intro">
-    <h1 class="intro-title md:pl-10">
-      Berlin <br />
-      <span class="font-normal"> Open-Source Portal </span>
+<section
+  class="px-8 pt-16 md:pt-32 pb-64 lg:pb-32 bg-intro-pattern bg-cover bg-gray-200 bg-blend-soft-light clip-path-slanted"
+>
+  <div class="max-w-screen-lg mx-auto grid lg:grid-cols-2 gap-x-6 gap-y-0 md:gap-y-2">
+    <h1 class="lg:text-right">
+      Berlin<br />
+      <span class="font-normal">Open-Source Portal</span>
     </h1>
     <img
-      class="hidden md:block intro-text pt-0 w-44"
-      src="{{ site.baseurl }}/assets/images/logo.svg"
+      class="hidden lg:block pt-0 w-44"
+      src="/assets/images/logo.svg"
       alt="Logo des Berlin Open-Source-Portal"
     />
-    <h2 class="intro-title text-blue-500 font-normal">
+    <h2 class="md:w-96 text-blue-500 font-normal lg:text-right lg:justify-self-end">
       Open-Source Projekte im Land Berlin
     </h2>
-    <div class="intro-text pt-2">
+    <div>
       <p class="mt-6">
         Diese Seite bietet einen Überblick über
         <a
@@ -80,5 +82,15 @@ layout: layouts/root.liquid
         ein Demo-Fachverfahren an.
       </p>
     </div>
-  </section>
-</main>
+  </div>
+</section>
+<section class="mt-16 px-8 max-w-screen-lg mx-auto">
+  <h2>Projekte</h2>
+  <p class="mt-2">Ein Auszug aktueller Projekte im Überblick.</p>
+  <div class="mt-6 grid md:grid-cols-2 gap-4 md:gap-8">
+    {% for project in collections.project %} {% if project.data.featured == true
+    %} {% include partials/project-card.liquid, url: project.url, title:
+    project.data.title, abstract: project.data.abstract, id: project.data.id %}
+    {% endif %} {% endfor %}
+  </div>
+</section>

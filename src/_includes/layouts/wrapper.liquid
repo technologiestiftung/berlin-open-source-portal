@@ -2,22 +2,20 @@
 layout: layouts/root.liquid
 ---
 
-<main class="w-full mb-16 md:mb-32">
-  <section
-    class="px-8 pt-16 md:pt-32 pb-32 bg-gray-200 bg-intro-pattern bg-cover bg-blend-soft-light clip-path-slanted"
-  >
-    <div class="max-w-screen-lg mx-auto grid md:grid-cols-2 gap-2 md:gap-6">
-      <h1 class="pb-2 md:pb-0 md:text-right">{{ title }}</h1>
-      <div>
-        {% if page.fileSlug == "suggest" %} {% include
-        partials/suggest-intro.liquid %} {% elsif page.fileSlug == "projects" %}
-        {% include partials/project-intro.liquid %} {% elsif abstract %}
-        {{ abstract }}
-        {% endif %}
-      </div>
+<section
+  class="px-8 pt-16 md:pt-32 pb-32 bg-gray-200 bg-intro-pattern bg-cover bg-blend-soft-light clip-path-slanted"
+>
+  <div class="max-w-screen-lg mx-auto grid md:grid-cols-2 gap-2 md:gap-6">
+    <h1 class="pb-2 md:pb-0 md:text-right">{{ title }}</h1>
+    <div>
+      {% if page.fileSlug == "suggest" %} {% include
+      partials/suggest-intro.liquid %} {% elsif page.fileSlug == "projects" %}
+      {% include partials/project-intro.liquid %} {% elsif abstract %}
+      {{ abstract }}
+      {% endif %}
     </div>
-  </section>
-  <section class="max-w-screen-lg p-8 mx-auto mt-0 md:mt-4">
-    {{ content }}
-  </section>
-</main>
+  </div>
+</section>
+<section class="max-w-screen-lg p-8 mx-auto mt-0 md:mt-4">
+  {{ content }}
+</section>
