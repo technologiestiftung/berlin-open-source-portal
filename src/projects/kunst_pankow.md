@@ -23,5 +23,5 @@ Der VIKUS Viewer ist ein webbasiertes Visualisierungssystem, das Fotografien der
 ## Weitere Informationen
 
 Der VIKUS Viewer kann auch für andere Datensammlungen zu Objekten aus dem kulturellen Bereich genutzt werden.
-Die Software basiert auf einem Visualisierungscode der während des Forschungsprojekts VIKUS (2014-2017) an der Fachhochschule Potsdam enstanden ist.
+Die Software basiert auf einem Visualisierungscode der während des Forschungsprojekts VIKUS (2014-2017) an der Fachhochschule Potsdam entstanden ist.
 
