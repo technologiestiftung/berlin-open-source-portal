@@ -20,18 +20,18 @@ Einreichungen können entweder als Pull Request über GitHub gestellt oder per M
 
 Die Metadaten werden benutzt, um Projekte zu filtern und Nutzer:innen einen schnellen Überblick über Projekte anzubieten. Falls du ein Projekt über ein Pull Request einreichst, werden die Metadaten alle im Front Matter des Projekt-Markdown angegeben.
 
-Folgende Daten können als Grunddaten angegeben werden (Pflichtfelder müssen angegeben werden): 
+Folgende Daten können als Grunddaten angegeben werden (Pflichtfelder müssen angegeben werden). Wichtig: wenn dein Projekt schon auf GitHub liegt, werden viele diese Felder automatisch über die GitHub-API erfasst; das heißt, die müssen nicht angegeben werden. Diese Felder sind in der Tabelle unten entsprechend markiert. 
 
-|Feld|Beschreibung|Pflichtfeld?|
-|---|---|---|
-|title|Ein aussagekräftiger Titel für das Projekt oder die Software|Ja|
-|abstract|Eine kurze Zusammenfassung des Projekts (ca. 50-80 Zeichen – z.B. "Tool zur Bedarfsmeldung für den Breitbandausbau")|Ja|
-|repository|Eine Verlinkung zu einem Repository auf GitHub, GitLab oder einer ähnlichen Plattform, in dem der Quellcode freiverfügbar ist|Ja|
-|link|Eine Verlinkung zu einer Projektseite, falls eine solche Seite separat zum Repository existiert|Nein|
-|license|Die Lizenz, unter der das Projekt veröffentlicht wurde|Ja|
-|tags|Mindestens einen aussagekräftigen Tag oder ein Schlüsselwort, welches es für mögliche Interessierte leichter macht, das Projekt schnell zu finden (z.B. "Mobilität" oder "Beteiligung")|Ja|
-languages|Eine Auflistung der (primären) Programmiersprachen, die im Quellcode benutzt werden|Ja|
-|developer|Die Person oder Organisation, die das Projekt entwickelt hat|Nein|
+|Feld|Beschreibung|Pflichtfeld?|Kann aus GitHub automatisch ausgelesen werden?
+|---|---|---|---|
+|title|Ein aussagekräftiger Titel für das Projekt oder die Software|Ja|Nein|
+|abstract|Eine kurze Zusammenfassung des Projekts (ca. 50-80 Zeichen – z.B. "Tool zur Bedarfsmeldung für den Breitbandausbau")|Ja|Nein|
+|repository|Eine Verlinkung zu einem Repository auf GitHub, GitLab oder einer ähnlichen Plattform, in dem der Quellcode freiverfügbar ist|Ja|Ja|
+|link|Eine Verlinkung zu einer Projektseite, falls eine solche Seite separat zum Repository existiert|Nein|Nein|
+|license|Die Lizenz, unter der das Projekt veröffentlicht wurde|Ja|Ja|
+|tags|Mindestens einen aussagekräftigen Tag oder ein Schlüsselwort (maximal 5), welches es für mögliche Interessierte leichter macht, das Projekt schnell zu finden (z.B. "Mobilität" oder "Beteiligung"). Schau am besten die existierenden Tags auf an und übernimm die, insofern als die zum Projekt passen.|Ja|Nein|
+languages|Eine Auflistung der (primären) Programmiersprachen, die im Quellcode benutzt werden. Falls mehrere Sprachen benutzte werden, sollten maximal 3 aufgelistet werden.|Ja|Ja|
+|organisation|Die Organisation, die das Projekt entwickelt hat (könnte auch im bestimmten Fälle eine Person sein)|Nein|Nein|
 
 ### Beschreibung des Projekts
 
