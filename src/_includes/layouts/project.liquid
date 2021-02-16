@@ -15,6 +15,35 @@ permalink: /projekt/{{ id | slug }}/
   }
 </style>
 
+<style>
+.button {
+  border: none;
+  color: black;
+  width: 80%;
+  height: 3em;
+  text-align: center;
+  font-weight : bold ;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: #54649c;
+  border: 2px solid #495b95;
+}
+
+.button1:hover {
+  background-color: #495b95;
+  color: white;
+}
+
+</style>
+
 <section
   id="hero"
   class="w-full h-56 md:h-96 bg-blue-500 text-white bg-cover clip-path-slanted bg-blend-soft-light"
@@ -38,29 +67,25 @@ permalink: /projekt/{{ id | slug }}/
       {% endunless %} {% endfor %}
     </div>
     {% endif %}
+    <a href="{{ link }}"><button class="button button1"
+        type="button"
+        style="margin-top: 2em">
+    Zur Website
+</button></a>
+<br> <a href="{{ repository }}"><button class="button button1"
+        type="button"
+        style="margin-top: 1em"
+        style="margin-bottom: 0">
+    Zum Repository
+</button></a>
     <table class="mt-8 w-full text-left">
       {% if repository %}
-      <tr
-        class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
-      >
-        <th class="col-span-1 font-normal">Source Code:</th>
-        <td class="col-span-3"><a href="{{ repository }}">GitHub</a></td>
-      </tr>
-      {% endif %} {% if link %}
-      <tr
-        class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
-      >
-        <th class="col-span-1 font-normal">Link:</th>
-        <td class="col-span-3">
-          <a href="{{ link }}">{{ link }}</a>
-        </td>
-      </tr>
       {% endif %} {% if languages and githubData.repos[repository] == nil %}
       <tr
         class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
       >
-        <th class="col-span-1 font-normal">Primäre Sprachen:</th>
-        <td class="col-span-3">
+        <th class="col-span-3 font-normal">Primäre Sprachen:</th>
+        <br><td class="col-span-3">
           {% for language in languages %}
           <span class="py-1 px-2 bg-gray-100 text-gray-600 rounded-md">{{
             language
@@ -72,8 +97,8 @@ permalink: /projekt/{{ id | slug }}/
       <tr
         class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
       >
-        <th class="col-span-1 font-normal">Lizenz:</th>
-        <td class="col-span-3">
+        <th class="col-span-3 font-normal">Lizenz:</th>
+        <br><td class="col-span-3">
           {{ license }}
         </td>
       </tr>
@@ -81,14 +106,14 @@ permalink: /projekt/{{ id | slug }}/
       <tr
         class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
       >
-        <th class="col-span-1 font-normal">Institution:</th>
-        <td class="col-span-3">
+        <th class="col-span-3 font-normal">Institution:</th>
+        <br><td class="col-span-3">
           {{ institution }}
         </td>
       </tr>
       {% endif %}
     </table>
-    {% if repository %}
+    <!--{% if repository %}
     <h2 class="mt-8 text-sm">Daten von GitHub</h2>
     {% endif %} {% if repository and githubData.repos[repository] == nil %}
     <small
@@ -98,48 +123,48 @@ permalink: /projekt/{{ id | slug }}/
     <small
       >Zuletzt aktualisiert:
       {{ githubData.timestamp | date: "%d.%m.%Y" }}</small
-    >
+    >-->
     <table class="mt-4 w-full text-left">
-      <tr
-        class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
+       <tr
+        class="grid grid-cols-4 gap-2 py-2 border-t-2  border-gray-300 border-dotted"
       >
-        <th class="col-span-1 font-normal">Primäre Sprache:</th>
-        <td class="col-span-3">
-          <span class="py-1 px-2 bg-gray-100 text-gray-600 rounded-md">{{
+        <th class="col-span-3 font-normal">Programmiersprache:</th>
+        <br><td class="col-span-3">
+          {{
             githubData.repos[repository].language
-          }}</span>
+          }}
         </td>
       </tr>
-      <tr
+      <!--<tr
         class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
       >
-        <th class="col-span-1 font-normal">Archiviert:</th>
-        <td class="col-span-3">
+        {<th class="col-span-3 font-normal">Archiviert:</th>
+        <br><td class="col-span-3">
           {% if githubData.repos[repository].is_archived == true %} Ja {% else
           %} Nein {% endif %}
         </td>
-      </tr>
+      </tr>-->
       <tr
         class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
       >
-        <th class="col-span-1 font-normal">Letztes Update:</th>
-        <td class="col-span-3">
+        <th class="col-span-3 font-normal">Letztes Update:</th>
+        <br><td class="col-span-3">
           {{ githubData.repos[repository].updated_at | relativeTime }}
         </td>
       </tr>
       <tr
         class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
       >
-        <th class="col-span-1 font-normal">Offene Issues:</th>
-        <td class="col-span-3">
+        <th class="col-span-3 font-normal">Offene Issues:</th>
+        <br><td class="col-span-3">
           {{ githubData.repos[repository].open_issues_count }}
         </td>
       </tr>
       <tr
         class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
       >
-        <th class="col-span-1 font-normal">Lizenz:</th>
-        <td class="col-span-3">
+        <th class="col-span-3 font-normal">Lizenz:</th>
+        <br><td class="col-span-3">
           {{ githubData.repos[repository].license }}
         </td>
       </tr>
