@@ -1,6 +1,6 @@
 ---
 layout: layouts/project.liquid
-tags: ["Projekt", "Beteilung"]
+tags: ["Projekt", "Beteiligung"]
 id: mein-berlin
 title: Mein-Berlin
 abstract: Beteilungsplattform des Landes Berlin
