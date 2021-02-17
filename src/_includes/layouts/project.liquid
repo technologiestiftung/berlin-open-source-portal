@@ -163,9 +163,12 @@ permalink: /projekt/{{ id | slug }}/
       <tr
         class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
       >
-        <th class="col-span-3 font-normal">Lizenz:</th>
-        <br><td class="col-span-3">
+        <th class="col-span-1 font-normal">Lizenz:</th>
+        <td class="col-span-3">
+          {% if githubData.repos[repository].license == "" %} Keine Angabe {%
+          else %}
           {{ githubData.repos[repository].license }}
+          {% endif %}
         </td>
       </tr>
     </table>

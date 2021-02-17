@@ -1,9 +1,13 @@
-<div class="grid mx-auto max-w-prose">
-  <h2>{{ principles.title }}</h2>
-  <p class="mt-4">{{ principles.subtitle }}</p>
-</div>
+---
+layout: layouts/wrapper.liquid
+title: Warum Open Source?
+abstract: Die Nutzung und Entwicklung von Open Source Software bietet für öffentliche Verwaltungen zahlreiche Vorteile.
+permalink: /warum-open-source/
+tags: ["nav", "nav-item-2"]
+---
+
 <ul class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
-  {% for principle in principles.items %}
+  {% for principle in principles %}
   <li class="{% if principle.title == "Kollaboration" %}
     md:col-span-2
     {% endif %}
