@@ -9,6 +9,7 @@ license: MIT
 link: https://badegewaesser-berlin.de/
 repository: https://github.com/technologiestiftung/flusshygiene
 has-hero: true
+has-thumb: true
 date: 2021-02-16
 ---
 

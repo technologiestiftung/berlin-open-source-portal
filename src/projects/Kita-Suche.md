@@ -7,7 +7,7 @@ abstract: Interaktive Karte mit allen Berliner Kitas und zahlreichen Zusatzinfor
 languages: ["Javascript", "CSS", "HTML"]
 license: GNU General Public License
 link: https://kita-suche.berlin
-has-hero: false
+has-thumb: true
 date: 2021-02-16
 ---
 

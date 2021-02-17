@@ -33,7 +33,7 @@ layout: layouts/root.liquid
     {% assign projectsOrderedByDate = collections.project | reversed %} {% for
     project in projectsOrderedByDate limit:3 %} {% include
     partials/project-card.liquid, url: project.url, title: project.data.title,
-    abstract: project.data.abstract, id: project.data.id %} {% endfor %}
+    abstract: project.data.abstract, id: project.data.id, has-thumb: project.data.has-thumb %} {% endfor %}
     <a
       href="/projekte"
       class="component-card p-8 bg-intro-pattern bg-cover bg-blend-soft-light bg-blue-500 flex flex-wrap place-content-between justify-between group"

@@ -9,6 +9,7 @@ license: MIT
 link: http://bikesharing.citylab-berlin.org/
 repository: https://github.com/technologiestiftung/bikesharing-vis
 has-hero: true
+has-thumb: true
 date: 2021-02-16
 ---
 

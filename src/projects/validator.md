@@ -8,7 +8,7 @@ languages: ["JavaScript", "Python"]
 license: MIT License
 link: https://odis-berlin.de/projekte/xml-validator/tool
 repository: https://github.com/technologiestiftung/xml-schema-validator-for-berlins-geodata
-has-hero: false
+has-thumb: true
 date: 2021-02-16
 ---
 
