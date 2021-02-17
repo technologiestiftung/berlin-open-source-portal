@@ -8,7 +8,7 @@ languages: ["Jupyter Notebook"]
 license: MIT
 link: http://bikesharing.citylab-berlin.org/
 repository: https://github.com/technologiestiftung/bike-sharing
-has-hero: false
+has-thumb: true
 date: 2021-02-16
 ---
 

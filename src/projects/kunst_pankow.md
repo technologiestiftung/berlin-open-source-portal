@@ -6,6 +6,7 @@ title: Kunst im öffentlichen Raum Pankow
 abstract: Durch eine interaktive Webanwendung Pankows Kunstwerke erkunden
 link: https://vikus.kunst-im-oeffentlichen-raum-pankow.de
 repository: https://github.com/cpietsch/vikus-viewer
+has-thumb: true
 date: 2021-02-16
 ---
 

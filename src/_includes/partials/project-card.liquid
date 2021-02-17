@@ -1,9 +1,10 @@
-<a
-  href="{{ url }}"
-  class="component-card grid grid-cols-4 gap-4"
->
+<a href="{{ url }}" class="component-card grid grid-cols-4 gap-4">
   <img
+    {% if has-thumb == true %}
     src="/assets/images/projects/{{ id }}-thumb.png"
+    {% else %}
+    src="/assets/images/project_thumb_default.jpg"
+    {% endif %}
     alt="{{ title }}"
     class="col-span-1 md:col-span-2"
   />
