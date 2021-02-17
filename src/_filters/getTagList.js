@@ -8,8 +8,10 @@ module.exports = function (collectionApi) {
         tags = [tags];
       }
       tags = tags.filter(function (item) {
+        if (item.startsWith("nav-item-")) return false;
         switch (item) {
           case "all":
+          case "nav":
           case "project":
           case "document":
             return false;
