@@ -5,7 +5,9 @@ layout: layouts/root.liquid
 <section
   class="px-8 pt-16 md:pt-32 pb-64 lg:pb-32 bg-intro-pattern bg-cover bg-gray-200 bg-blend-soft-light clip-path-slanted"
 >
-  <div class="max-w-screen-lg mx-auto grid lg:grid-cols-2 gap-x-6 gap-y-0 md:gap-y-2">
+  <div
+    class="max-w-screen-lg mx-auto grid lg:grid-cols-2 gap-x-6 gap-y-0 md:gap-y-2"
+  >
     <h1 class="lg:text-right">
       Berlin<br />
       <span class="font-normal">Open-Source Portal</span>
@@ -15,7 +17,9 @@ layout: layouts/root.liquid
       src="/assets/images/logo.svg"
       alt="Logo des Berlin Open-Source-Portal"
     />
-    <h2 class="md:w-96 text-blue-500 font-normal lg:text-right lg:justify-self-end">
+    <h2
+      class="md:w-96 text-blue-500 font-normal lg:text-right lg:justify-self-end"
+    >
       Open-Source Projekte im Land Berlin
     </h2>
     <div class="mt-6 prose">
@@ -24,12 +28,24 @@ layout: layouts/root.liquid
   </div>
 </section>
 <section class="mt-16 px-8 max-w-screen-lg mx-auto">
-  <h2>Projekte</h2>
-  <p class="mt-2">Ein Auszug aktueller Projekte im Überblick.</p>
+  <h2>Neueste Projekte</h2>
   <div class="mt-6 grid md:grid-cols-2 gap-4 md:gap-8">
-    {% for project in collections.project %} {% if project.data.featured == true
-    %} {% include partials/project-card.liquid, url: project.url, title:
-    project.data.title, abstract: project.data.abstract, id: project.data.id %}
-    {% endif %} {% endfor %}
+    {% assign projectsOrderedByDate = collections.project | reversed %} {% for
+    project in projectsOrderedByDate limit:3 %} {% include
+    partials/project-card.liquid, url: project.url, title: project.data.title,
+    abstract: project.data.abstract, id: project.data.id %} {% endfor %}
+    <a
+      href="/projekte"
+      class="component-card p-8 bg-intro-pattern bg-cover bg-blend-soft-light bg-blue-500 flex flex-wrap place-content-between justify-between group"
+    >
+      <p class="mr-8 text-lg text-blue-200">
+        Es gibt aktuell {{ collections.project.length }} Projekte.
+      </p>
+      <h3
+        class="text-white transform transition-transform group-hover:translate-x-3"
+      >
+        → Alle Projekte ansehen
+      </h3>
+    </a>
   </div>
 </section>
