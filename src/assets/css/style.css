@@ -74,7 +74,7 @@
     @apply px-2 py-1 border-2 border-blue-50 rounded-md;
   }
   .component-card {
-    @apply h-full p-4 bg-white shadow-md focus:shadow-none grid grid-cols-4 gap-4 transform focus:scale-95 transition-transform;
+    @apply h-full p-4 bg-white shadow focus:shadow-none transform focus:scale-95 transition-transform;
   }
 }
 
