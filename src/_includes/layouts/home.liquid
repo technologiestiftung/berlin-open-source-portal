@@ -30,9 +30,22 @@ layout: layouts/root.liquid
 <section class="mt-16 px-8 max-w-screen-lg mx-auto">
   <h2>Neueste Projekte</h2>
   <div class="mt-6 grid md:grid-cols-2 gap-4 md:gap-8">
-    {% assign projectsOrderedByDate = collections.project | reverse %} {% for
+    {% assign projectsOrderedByDate = collections.project | reversed %} {% for
     project in projectsOrderedByDate limit:3 %} {% include
     partials/project-card.liquid, url: project.url, title: project.data.title,
     abstract: project.data.abstract, id: project.data.id %} {% endfor %}
+    <a
+      href="/projekte"
+      class="component-card p-8 bg-intro-pattern bg-cover bg-blend-soft-light bg-blue-500 flex flex-wrap place-content-between justify-between group"
+    >
+      <p class="mr-8 text-lg text-blue-200">
+        Es gibt aktuell {{ collections.project.length }} Projekte.
+      </p>
+      <h3
+        class="text-white transform transition-transform group-hover:translate-x-3"
+      >
+        → Alle Projekte ansehen
+      </h3>
+    </a>
   </div>
 </section>
