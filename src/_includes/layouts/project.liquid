@@ -140,7 +140,10 @@ permalink: /projekt/{{ id | slug }}/
       >
         <th class="col-span-1 font-normal">Lizenz:</th>
         <td class="col-span-3">
+          {% if githubData.repos[repository].license == "" %} Keine Angabe {%
+          else %}
           {{ githubData.repos[repository].license }}
+          {% endif %}
         </td>
       </tr>
     </table>
