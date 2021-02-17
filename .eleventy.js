@@ -16,6 +16,25 @@ module.exports = function (eleventyConfig) {
     require("./src/_filters/getTagList.js")
   );
 
+  eleventyConfig.addCollection("navItems", function (collectionApi) {
+    const navItems = collectionApi.getFilteredByTag("nav");
+
+    const sortedNavItems = navItems.sort((a, b) => {
+      const getPositionTag = (item) => {
+        return item.data.tags.find((tag) => tag.startsWith("nav-item-"));
+      };
+
+      const aTag = getPositionTag(a);
+      const bTag = getPositionTag(b);
+
+      if (aTag < bTag) return -1;
+      if (aTag > bTag) return 1;
+      return 0;
+    });
+
+    return sortedNavItems;
+  });
+
   eleventyConfig.addFilter("relativeTime", (date) => {
     const delta = Math.round((new Date() - new Date(date)) / 1000);
 
