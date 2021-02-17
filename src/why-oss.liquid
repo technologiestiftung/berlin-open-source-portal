@@ -1,8 +1,30 @@
 ---
 layout: layouts/wrapper.liquid
 title: Warum Open Source?
+abstract: Die Nutzung und Entwicklung von Open Source Software bietet für öffentliche Verwaltungen zahlreiche Vorteile.
 permalink: /warum-open-source/
 tags: ["nav", "nav-item-2"]
 ---
 
-...
+<ul class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+  {% for principle in principles %}
+  <li class="{% if principle.title == "Kollaboration" %}
+    md:col-span-2
+    {% endif %}
+    p-8 bg-white border-2 border-gray-200">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+      <div class="col-span-1 flex items-center md:justify-center">
+        <img src="/assets/images/icons/icon_{{principle.id}}.svg" alt="{{ principle.title }}">
+      </div>
+      <div class="md:col-span-3">
+        <h3>{{ principle.title }}</h3>
+        {% for item in principle.content %}
+        <p class="my-3">
+          {{ item }}
+        </p>
+        {% endfor %}
+      </div>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
