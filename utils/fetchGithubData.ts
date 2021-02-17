@@ -55,7 +55,7 @@ readdir("./src/projects", (error: Error, filenames: string[]) => {
           const extractedData: RepoDataType = {
             language: language,
             is_archived: archived,
-            license: license ? license.spdx_id : null,
+            license: license ? license.spdx_id : "",
             open_issues_count: open_issues_count,
             updated_at: updated_at,
             html_url: html_url,

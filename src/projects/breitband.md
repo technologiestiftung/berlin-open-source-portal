@@ -9,6 +9,8 @@ license: MIT License
 link: https://www.breitband.berlin.de
 repository: https://github.com/BerlinerBreitbandPortal/BBP
 has-hero: true
+has-thumb: true
+date: 2021-02-16
 ---
 
 ## Hintergrund
