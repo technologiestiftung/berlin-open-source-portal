@@ -65,13 +65,20 @@
   h3 {
     @apply text-2xl lg:text-3xl font-bold;
   }
+
+  th {
+    @apply font-normal;
+  }
+
+  button {
+    @apply text-center font-bold block px-2 py-3 rounded-lg border-blue-500 border-2 hover:bg-blue-500 hover:text-white transition-colors;
+  }
 }
 
 /* For clear distinction of component classes, please prefix your custom classes with a "component-". */
 @layer components {
-  button,
   .component-button {
-    @apply px-2 py-1 border-2 border-blue-50 rounded-md;
+    @apply text-center font-bold px-2 py-3 rounded-lg border-blue-500 border-2 hover:bg-blue-500 hover:text-white transition-colors;
   }
   .component-card {
     @apply h-full p-4 bg-white shadow focus:shadow-none transform focus:scale-95 transition-transform;
@@ -88,5 +95,8 @@
   }
   .bg-blend-soft-light {
     background-blend-mode: soft-light;
+  }
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   }
 }
