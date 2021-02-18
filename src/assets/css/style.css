@@ -71,14 +71,14 @@
   }
 
   button {
-    @apply text-center font-bold block px-2 py-3 rounded-lg border-blue-500 border-2 hover:bg-blue-500 hover:text-white;
+    @apply text-center font-bold block px-2 py-3 rounded-lg border-blue-500 border-2 hover:bg-blue-500 hover:text-white transition-colors;
   }
 }
 
 /* For clear distinction of component classes, please prefix your custom classes with a "component-". */
 @layer components {
   .component-button {
-    @apply text-center font-bold px-2 py-3 rounded-lg border-blue-500 border-2 hover:bg-blue-500 hover:text-white;
+    @apply text-center font-bold px-2 py-3 rounded-lg border-blue-500 border-2 hover:bg-blue-500 hover:text-white transition-colors;
   }
   .component-card {
     @apply h-full p-4 bg-white shadow focus:shadow-none transform focus:scale-95 transition-transform;
