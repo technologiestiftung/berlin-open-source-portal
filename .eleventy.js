@@ -46,28 +46,24 @@ module.exports = function (eleventyConfig) {
       year = month * 12;
 
     switch (true) {
-      case delta <= day * 2:
-        return "Gestern aktualisiert";
-      case delta <= day * 3:
-        return "Vorgestern aktualisiert";
       case delta <= week:
-        return "In der letzten Woche aktualisiert";
+        return "In der letzten Woche";
       case delta <= month:
-        return "Im letzten Monat aktualisiert";
+        return "Im letzten Monat";
       case delta <= month * 2:
-        return "Vor 2 Monaten aktualisiert";
+        return "Vor 2 Monaten";
       case delta <= month * 3:
-        return "Vor 3 Monaten aktualisiert";
+        return "Vor 3 Monaten";
       case delta <= month * 6:
-        return "Vor über 3 Monaten aktualisiert";
+        return "Vor über 3 Monaten";
       case delta <= year:
-        return "Vor über 6 Monaten aktualisiert";
+        return "Vor über 6 Monaten";
       case delta <= year * 2:
-        return "Vor über einem Jahr aktualisiert";
+        return "Vor über einem Jahr";
       case delta <= year * 3:
-        return "Vor über zwei Jahren aktualisiert";
+        return "Vor über zwei Jahren";
       default:
-        return `Aktualisiert: ${new Date(date).toLocaleDateString("de-DE")}`;
+        return `${new Date(date).toLocaleDateString("de-DE")}`;
     }
   });
 
