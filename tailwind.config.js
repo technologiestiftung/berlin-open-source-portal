@@ -39,6 +39,12 @@ module.exports = {
       },
       white: "#fff",
     },
+    boxShadow: {
+      DEFAULT:
+        "0 0 8px -1px rgba(0, 0, 0, 0.2), 0 0 6px -1px rgba(0, 0, 0, 0.06)",
+      inner: "inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)",
+      none: "none",
+    },
     extend: {
       typography: {
         DEFAULT: {
@@ -64,7 +70,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      translate: ["group-hover"],
+    },
   },
   plugins: [require("@tailwindcss/typography")],
 };

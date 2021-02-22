@@ -20,7 +20,7 @@ permalink: /projekt/{{ id | slug }}/
   class="w-full h-56 md:h-96 bg-blue-500 text-white bg-cover clip-path-slanted bg-blend-soft-light"
 >
   <div class="max-w-screen-lg h-full mx-auto p-8 grid grid-cols-12 md:gap-8">
-    <h1 class="col-span-12 md:col-start-6 md:col-span-7 self-center">
+    <h1 class="col-span-12 md:col-start-6 md:col-span-7 self-center text-shadow">
       {{ title }}
     </h1>
   </div>
@@ -38,113 +38,103 @@ permalink: /projekt/{{ id | slug }}/
       {% endunless %} {% endfor %}
     </div>
     {% endif %}
+    <div class="mt-8 grid gap-4">
+      {% if link %}
+      <a href="{{ link }}" target="_blank" rel="noopener noreferrer" class="component-button w-4/5 sm:w-2/5 md:w-4/5 flex justify-center items-center">
+        <span class="inline-block">{% include partials/icon-link.html %}</span>
+        <span class="ml-1">Zur Website</span>
+      </a>
+      {% endif %} {% if repository %}
+      <a href="{{ repository }}" target="_blank" rel="noopener noreferrer" class="component-button w-4/5 sm:w-2/5 md:w-4/5 flex justify-center items-center">
+        <span class="inline-block">{% include partials/icon-github.html %}</span>
+        <span class="ml-1">Zum Repository</span>
+      </a>
+      {% endif %}
+    </div>
     <table class="mt-8 w-full text-left">
-      {% if repository %}
+      {% if institution %}
       <tr
-        class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
+        class="grid gap-1 py-2 border-b-2 border-gray-300 border-dotted"
       >
-        <th class="col-span-1 font-normal">Source Code:</th>
-        <td class="col-span-3"><a href="{{ repository }}">GitHub</a></td>
-      </tr>
-      {% endif %} {% if link %}
-      <tr
-        class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
-      >
-        <th class="col-span-1 font-normal">Link:</th>
-        <td class="col-span-3">
-          <a href="{{ link }}">{{ link }}</a>
+        <th class="text-xs">Institution:</th>
+        <td>
+          {{ institution }}
         </td>
       </tr>
-      {% endif %} {% if languages and githubData.repos[repository] == nil %}
+      {% endif %} {% if githubData.repos[repository].updated_at %}
       <tr
-        class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
+        class="grid py-3 border-b-2 border-gray-300 border-dotted"
       >
-        <th class="col-span-1 font-normal">Primäre Sprachen:</th>
-        <td class="col-span-3">
+        <th class="text-xs">Letztes Update:</th>
+        <td>
+          {{ githubData.repos[repository].updated_at | relativeTime }}
+          {% if githubData.repos[repository].is_archived == true %}
+          <br>
+          <span class="text-xs">[Projekt ist archiviert]</span>
+          {% endif %}
+        </td>
+      </tr>
+      {% endif %} {% if githubData.repos[repository].open_issues_count %}
+      <tr
+        class="grid py-3 border-b-2 border-gray-300 border-dotted"
+      >
+        <th class="text-xs">Offene Issues:</th>
+        <td>
+          {{ githubData.repos[repository].open_issues_count }}
+        </td>
+      </tr>{% endif %} {% if languages or githubData.repos[repository].language %}
+      <tr
+        class="grid py-3 border-b-2 border-gray-300 border-dotted"
+      >
+        <th class="text-xs">Programmiersprache(n):</th>
+        <td>
+          {% if languages %}
           {% for language in languages %}
-          <span class="py-1 px-2 bg-gray-100 text-gray-600 rounded-md">{{
+          <span>
+            {% unless forloop.first %}
+            <span aria-hidden="true">&#8226;</span>
+            {% endunless %} {{
             language
           }}</span>
           {% endfor %}
+          {% endif %}
+
+          {% assign githubLanguage = githubData.repos[repository].language %}
+          {% if repository and githubLanguage != nil %}
+
+          {% capture stringifiedLanguages %}{{ languages }}{% endcapture %}
+          {% assign downcasedLanguages = stringifiedLanguages | downcase %}
+          {% assign downcasedGithubLanguage = githubLanguage | downcase %}
+
+          {% unless downcasedLanguages contains downcasedGithubLanguage %}
+          <span>
+            {% unless languages == nil or languages.length == 0 %}
+            <span aria-hidden="true">&#8226;</span>
+            {% endunless %}
+            {{ githubData.repos[repository].language }}
+          </span>
+          {% endunless %}
+
+          {% endif %}
         </td>
       </tr>
-      {% endif %} {% if license and githubData.repos[repository] == nil %}
+      {% endif %} {% if license or githubData.repos[repository].license %}
       <tr
-        class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
+        class="grid py-3 border-b-2 border-gray-300 border-dotted"
       >
-        <th class="col-span-1 font-normal">Lizenz:</th>
-        <td class="col-span-3">
+        <th class="text-xs">Lizenz:</th>
+        <td>
+          {% if license %}
           {{ license }}
-        </td>
-      </tr>
-      {% endif %} {% if institution %}
-      <tr
-        class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
-      >
-        <th class="col-span-1 font-normal">Institution:</th>
-        <td class="col-span-3">
-          {{ institution }}
+          {% elsif githubData.repos[repository].license != "" %}
+          {{ githubData.repos[repository].license }}
+          {% else %}
+          Keine Angabe
+          {% endif %}
         </td>
       </tr>
       {% endif %}
     </table>
-    {% if repository %}
-    <h2 class="mt-8 text-sm">Daten von GitHub</h2>
-    {% endif %} {% if repository and githubData.repos[repository] == nil %}
-    <small
-      >Aktualisierung ausstehend. Bitte versuche es später noch einmal.</small
-    >
-    {% endif %} {% if githubData.repos[repository] %}
-    <small
-      >Zuletzt aktualisiert:
-      {{ githubData.timestamp | date: "%d.%m.%Y" }}</small
-    >
-    <table class="mt-4 w-full text-left">
-      <tr
-        class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
-      >
-        <th class="col-span-1 font-normal">Primäre Sprache:</th>
-        <td class="col-span-3">
-          <span class="py-1 px-2 bg-gray-100 text-gray-600 rounded-md">{{
-            githubData.repos[repository].language
-          }}</span>
-        </td>
-      </tr>
-      <tr
-        class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
-      >
-        <th class="col-span-1 font-normal">Archiviert:</th>
-        <td class="col-span-3">
-          {% if githubData.repos[repository].is_archived == true %} Ja {% else
-          %} Nein {% endif %}
-        </td>
-      </tr>
-      <tr
-        class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
-      >
-        <th class="col-span-1 font-normal">Letztes Update:</th>
-        <td class="col-span-3">
-          {{ githubData.repos[repository].updated_at | relativeTime }}
-        </td>
-      </tr>
-      <tr
-        class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
-      >
-        <th class="col-span-1 font-normal">Offene Issues:</th>
-        <td class="col-span-3">
-          {{ githubData.repos[repository].open_issues_count }}
-        </td>
-      </tr>
-      <tr
-        class="grid grid-cols-4 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
-      >
-        <th class="col-span-1 font-normal">Lizenz:</th>
-        <td class="col-span-3">
-          {{ githubData.repos[repository].license }}
-        </td>
-      </tr>
-    </table>
-    {% endif %}
   </div>
   <article class="col-span-12 md:col-span-7 mt-8 md:mt-0 prose">
     {{ content }}

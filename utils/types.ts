@@ -24,7 +24,7 @@ type PickedGithubResponseKeys = Pick<
 
 export interface RepoDataType extends PickedGithubResponseKeys {
   is_archived: Boolean;
-  license: string | null;
+  license: string;
 }
 
 type RepoObjectType = {
