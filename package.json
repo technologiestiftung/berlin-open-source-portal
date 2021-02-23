@@ -14,7 +14,9 @@
     "build": "run-s clean build:css build:eleventy --print-label",
     "start": "eleventy --serve",
     "cypress:run": "cypress run",
-    "test": "start-server-and-test dev:eleventy http://localhost:8080 cypress:run"
+    "cypress:open": "cypress open",
+    "test": "start-server-and-test dev http://localhost:8080 cypress:run",
+    "test:watch": "start-server-and-test dev http://localhost:8080 cypress:open"
   },
   "repository": {
     "type": "git",
