@@ -12,7 +12,7 @@
     "build:eleventy": "ELEVENTY_ENV=production eleventy",
     "dev": "npm-run-all clean --parallel dev:* --print-label",
     "build": "run-s clean build:css build:eleventy --print-label",
-    "start": "eleventy --serve",
+    "start": "eleventy --serve --quiet",
     "cypress:run": "cypress run",
     "cypress:open": "cypress open",
     "test": "start-server-and-test dev http://localhost:8080 cypress:run",
