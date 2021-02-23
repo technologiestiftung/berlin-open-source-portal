@@ -3,7 +3,7 @@ layout: layouts/project.liquid
 tags: ["Projekt", "Beteiligung"]
 id: mein-berlin
 title: Mein-Berlin
-abstract: Beteilungsplattform des Landes Berlin
+abstract: Beteiligungsplattform des Landes Berlin
 languages: ["Python", "HTML", "Javascript"]
 license: GNU Affero General Public License
 link: https://mein.berlin.de/
