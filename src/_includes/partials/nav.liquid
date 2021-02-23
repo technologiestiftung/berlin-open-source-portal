@@ -1,10 +1,14 @@
-<nav class="flex items-center ml-4">
-  <ul class="flex flex-wrap text-lg md:text-2xl">
-    <li class="mr-2 md:mr-4">
-      <a href="{{ site.baseurl }}/projects/">Projekte</a>
+<nav class="flex items-center">
+  <ul class="flex flex-wrap text-lg">
+    {% for item in collections.navItems %}
+    <li
+      class="my-1 mr-2 md:mr-3 pr-2 md:pr-3 border-dotted {% if forloop.last %}border-r-0{% else %}border-r-2{% endif %}"
+    >
+      <a href="{{ item.url }}" class="text-gray-900">{{ item.data.title }}</a>
     </li>
-    <li>
-      <a href="{{ site.baseurl }}/documents/">Dokumente</a>
+    {% endfor %}
+    <li class="my-1">
+      <a href="/mitmachen/" class="component-button text-gray-900 font-normal border-gray-200 hover:border-blue-500 py-1 px-2">Mitmachen</a>
     </li>
   </ul>
 </nav>

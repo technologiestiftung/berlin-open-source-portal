@@ -1,62 +1,21 @@
 ---
-defaultTitle: Open-Source Portal Berlin
+layout: layouts/root.liquid
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>{% if title %}{{ title }} | {% endif %}{{ defaultTitle }}</title>
-    {%- comment -%} All of the following CSS files are legacy stuff. TODO:
-    Refactor to Tailwind and remove them step by step. {%- endcomment -%}
-    <link rel="stylesheet" href="/assets/css/github-markdown.css" />
-    <link rel="stylesheet" href="/assets/css/syntax.css" />
-    <!-- <link rel="stylesheet" href="/assets/css/fonts.css" /> -->
-    <link rel="stylesheet" href="/assets/css/style-old.css" />
-    {%- comment -%} Legacy CSS end {%- endcomment -%}
-    <link rel="stylesheet" href="/assets/css/style.compiled.css" />
-
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-
-    <!-- Matomo -->
-    <script type="text/javascript">
-      var _paq = (window._paq = window._paq || []);
-      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-      _paq.push(["trackPageView"]);
-      _paq.push(["enableLinkTracking"]);
-      (function () {
-        var u = "https://piwik.technologiestiftung-berlin.de/";
-        _paq.push(["setTrackerUrl", u + "matomo.php"]);
-        _paq.push(["setSiteId", "13"]);
-        var d = document,
-          g = d.createElement("script"),
-          s = d.getElementsByTagName("script")[0];
-        g.type = "text/javascript";
-        g.async = true;
-        g.src = u + "matomo.js";
-        s.parentNode.insertBefore(g, s);
-      })();
-    </script>
-    <!-- End Matomo Code -->
-  </head>
-
-  <body>
-    {% include partials/header.liquid %}
-
-    <main>
-      <div class="wrapper">
-        <!-- it might be possible to merge main and .wrapper   -->
-
-        <div class="inner-wrapper lg:mt-12">
-          {{ content }}
-        </div>
-      </div>
-    </main>
-
-    {% include partials/footer.liquid %}
-  </body>
-</html>
+<section
+  class="px-8 pt-16 md:pt-32 pb-32 bg-gray-200 bg-intro-pattern bg-cover bg-blend-soft-light clip-path-slanted"
+>
+  <div class="max-w-screen-lg mx-auto grid md:grid-cols-2 gap-2 md:gap-6">
+    <h1 class="pb-2 md:pb-0 md:text-right">{{ title }}</h1>
+    <div>
+      {% if page.fileSlug == "contribute" %} {% include
+      partials/contribute-intro.liquid %} {% elsif page.fileSlug == "projects"
+      %} {% include partials/project-intro.liquid %} {% elsif abstract %}
+      {{ abstract }}
+      {% endif %}
+    </div>
+  </div>
+</section>
+<section class="max-w-screen-lg p-8 mx-auto mt-0 md:mt-4">
+  {{ content }}
+</section>

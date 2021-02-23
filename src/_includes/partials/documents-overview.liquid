@@ -1,16 +1,9 @@
-<div class="section-header">
-  <h2>Alle Dokumente</h2>
-  <hr />
-</div>
-
-<section class="cards">
+<section class="grid grid-cols-1 gap-4 md:gap-8">
   {% for document in collections.documents %}
-  <a href="{{ document.url }}">
-    <div class="card">
+  <a href="{{ document.url }}" class="p-4 bg-white shadow">
+    <div class="">
       <h3>{{ document.data.title }}</h3>
-      <p>{{ document.data.abstract }}</p>
-      {% if document.data.link %}<small>{{ document.data.link }}</small
-      >{% endif %}
+      <p class="text-gray-900">{{ document.data.abstract }}</p>
     </div>
   </a>
   {% endfor %}

@@ -1,0 +1,19 @@
+<a href="{{ url }}" class="component-card grid grid-cols-4 gap-4">
+  <img
+    {% if has-thumb == true %}
+    src="/assets/images/projects/{{ id }}-thumb.png"
+    {% else %}
+    src="/assets/images/project_thumb_default.jpg"
+    {% endif %}
+    alt="{{ title }}"
+    class="col-span-1 md:col-span-2"
+  />
+  <div
+    class="col-span-3 md:col-span-2 h-full grid gap-1 md:gap-2 grid-rows-stretch-last"
+  >
+    <h3>{{ title }}</h3>
+    <div class="flex flex-wrap place-content-between">
+      <p class="text-gray-900">{{ abstract }}</p>
+    </div>
+  </div>
+</a>

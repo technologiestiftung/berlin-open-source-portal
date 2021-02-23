@@ -8,13 +8,10 @@ languages: ["Typescript"]
 license: MIT
 link: https://badegewaesser-berlin.de/
 repository: https://github.com/technologiestiftung/flusshygiene
+has-hero: true
+has-thumb: true
+date: 2021-02-16
 ---
-
-# Berliner Badestellen
-
-Online unter <a href="https://badegewaesser-berlin.de/" target="_blank" rel="noopener noreferrer">badegewaesser-berlin.de</a>
-
-Source Code bei <a href="https://github.com/technologiestiftung/flusshygiene" target="_blank" rel="noopener noreferrer">GitHub</a>
 
 Die Anwendung wurde vom Ideation & Prototyping Lab der Technologiestiftung Berlin in Zusammenarbeit mit dem Kompetenzzentrum Wasser, den Berliner Wasserbetrieben und dem LaGeSo entwickelt. Mit dieser Anwendung haben die Berliner Bürger\*innen die Möglichkeit sich tagesaktuell über die Badegewässerqualität der Berliner Badestellen zu informieren. Neben den Messwerten gibt es Informationen rund um die Badestellen, von Barrierefreiheit bis Würstchenbude. Auch eine Weiterleitung zur BVG und Routing Services ist integriert, sodass dem nächsten Badeausflug nichts mehr im Wege steht.
 

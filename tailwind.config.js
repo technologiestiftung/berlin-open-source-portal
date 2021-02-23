@@ -1,7 +1,7 @@
 module.exports = {
   purge: {
     enabled: process.env.NODE_ENV === "production",
-    content: ["./src/**/*.{html,liquid}"],
+    content: ["./src/**/*.{html,liquid,njk}"],
   },
   darkMode: false,
   theme: {
@@ -39,10 +39,40 @@ module.exports = {
       },
       white: "#fff",
     },
-    extend: {},
+    boxShadow: {
+      DEFAULT:
+        "0 0 8px -1px rgba(0, 0, 0, 0.2), 0 0 6px -1px rgba(0, 0, 0, 0.06)",
+      inner: "inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)",
+      none: "none",
+    },
+    extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            color: "#18181b",
+            a: {
+              color: "#1e3791",
+              textDecoration: "none",
+              "&:hover": {
+                color: "#e60032",
+              },
+            },
+            lineHeight: 1.5,
+          },
+        },
+      },
+      gridTemplateRows: {
+        "stretch-last": "auto minmax(auto, 1fr)",
+      },
+      backgroundImage: (_theme) => ({
+        "intro-pattern": "url('/assets/images/bg_default.svg')",
+      }),
+    },
   },
   variants: {
-    extend: {},
+    extend: {
+      translate: ["group-hover"],
+    },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };

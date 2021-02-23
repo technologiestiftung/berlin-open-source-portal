@@ -1,15 +1,16 @@
 ---
 layout: layouts/project.liquid
-tags: ["Projekt", "Beteilung"]
+tags: ["Projekt", "Beteiligung"]
 id: mein-berlin
 title: Mein-Berlin
 abstract: Beteilungsplattform des Landes Berlin
 languages: ["Python", "HTML", "Javascript"]
 license: GNU Affero General Public License
 link: https://mein.berlin.de/
+has-hero: true
+has-thumb: true
+date: 2021-02-16
 ---
-
-# Mein Berlin
 
 Die Berliner Verwaltung teilt durch meinBerlin Informationen über die Projekte der Berliner Verwaltung und können eigene Ideen und Anregungen einbringen. Mitmachen können dabei alle, die sich für die Gestaltung von Berlin interessieren.
 

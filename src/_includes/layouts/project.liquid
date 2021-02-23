@@ -1,46 +1,146 @@
 ---
-layout: layouts/wrapper.liquid
+layout: layouts/root.liquid
 tags: project
+permalink: /projekt/{{ id | slug }}/
 ---
 
-<div class="overview">
-  <h1>{{ title }}</h1>
-  {% if tags %}
-  <div class="mt-8">
-    {% for tag in tags %} {% unless tag == "project" or tag == "documents" %}
-    <a
-      href="/tag/{{ tag | slug }}"
-      class="mr-1 py-1 px-2 bg-blue-500 hover:bg-red-500 text-white hover:text-white rounded-full"
-      >{{ tag }}</a
-    >
-    {% endunless %} {% endfor %}
-  </div>
-  {% endif %}
-  <table class="mt-8 w-full text-left">
-    {% if repository %}
-    <tr
-      class="grid grid-cols-2 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
-    >
-      <th class="font-normal">Source Code:</th>
-      <td><a href="{{ repository }}">GitHub</a></td>
-    </tr>
-    {% endif %} {% if link %}
-    <tr
-      class="grid grid-cols-2 gap-2 py-2 border-t-2 border-gray-300 border-dotted"
-    >
-      <th class="font-normal">Link:</th>
-      <td>
-        <a href="{{ link }}">{{ link }}</a>
-      </td>
-    </tr>
-    {% endif %}
-  </table>
-</div>
+{% if has-hero == true %} {% capture heroURL %}/assets/images/projects/{{
+  id
+}}-hero.jpg{% endcapture %} {% else %} {% capture heroURL
+%}/assets/images/bg_default.svg{% endcapture %} {% endif %}
 
-<div>
-  <article class="markdown-body">
+<style>
+  #hero {
+    background-image: url({{heroURL}});
+  }
+</style>
+
+<section
+  id="hero"
+  class="w-full h-56 md:h-96 bg-blue-500 text-white bg-cover clip-path-slanted bg-blend-soft-light"
+>
+  <div class="max-w-screen-lg h-full mx-auto p-8 grid grid-cols-12 md:gap-8">
+    <h1 class="col-span-12 md:col-start-6 md:col-span-7 self-center text-shadow">
+      {{ title }}
+    </h1>
+  </div>
+</section>
+<div
+  class="max-w-screen-lg mx-auto p-8 grid grid-cols-12 md:gap-8 md:mt-12 mb-12"
+>
+  <div class="col-span-12 md:col-span-5">
+    {% if tags %}
+    <div class="mt-4 md:mt-0">
+      {% for tag in tags %} {% unless tag == "project" or tag == "documents" %}
+      <li class="inline-block mt-2">
+        {% include partials/tag.liquid, tag: tag %}
+      </li>
+      {% endunless %} {% endfor %}
+    </div>
+    {% endif %}
+    <div class="mt-8 grid gap-4">
+      {% if link %}
+      <a href="{{ link }}" target="_blank" rel="noopener noreferrer" class="component-button w-4/5 sm:w-2/5 md:w-4/5 flex justify-center items-center">
+        <span class="inline-block">{% include partials/icon-link.html %}</span>
+        <span class="ml-1">Zur Website</span>
+      </a>
+      {% endif %} {% if repository %}
+      <a href="{{ repository }}" target="_blank" rel="noopener noreferrer" class="component-button w-4/5 sm:w-2/5 md:w-4/5 flex justify-center items-center">
+        <span class="inline-block">{% include partials/icon-github.html %}</span>
+        <span class="ml-1">Zum Repository</span>
+      </a>
+      {% endif %}
+    </div>
+    <table class="mt-8 w-full text-left">
+      {% if institution %}
+      <tr
+        class="grid gap-1 py-2 border-b-2 border-gray-300 border-dotted"
+      >
+        <th class="text-xs">Institution:</th>
+        <td>
+          {{ institution }}
+        </td>
+      </tr>
+      {% endif %} {% if githubData.repos[repository].updated_at %}
+      <tr
+        class="grid py-3 border-b-2 border-gray-300 border-dotted"
+      >
+        <th class="text-xs">Letztes Update:</th>
+        <td>
+          {{ githubData.repos[repository].updated_at | relativeTime }}
+          {% if githubData.repos[repository].is_archived == true %}
+          <br>
+          <span class="text-xs">[Projekt ist archiviert]</span>
+          {% endif %}
+        </td>
+      </tr>
+      {% endif %} {% if githubData.repos[repository].open_issues_count %}
+      <tr
+        class="grid py-3 border-b-2 border-gray-300 border-dotted"
+      >
+        <th class="text-xs">Offene Issues:</th>
+        <td>
+          {{ githubData.repos[repository].open_issues_count }}
+        </td>
+      </tr>{% endif %} {% if languages or githubData.repos[repository].language %}
+      <tr
+        class="grid py-3 border-b-2 border-gray-300 border-dotted"
+      >
+        <th class="text-xs">Programmiersprache(n):</th>
+        <td>
+          {% if languages %}
+          {% for language in languages %}
+          <span>
+            {% unless forloop.first %}
+            <span aria-hidden="true">&#8226;</span>
+            {% endunless %} {{
+            language
+          }}</span>
+          {% endfor %}
+          {% endif %}
+
+          {% assign githubLanguage = githubData.repos[repository].language %}
+          {% if repository and githubLanguage != nil %}
+
+          {% capture stringifiedLanguages %}{{ languages }}{% endcapture %}
+          {% assign downcasedLanguages = stringifiedLanguages | downcase %}
+          {% assign downcasedGithubLanguage = githubLanguage | downcase %}
+
+          {% unless downcasedLanguages contains downcasedGithubLanguage %}
+          <span>
+            {% unless languages == nil or languages.length == 0 %}
+            <span aria-hidden="true">&#8226;</span>
+            {% endunless %}
+            {{ githubData.repos[repository].language }}
+          </span>
+          {% endunless %}
+
+          {% endif %}
+        </td>
+      </tr>
+      {% endif %} {% if license or githubData.repos[repository].license %}
+      <tr
+        class="grid py-3 border-b-2 border-gray-300 border-dotted"
+      >
+        <th class="text-xs">Lizenz:</th>
+        <td>
+          {% if license %}
+          {{ license }}
+          {% elsif githubData.repos[repository].license != "" %}
+          {{ githubData.repos[repository].license }}
+          {% else %}
+          Keine Angabe
+          {% endif %}
+        </td>
+      </tr>
+      {% endif %}
+    </table>
+  </div>
+  <article class="col-span-12 md:col-span-7 mt-8 md:mt-0 prose">
     {{ content }}
   </article>
+  <aside class="col-span-12 mt-12">
+    <h2 class="mx-auto text-center">Alle Projekte auf einen Blick</h2>
+    <div class="mt-8">{% include partials/project-overview.liquid %}</div>
+  </aside>
 </div>
-
-{% include partials/project-overview.liquid %}

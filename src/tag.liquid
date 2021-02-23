@@ -1,0 +1,25 @@
+---
+layout: layouts/wrapper.liquid
+eleventyExcludeFromCollections: true
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - project
+    - documents
+permalink: /tag/{{ tag | slug }}/
+eleventyComputed:
+  title: "{{ tag | capitalize }}"
+---
+
+<ul class="mt-4 md:mt-12 mb-12 grid md:grid-cols-2 gap-4 md:gap-8">
+  {% for project in collections[tag] %}
+  <li>
+    {% include partials/project-card.liquid, url: project.url, title:
+    project.data.title, abstract: project.data.abstract, id: project.data.id,
+    updated_at: githubData.repos[project.data.repository].updated_at has-thumb: project.data.has-thumb %}
+  </li>
+  {% endfor %}
+</ul>
