@@ -64,4 +64,24 @@ Falls Sie Bilder Ihres Projekts zeigen möchten, können Sie diese im Verzeichni
 - `giessdenkiez_thumb.png`
 - `giessdenkiez_weather.png`
 
-Die ID ist dabei das `id`-Feld im Front Matter. Die Hero-Bilder müssen aktuell als JPG eingefügt werden, die Thumbnail-Bilder als PNG.
+Die ID ist dabei das `id`-Feld im Front Matter.
+
+#### Hero-Bilder
+
+| Format | Farbe      | Ideale Maße |
+| ------ | ---------- | ----------- |
+| JPG    | Graustufen | 3200x800px  |
+
+#### Thumb-Bilder
+
+| Format | Farbe  | Ideale Maße |
+| ------ | ------ | ----------- |
+| PNG    | Farbig | 500x500px   |
+
+#### Andere Bilder
+
+| Format     | Farbe                | Ideale Maße |
+| ---------- | -------------------- | ----------- |
+| JPG o. PNG | Farbig o. Graustufen | 1000x620px  |
+
+Alle Bilder sollten, wenn möglich, komprimiert sein.
