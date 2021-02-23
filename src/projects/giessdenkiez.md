@@ -19,7 +19,7 @@ Kartenanwendung zur Koordination der Bewässerung von Stadtbäumen – Informier
 
 ### Alle Bäume auf einer Karte
 
-![Gieß den Kiez](/assets/images/projects/giessdenkiez-hero.png)
+![Gieß den Kiez](/assets/images/projects/giessdenkiez-hero.jpg)
 
 Gieß den Kiez ist eine kartenbasierte Web-Anwendung. Einige Features:
 
