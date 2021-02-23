@@ -114,3 +114,4 @@ src/assets/css/style.compiled.css
 # Cypress
 cypress/videos/
 cypress/screenshots/
+cypress/downloads/
