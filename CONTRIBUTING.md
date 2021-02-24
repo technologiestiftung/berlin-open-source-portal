@@ -16,7 +16,22 @@ Einreichungen können entweder als Pull Request über GitHub gestellt oder per M
 
 ### Metadaten
 
-Die Metadaten werden benutzt, um Projekte zu filtern und Nutzer:innen einen schnellen Überblick über Projekte anzubieten. Falls Sie ein Projekt über ein Pull Request einreichen, werden die Metadaten alle im "Front Matter" des Projekt-Markdowns angegeben.
+Die Metadaten werden benutzt, um Projekte zu filtern und Nutzer:innen einen schnellen Überblick über Projekte anzubieten. Falls Sie ein Projekt über ein Pull Request einreichen, werden die Metadaten alle im "Front Matter" des Projekt-Markdowns angegeben. Das sieht beispielhaft so aus:
+
+```
+layout: layouts/project.liquid
+tags: ["Bäume", "Wasser"]
+id: giessdenkiez
+title: Gieß den Kiez
+abstract: Alle Berliner Stadtbäume in einer Anwendung
+languages: ["Typescript"]
+license: MIT
+link: https://www.giessdenkiez.de
+repository: https://github.com/technologiestiftung/giessdenkiez-de
+has-hero: true
+has-thumb: true
+date: 2021-02-16
+```
 
 Folgende Daten können angegeben werden (Pflichtfelder sind gekennzeichnet):
 
@@ -31,8 +46,10 @@ Folgende Daten können angegeben werden (Pflichtfelder sind gekennzeichnet):
 | `tags`        | Mindestens ein aussagekräftiger Tag oder ein Schlüsselwort damit das Projekt einfach zu finden ist (z.B. "Mobilität" oder "Beteiligung"). Schauen Sie am besten die schon existierenden Tags an und übernehmen Sie diese, insofern sie zum Projekt passen. Maximal 5 Tags. | Ja           | Nein                                           |
 | `languages`   | Eine Auflistung der (primären) Programmiersprachen, die im Quellcode benutzt werden. Falls mehrere Sprachen benutzt werden, sollten maximal 3 aufgelistet werden.                                                                                                          | Nein         | Ja                                             |
 | `institution` | Die Institution, die das Projekt entwickelt hat (kann in bestimmten Fällen auch eine Person sein)                                                                                                                                                                          | Nein         | Nein                                           |
+| `date`    | Das Datum, an dem Sie dieses Projekt einstellen. Format:  JJJJ-MM-TT                                                                                                                         | Ja         | Nein                                           |
 | `has-hero`    | Falls ein Hero-Bild auf der Detail-Seite angezeigt werden soll, sollte hier `true` gesetzt werden. Anderenfalls kann das Feld weggelassen werden.                                                                                                                          | Nein         | Nein                                           |
 | `has-thumb`   | Falls ein Thumbnail-Bild in der Projektübersicht angezeigt werden soll, sollte hier `true` gesetzt werden. Anderenfalls kann das Feld weggelassen werden.                                                                                                                  | Nein         | Nein                                           |
+| `layout`       | Muss immer `layouts/project.liquid` sein                                                                                                                                                                                                               | Ja           | Nein                                           |
 
 Wenn Sie bei `repository` eine URL von GitHub angeben, werden zusätzlich Daten von GitHub erfasst und mit Ihren Angaben im Front Matter vereinigt. Was Sie im Front Matter angeben hat dabei Priorität und wird immer auf Ihrer Projekt-Seite angezeigt.
 
