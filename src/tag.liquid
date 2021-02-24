@@ -19,7 +19,7 @@ eleventyComputed:
   <li>
     {% include partials/project-card.liquid, url: project.url, title:
     project.data.title, abstract: project.data.abstract, id: project.data.id,
-    updated_at: githubData.repos[project.data.repository].updated_at %}
+    updated_at: githubData.repos[project.data.repository].updated_at has-thumb: project.data.has-thumb %}
   </li>
   {% endfor %}
 </ul>

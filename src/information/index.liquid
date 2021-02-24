@@ -1,13 +1,12 @@
 ---
 layout: layouts/wrapper.liquid
-eleventyExcludeFromCollections: true
 title: Informationen
 abstract: Hier finden Sie Dokumente und Informationen rund um unsere Projekte, Open Source und die Berliner IT-Landschaft.
 permalink: /informationen/
+tags: ["nav", "nav-item-3"]
 ---
 
 <section class="mt-12 md:mt-20 mb-12">
-  {% include partials/principles.liquid %}
   <ul class="mt-32">
     {% for doc in collections.document %}
     <li class="mx-auto mt-8 p-8 border-2 border-gray-200 prose">
