@@ -1,4 +1,6 @@
-# Berlin Open-Source Portal
+# Berlin Open Source
+
+## _Für eine offene Stadt_ (for an open city)
 
 A prototype to showcase Open Source Software that is built, maintained and/or funded by Berlin state governmental agencies.
 
