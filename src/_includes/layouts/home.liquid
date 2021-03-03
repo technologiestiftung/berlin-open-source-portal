@@ -3,26 +3,19 @@ layout: layouts/root.liquid
 ---
 
 <section
-  class="px-8 pt-16 md:pt-32 pb-64 lg:pb-32 bg-intro-pattern bg-cover bg-gray-200 bg-blend-soft-light clip-path-slanted"
+  class="px-8 pt-16 md:pt-20 pb-64 lg:pb-32 bg-intro-pattern bg-cover bg-gray-100 bg-blend-soft-light clip-path-slanted"
 >
-  <div
-    class="max-w-screen-lg mx-auto grid lg:grid-cols-2 gap-x-6 gap-y-0 md:gap-y-2"
-  >
-    <h1 class="lg:text-right">
-      Berlin<br />
-      <span class="font-normal">Open-Source Portal</span>
-    </h1>
+  <div class="max-w-screen-md mx-auto">
     <img
-      class="hidden lg:block pt-0 w-44"
+      class="pt-0 w-80"
       src="/assets/images/logo.svg"
-      alt="Logo des Berlin Open-Source-Portal"
+      alt="Logo von Berlin Open Source"
     />
-    <h2
-      class="md:w-96 text-blue-500 font-normal lg:text-right lg:justify-self-end"
-    >
-      Open-Source Projekte im Land Berlin
-    </h2>
-    <div class="mt-6 prose">
+    <hgroup class="mt-6">
+      <h1 class="sr-only">Berlin Open Source</h1>
+      <h2 class="font-normal text-blue-500">Für eine offene Stadt</h2>
+    </hgroup>
+    <div class="mt-6 prose transform lg:translate-x-40">
       {{ content }}
     </div>
   </div>
