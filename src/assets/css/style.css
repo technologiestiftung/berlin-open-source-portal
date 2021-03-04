@@ -90,6 +90,9 @@
   .clip-path-slanted {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
   }
+  .clip-path-slanted-footer {
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+  }
   .bg-blend-multiply {
     background-blend-mode: multiply;
   }
@@ -98,5 +101,8 @@
   }
   .text-shadow {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  .grey {
+    @apply text-gray-600;
   }
 }
