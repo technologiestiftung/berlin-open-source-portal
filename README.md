@@ -1,4 +1,6 @@
-# Berlin Open-Source Portal
+# Berlin Open Source
+
+## _Für eine offene Stadt_ (for an open city)
 
 A prototype to showcase Open Source Software that is built, maintained and/or funded by Berlin state governmental agencies.
 
@@ -31,17 +33,21 @@ repository: https://github.com/technologiestiftung/giessdenkiez-de
 
 ```
 
-If you want your project to be presented with images, you add them in `src/assets/images/projects/`. Make sure to name your images according to your `id` value in the markdown front matter, e.g. `giessdenkiez-thumb.jpg` or `giessdenkiez-hero.jpg`.
+If you want your project to be presented with images, you add them in `src/assets/images/projects/`. Make sure to name your images according to your `id` value in the markdown front matter, e.g. `giessdenkiez_thumb.png` or `giessdenkiez_hero.jpg`.
 
 > Optional: After you've created your project, you may run `npm run fetch:repos` to manually add the latest GitHub repository data to your project page. If you do not do this, don't worry. Repository data is automatically fetched once a day, so you may just need to wait a bit to see your GitHub repository data appear after merge.
 
+> Also take a look at our (German-language) [contribution guidelines](/CONTRIBUTING.md).
+
 ### Adding a document
 
-To add a document just make a new markdown file in `/src/documents/`. In order to give your document the right title on the documents page you should add the `title` in the font matter. Keep the `title` short and simple to understand.
+To add an info document just make a new markdown file in `/src/information/`. In order to give your document the right title you should add the `title` in the front matter. Keep the `title` short and simple to understand. Also add an `abstract` and add `tags: document`, in order to associate the document with the right category.
 
 ```yaml
 ---
-title: How to add guides, add pages and change this website
+title: A title
+abstract: A short abstract
+tags: document
 ---
 
 ```
@@ -68,4 +74,20 @@ npm run dev
 
 ```bash
 npm run build
+```
+
+## Testing
+
+For frontend testing we use [Cypress](https://docs.cypress.io/guides/overview/why-cypress.html) and [Cypress Testing Library](https://testing-library.com/docs/cypress-testing-library/intro/).
+
+Make a test run:
+
+```bash
+npm run test
+```
+
+Launch test runner in watch mode:
+
+```bash
+npm run test:watch
 ```
