@@ -29,6 +29,9 @@ languages: ["Typescript"] # optional
 license: MIT # optional
 link: https://www.giessdenkiez.de # optional
 repository: https://github.com/technologiestiftung/giessdenkiez-de
+has-hero: true # optional
+has-thumb: true # optional
+date: 2021-02-16
 ---
 
 ```
