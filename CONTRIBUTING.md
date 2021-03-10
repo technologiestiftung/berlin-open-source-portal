@@ -18,7 +18,7 @@ Einreichungen können entweder als Pull Request über GitHub gestellt oder per M
 
 Die Metadaten werden benutzt, um Projekte zu filtern und Nutzer:innen einen schnellen Überblick über Projekte anzubieten. Falls Sie ein Projekt über ein Pull Request einreichen, werden die Metadaten alle im "Front Matter" des Projekt-Markdowns angegeben. Das sieht beispielhaft so aus:
 
-```
+```yaml
 layout: layouts/project.liquid
 tags: ["Bäume", "Wasser"]
 id: giessdenkiez
