@@ -1,0 +1,29 @@
+{% capture metaTitle %}{% if title %}{{ title }} | {% endif %}{{ defaultTitle }}{% endcapture %}
+
+{% capture metaDescription %}{% if abstract %}{{ abstract }} {% else %}{{ defaultAbstract }}{% endif %}{% endcapture %}
+
+{% capture metaUrl %}{{ meta.baseUrl }}{{ page.url }}{% endcapture %}
+
+<meta name="title" content="{{ metaTitle }}">
+<meta name="description" content="{{ metaDescription }}">
+
+<meta property="og:url" content="{{ metaUrl }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ metaTitle }}">
+<meta property="og:image" content="{{ meta.baseUrl }}{{ meta.socialMediaImagePath }}">
+<meta property="og:image:type" content="{{ meta.socialMediaImageType }}" />
+<meta property="og:image:alt" content="{{ meta.socialMediaImageAlt }}" />
+<meta property="og:description" content="{{ metaDescription }}">
+<meta property="og:site_name" content="{{ defaultTitle }}">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="{{ meta.twitterUser }}">
+<meta name="twitter:creator" content="{{ meta.twitterUser }}">
+<meta name="twitter:url" content="{{ metaUrl }}">
+<meta name="twitter:title" content="{{ metaTitle }}">
+<meta name="twitter:description" content="{{ metaDescription }}">
+<meta name="twitter:image" content="{{ meta.baseUrl }}{{ meta.socialMediaImagePath }}">
+
+<meta itemprop="name" content="{{ metaTitle }}">
+<meta itemprop="description" content="{{ metaDescription }}">
+<meta itemprop="image" content="{{ meta.baseUrl }}{{ meta.socialMediaImagePath }}">
