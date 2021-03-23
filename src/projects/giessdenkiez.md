@@ -13,11 +13,11 @@ has-thumb: true
 date: 2021-02-16
 ---
 
+## Zusammenfassung
+
 Kartenanwendung zur Koordination der Bewässerung von Stadtbäumen – Informiere Dich über den Baumbestand, adoptiere einzelne Bäume und markiere, dass Du sie gegossen hast.
 
-## Features
-
-### Alle Bäume auf einer Karte
+## Beschreibung des Projekts
 
 ![Gieß den Kiez](/assets/images/projects/giessdenkiez-hero.jpg)
 
@@ -30,6 +30,6 @@ Gieß den Kiez ist eine kartenbasierte Web-Anwendung. Einige Features:
 
 ![Wetterdaten](/assets/images/projects/giessdenkiez_weather.png)
 
-### Für Entwickler\*innen
+## Weitere Informationen
 
 Einen Überblick über die Systemarchitektur gibt es <a href="https://github.com/technologiestiftung/giessdenkiez-de" target="_blank" rel="noopener noreferrer">hier</a>.
