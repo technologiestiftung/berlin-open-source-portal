@@ -13,13 +13,11 @@ has-thumb: true
 date: 2021-02-16
 ---
 
-## Kurzbeschreibung
+## Zusammenfassung
 
 Kartenanwendung zur Koordination der Bewässerung von Stadtbäumen – Informiere Dich über den Baumbestand, adoptiere einzelne Bäume und markiere, dass Du sie gegossen hast.
 
-## Beschreibung des Projekts 
-
-### Alle Bäume auf einer Karte
+## Beschreibung des Projekts
 
 ![Gieß den Kiez](/assets/images/projects/giessdenkiez-hero.jpg)
 

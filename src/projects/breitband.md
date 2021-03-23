@@ -15,7 +15,7 @@ date: 2021-02-16
 
 ## Zusammenfassung
 
-Durch das [Berliner-Breitband-Portal](https://www.breitband.berlin.de) der SenWEB, einer Online-Anwendung unter Berlin.de-Domain, sollen die Bedarfe der Bürger:innen und Unternehmen erkannt und bei den Planungen des Breitbandausbaus der Telekommunikations-Unternehmen berücksichtigt werden. Anhand der Bedarfsmeldungen können die Netzbetreiber den Ausbau bedarfsgerecht und effizient gestalten.
+Durch das [Berliner-Breitband-Portal](https://www.breitband.berlin.de) der SenWEB, einer Online-Anwendung unter Berlin.de-Domain, sollen die Bedarfe der Bürger\*innen und Unternehmen erkannt und bei den Planungen des Breitbandausbaus der Telekommunikations-Unternehmen berücksichtigt werden. Anhand der Bedarfsmeldungen können die Netzbetreiber den Ausbau bedarfsgerecht und effizient gestalten.
 
 ## Beschreibung des Projekts
 
@@ -34,7 +34,6 @@ Das Berliner-Breitband-Portal bietet derzeit folgende Funktionen und Inhalte:
 Die Plattform wurde in einer Zusammenarbeit des Breitband-Kompetenz-Teams mit einer Vielzahl an Stakeholdern entwickelt, technisch durch die Berliner Firma geoSYS realisiert und ist seit November 2019 online.
 
 ## Weitere Information
-
 
 Die Anwendung wird als Grundlage für ein landesweites Informations– und Analyseportal gesehen. Denkbar ist es, das Portal um weitere Informationen wie zum Beispiel zur Stadt-, Wohnungsbau– und Gewerbeentwicklung anzureichern. So könnten weitere Synergien geschaffen werden. SenWEB stellt außerdem in Aussicht Breitbandbedarfe mit bestehenden und geplanten Infrastrukturen zu verknüpfen, um mehr Transparenz im Ausbau herzustellen.
 
