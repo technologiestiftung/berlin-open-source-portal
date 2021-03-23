@@ -19,7 +19,7 @@ date: 2021-02-16
 Die Datenbank Kunstwerke im öffentlichen Raum umfasst eine Vielzahl an Kunstwerken im Bezirk Pankow. Sie enthält sowohl Kunstwerke, die sich im Besitz des Bezirksamts Pankow und auf öffentlichem Straßen­land, in Grün­anlagen oder an bzw. in öffentlichen Gebäuden befinden, als auch Kunstwerke in privater Eigentümer­schaft bzw. auf privatem Grund und Boden.
 
 Die Informationen der Datenbank werden über den sogenannten VIKUS Viewer präsentiert.
-Der VIKUS Viewer ist ein webbasiertes Visualisierungssystem, das Fotografien der Kunstwerke wahlweise auf einer Karte oder auf einer dynamischen Leinwand anordnet, so dass thematische Informationen, sowie räumliche und zeitliche Muster leicht untersucht werden können. Außerdem können die Objekte können nach Typus, Ortsteil, Material und Künstler\*in gefiltert werden.
+Der VIKUS Viewer ist ein webbasiertes Visualisierungssystem, das Fotografien der Kunstwerke wahlweise auf einer Karte oder auf einer dynamischen Leinwand anordnet, so dass thematische Informationen, sowie räumliche und zeitliche Muster leicht untersucht werden können. Außerdem können die Objekte nach Typus, Ortsteil, Material und Künstler\*in gefiltert werden.
 
 [![Kunst im öffentlichen Raum](/assets/images/projects/kunst_pankow_map.png)](https://vikus.kunst-im-oeffentlichen-raum-pankow.de)
 

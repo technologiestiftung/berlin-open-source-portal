@@ -19,8 +19,8 @@ Durch das [Berliner-Breitband-Portal](https://www.breitband.berlin.de) der SenWE
 
 ## Beschreibung des Projekts
 
-Cloud-Computing, IoT oder auch Live-Streaming in HD-Qualität: Die voranschreitende Digitalisierung birgt allerhand neue Möglichkeiten für viele Lebens- und Wirtschaftsbereiche, doch damit auch hohe Anforderungen an eine zukunftssichere technische Infrastruktur. Nicht alle Bereiche Berlins weisen heute eine gute Breitbandversorgung im Gigabitbereich auf, die eine stabile und schnelle Datenverbindungen sicherstellen könnte.
-Die Senatsverwaltung für Wirtschaft, Energie und Betriebe (SenWEB) will deshalb den weiteren, eigenwirtschaftlichen Ausbau der Breitbandinfrastruktur mit dem Breitband-Kompetenz-Team Berlin weiter voranbringen.
+Cloud-Computing, IoT oder auch Live-Streaming in HD-Qualität: Die voranschreitende Digitalisierung birgt allerhand neue Möglichkeiten für viele Lebens- und Wirtschaftsbereiche, doch damit auch hohe Anforderungen an eine zukunftssichere technische Infrastruktur. Nicht alle Bereiche Berlins weisen heute eine gute Breitbandversorgung im Gigabit-Bereich auf, die eine stabile und schnelle Datenverbindungen sicherstellen könnte.
+Die Senatsverwaltung für Wirtschaft, Energie und Betriebe (SenWEB) will deshalb den weiteren eigenwirtschaftlichen Ausbau der Breitbandinfrastruktur mit dem Breitband-Kompetenz-Team Berlin weiter voranbringen.
 
 Das Berliner-Breitband-Portal bietet derzeit folgende Funktionen und Inhalte:
 
@@ -35,7 +35,7 @@ Die Plattform wurde in einer Zusammenarbeit des Breitband-Kompetenz-Teams mit ei
 
 ## Weitere Information
 
-Die Anwendung wird als Grundlage für ein landesweites Informations– und Analyseportal gesehen. Denkbar ist es, das Portal um weitere Informationen wie zum Beispiel zur Stadt-, Wohnungsbau– und Gewerbeentwicklung anzureichern. So könnten weitere Synergien geschaffen werden. SenWEB stellt außerdem in Aussicht Breitbandbedarfe mit bestehenden und geplanten Infrastrukturen zu verknüpfen, um mehr Transparenz im Ausbau herzustellen.
+Die Anwendung wird als Grundlage für ein landesweites Informations– und Analyseportal gesehen. Denkbar ist es, das Portal um weitere Informationen wie zum Beispiel zur Stadt-, Wohnungsbau– und Gewerbeentwicklung anzureichern. So könnten weitere Synergien geschaffen werden. SenWEB stellt außerdem in Aussicht, Breitbandbedarfe mit bestehenden und geplanten Infrastrukturen zu verknüpfen, um mehr Transparenz im Ausbau herzustellen.
 
 Der Quellcode steht auf [GitHub](https://github.com/BerlinerBreitbandPortal/BBP) zur Verfügung und kann natürlich auch in Hinblick auf andere Aspekte verbessert oder weiterentwickelt werden. Ebenfalls denkbar ist eine Implementierung für andere Städte.
 
