@@ -13,13 +13,13 @@ has-thumb: true
 date: 2021-02-16
 ---
 
-## Zusammenfassung 
+## Zusammenfassung
 
 Mit dieser Anwendung haben die Berliner Bürger\*innen die Möglichkeit sich tagesaktuell über die Badegewässerqualität der Berliner Badestellen zu informieren. Neben den Messwerten gibt es Informationen rund um die Badestellen, von Barrierefreiheit bis Würstchenbude. Auch eine Weiterleitung zur BVG und Routing Services ist integriert, sodass dem nächsten Badeausflug nichts mehr im Wege steht.
 
 ## Beschreibung des Projekts
 
-Die Anwendung wurde vom Ideation & Prototyping Lab der Technologiestiftung Berlin in Zusammenarbeit mit dem Kompetenzzentrum Wasser, den Berliner Wasserbetrieben und dem LaGeSo entwickelt. 
+Die Anwendung wurde vom Ideation & Prototyping Lab der Technologiestiftung Berlin in Zusammenarbeit mit dem Kompetenzzentrum Wasser, den Berliner Wasserbetrieben und dem LaGeSo entwickelt.
 
 ![Berliner Badestellen](/assets/images/projects/badestellen_overview.jpg)
 
@@ -27,4 +27,4 @@ Hervorgegangen ist das Projekt aus dem Forschungsprojekt Flusshygiene. In dem se
 
 ![Architektur](/assets/images/projects/badestellen_arc.jpg)
 
-Aus technischer Sicht ist dieses Projekt in der Berliner Datenlandschaft einzigartig. Die der Webanwendung zugrunde liegenden Daten werden von verschiedenen Anbietern geliefert. Zum Teil sind dies offene Daten, beispielsweise die aktuellen Messwerte des LaGeSos und zum anderen aber auch sicherheitsrelevante Daten der Berliner Wasserbetriebe. Alle Daten werden schlussendlich miteinander verschnitten und in Form der Webanwendung den Berliner Bürger\*innen zur Verfügung gestellt. Darüber hinaus werden die veredelten Daten auch an das Lageso zurückgeleitet, welches diese neuen Daten dann nutzt um die eigene Website zu aktualisieren und ihre offenen Daten zu bereichern.
+Aus technischer Sicht ist dieses Projekt in der Berliner Datenlandschaft einzigartig. Die der Webanwendung zugrunde liegenden Daten werden von verschiedenen Anbietern geliefert. Zum Teil sind dies offene Daten, beispielsweise die aktuellen Messwerte des LaGeSos und zum anderen aber auch sicherheitsrelevante Daten der Berliner Wasserbetriebe. Alle Daten werden schlussendlich miteinander verschnitten und in Form der Webanwendung den Berliner Bürger\*innen zur Verfügung gestellt. Darüber hinaus werden die veredelten Daten auch an das LaGeSo zurückgeleitet, welches diese neuen Daten dann nutzt um die eigene Website zu aktualisieren und ihre offenen Daten zu bereichern.

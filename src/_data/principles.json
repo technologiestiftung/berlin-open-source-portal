@@ -39,7 +39,7 @@
     "id": "reuse",
     "title": "Wiederverwendung",
     "content": [
-      "Open Source bedeutet, dass Projekte und deren Komponenten mit wenig Aufwand wiederverwendet werden können. Open Source-Projekte sind damit tendenziell besser skalierbar.",
+      "Open Source bedeutet, dass Projekte und deren Komponenten mit wenig Aufwand wiederverwendet werden können. Damit sind Open Source-Projekte tendenziell besser skalierbar.",
       "Durch die wiederholte Verwendung interoperabler Komponenten entsteht mit der Zeit ein Open Source-Ökosystem, das mit zunehmendem Reifegrad eine immer schnellere und kostengünstigere Entwicklung von Lösungen ermöglicht."
     ]
   },
