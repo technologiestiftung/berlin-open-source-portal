@@ -19,8 +19,6 @@ Kartenanwendung zur Koordination der Bewässerung von Stadtbäumen – Informier
 
 ## Beschreibung des Projekts
 
-![Gieß den Kiez](/assets/images/projects/giessdenkiez-hero.jpg)
-
 Gieß den Kiez ist eine kartenbasierte Web-Anwendung. Einige Features:
 
 - Mehr als 625.000 verzeichnete Stadtbäume mit Infos zu Alter, Art und Wasserbedarf

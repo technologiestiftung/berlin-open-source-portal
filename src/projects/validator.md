@@ -12,7 +12,7 @@ has-thumb: true
 date: 2021-02-16
 ---
 
-## Kurzbeschreibung
+## Zusammenfassung
 
 Der Online-Validator dient dazu, Geodaten im GML-Format gegen eine festgelegte, dem Tool bekannte Datenstruktur zu prüfen. Abweichungen werden anhand von Fehlermeldungen beschrieben, so dass sie gezielt in der Datei angepasst werden können. GML ist ein offener Standard für räumliche Daten, basierend auf XML.
 
