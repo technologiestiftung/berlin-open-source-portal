@@ -11,7 +11,7 @@ describe("Header", () => {
 
   it("displays a link to /warum-open-source", () => {
     cy.get("header")
-      .findByRole("link", { name: /Open Source-Standards/i })
+      .findByRole("link", { name: /Warum Open Source/i })
       .should("exist");
   });
 
