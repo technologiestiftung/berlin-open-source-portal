@@ -1,14 +1,25 @@
-<nav role="navigation" class="flex items-center">
-  <ul class="flex flex-wrap text-md md:text-lg">
+<nav role="navigation" class="w-full grid grid-cols-1 justify-self-end">
+  <button
+    data-menu-button
+    aria-expanded="false"
+    aria-controls="menu"
+    aria-haspopup="true"
+    aria-label="Navigation"
+    class="w-min p-2 justify-self-end border-none hover:bg-opacity-0 hover:text-blue-500 rounded-none flex sm:hidden"
+  >
+    Menü
+  </button>
+  <ul
+    data-menu-content
+    class="hidden sm:flex"
+  >
     {% for item in collections.navItems %}
-    <li
-      class="my-1 mr-2 md:mr-3 pr-2 md:pr-3 border-dotted {% if forloop.last %}border-r-0{% else %}border-r-2{% endif %}"
-    >
+    <li class="px-2 sm:px-0 py-3 sm:py-0 ml-4 text-right">
       <a href="{{ item.url }}" class="text-gray-900">{{ item.data.title }}</a>
     </li>
     {% endfor %}
-    <li class="my-1">
-      <a href="/mitmachen/" class="component-button text-gray-900 font-normal border-gray-200 hover:border-blue-500 py-1 px-2">Mitmachen</a>
+    <li class="px-2 sm:px-0 py-3 sm:py-0 ml-4 text-right">
+      <a href="/mitmachen/" class="text-gray-900">Mitmachen</a>
     </li>
   </ul>
 </nav>
