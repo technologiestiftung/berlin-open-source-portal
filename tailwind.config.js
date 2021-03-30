@@ -69,6 +69,7 @@ module.exports = {
       }),
       translate: {
         "10px": "10px",
+      },
       minHeight: {
         "25vh": "25vh",
         "50vh": "50vh",
