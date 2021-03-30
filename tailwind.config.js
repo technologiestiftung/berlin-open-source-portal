@@ -69,12 +69,17 @@ module.exports = {
       }),
       translate: {
         "10px": "10px",
+      minHeight: {
+        "25vh": "25vh",
+        "50vh": "50vh",
+        "75vh": "75vh",
       },
     },
   },
   variants: {
     extend: {
       translate: ["group-hover"],
+      margin: ["first"],
     },
   },
   plugins: [require("@tailwindcss/typography")],
