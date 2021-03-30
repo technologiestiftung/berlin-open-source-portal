@@ -7,7 +7,7 @@ layout: layouts/root.liquid
 >
   <div class="max-w-screen-lg mx-auto grid md:grid-cols-2 gap-2 md:gap-6">
     <h1 class="pb-2 md:pb-0 md:text-right">{{ title }}</h1>
-    <div>
+    <div class="transform md:translate-y-10px">
       {% if page.fileSlug == "contribute" %} {% include
       partials/contribute-intro.liquid %} {% elsif page.fileSlug == "projects"
       %} {% include partials/project-intro.liquid %} {% elsif abstract %}
