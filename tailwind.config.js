@@ -1,7 +1,7 @@
 module.exports = {
   purge: {
     enabled: process.env.NODE_ENV === "production",
-    content: ["./src/**/*.{html,liquid,njk}"],
+    content: ["./src/**/*.{html,liquid,njk}", "./src/assets/js/nav.js"],
   },
   darkMode: false,
   theme: {
