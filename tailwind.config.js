@@ -67,6 +67,9 @@ module.exports = {
       backgroundImage: (_theme) => ({
         "intro-pattern": "url('/assets/images/bg_default.svg')",
       }),
+      scale: {
+        60: ".6",
+      },
     },
   },
   variants: {
