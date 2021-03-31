@@ -67,11 +67,20 @@ module.exports = {
       backgroundImage: (_theme) => ({
         "intro-pattern": "url('/assets/images/bg_default.svg')",
       }),
+      translate: {
+        "10px": "10px",
+      },
+      minHeight: {
+        "25vh": "25vh",
+        "50vh": "50vh",
+        "75vh": "75vh",
+      },
     },
   },
   variants: {
     extend: {
       translate: ["group-hover"],
+      margin: ["first"],
     },
   },
   plugins: [require("@tailwindcss/typography")],

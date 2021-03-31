@@ -3,11 +3,11 @@ layout: layouts/root.liquid
 ---
 
 <section
-  class="px-8 pt-16 md:pt-32 pb-32 bg-gray-100 bg-intro-pattern bg-cover bg-blend-soft-light clip-path-slanted"
+  class="min-h-50vh px-8 pt-16 md:pt-32 pb-32 bg-gray-100 bg-intro-pattern bg-cover bg-blend-soft-light clip-path-slanted"
 >
   <div class="max-w-screen-lg mx-auto grid md:grid-cols-2 gap-2 md:gap-6">
     <h1 class="pb-2 md:pb-0 md:text-right">{{ title }}</h1>
-    <div>
+    <div class="transform md:translate-y-10px">
       {% if page.fileSlug == "contribute" %} {% include
       partials/contribute-intro.liquid %} {% elsif page.fileSlug == "projects"
       %} {% include partials/project-intro.liquid %} {% elsif abstract %}
