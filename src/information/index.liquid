@@ -12,13 +12,16 @@ tags: ["nav", "nav-item-3"]
     <li class="mx-auto mt-8 first:mt-0 p-8 border-b-2 border-dotted border-gray-200 prose">
         <h1>{{ doc.data.title }}</h1>
         {{ doc.templateContent }}
-        <p class="text-right">
-          <a
-          href={{ doc.data.link }}
-          target="_blank"
-          rel="noopener noreferrer"
-          >Zum Dokument ></a>
-        </p>
+        <a
+        href={{ doc.data.link }}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="float-right flex "
+        >
+          <span class="mr-1 font-bold">Zum Dokument</span>
+          <span class="inline-block mr-1">{% include partials/icon-next.html %}</span>
+          <span class="inline-block">{% include partials/icon-document.html %}</span>
+        </a>
     </li>
   {% endfor %}
   </ul>
