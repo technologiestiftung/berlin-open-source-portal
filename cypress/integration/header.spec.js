@@ -15,9 +15,9 @@ describe("Header", () => {
       .should("exist");
   });
 
-  it("displays a link to /informationen", () => {
+  it("displays a link to /dokumente", () => {
     cy.get("header")
-      .findByRole("link", { name: /Informationen/i })
+      .findByRole("link", { name: /Dokumente/i })
       .should("exist");
   });
 

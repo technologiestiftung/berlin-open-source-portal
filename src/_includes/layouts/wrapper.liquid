@@ -17,5 +17,8 @@ layout: layouts/root.liquid
   </div>
 </section>
 <section class="max-w-screen-lg p-8 mx-auto mt-0 md:mt-4">
-  {{ content }}
+  {% include partials/breadcrumbs.liquid %}
+  <div class="mt-12">
+    {{ content }}
+  </div>
 </section>

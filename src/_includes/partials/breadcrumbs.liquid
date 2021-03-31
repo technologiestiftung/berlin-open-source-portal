@@ -1,0 +1,9 @@
+<p class="pb-3 border-b-2 border-dotted text-sm text-blue-500">
+  <a href="/">Start</a>
+  {% if tags contains "project" %}
+  <span>></span>
+  <a href="/projekte">Projekte</a>
+  {% endif %}
+  <span>></span>
+  <span class="font-bold">{{ title }}</span>
+</p>

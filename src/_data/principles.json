@@ -1,7 +1,7 @@
 [
   {
     "id": "collaboration",
-    "title": "Kollaboration",
+    "title": "Zusammenarbeit",
     "content": [
       "Städte und Kommunen in aller Welt sehen sich mit globalen Herausforderungen – Klimawandel, Bevölkerungswachstum, Verkehrswende, soziale Ungleichheit – konfrontiert, die gemeinsame Antworten erfordern. Statt jedes Mal das Rad neu zu erfinden, sollten wir Kräfte bündeln und Wissen teilen.",
       "Mit der Digitalisierung entstehen auch für Verwaltungen neue Möglichkeiten der Zusammenarbeit. Mit der Entwicklung und Unterstützung von Open Source-Projekten können Städte und Kommunen einen Teil zur Entstehung eines globalen Software-Ökosystems für den öffentlichen Sektor beitragen."
@@ -11,7 +11,7 @@
     "id": "security",
     "title": "Sicherheit",
     "content": [
-      "Datenschutz und IT-Sicherheit haben für öffentliche Verwaltungen höchste Priorität. Der konsequente Einsatz von Open Source-Software bietet ein hohes Maß an Sicherheit, weil Bugs und Schwachstellen leichter erkannt und beseitigt werden können."
+      "Datenschutz und IT-Sicherheit haben für öffentliche Verwaltungen höchste Priorität. Der konsequente Einsatz von Open Source-Software ermöglicht ein hohes Maß an Sicherheit, weil Bugs und Schwachstellen leichter erkannt und beseitigt werden können."
     ]
   },
   {
