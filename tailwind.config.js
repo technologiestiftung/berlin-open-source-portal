@@ -1,7 +1,7 @@
 module.exports = {
   purge: {
     enabled: process.env.NODE_ENV === "production",
-    content: ["./src/**/*.{html,liquid,njk}"],
+    content: ["./src/**/*.{html,liquid,njk}", "./src/assets/js/nav.js"],
   },
   darkMode: false,
   theme: {
@@ -67,6 +67,9 @@ module.exports = {
       backgroundImage: (_theme) => ({
         "intro-pattern": "url('/assets/images/bg_default.svg')",
       }),
+      scale: {
+        60: ".6",
+      },
       translate: {
         "10px": "10px",
       },
