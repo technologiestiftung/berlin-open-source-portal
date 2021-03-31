@@ -15,7 +15,7 @@ date: 2021-02-16
 
 ## Zusammenfassung
 
-In dem Projekt "Shared Mobility Flows" hat das CityLAB die Nutzung von Leihfahrrädern in der Stadt visualisiert. Die Daten stammen von zwei Leihfahrradanbietern, Nextbike und LIDL Bike, die Standortdaten für ihre geparkten Fahrräder über eine öffentliche API zur Verfügung stellen. Die in der Visualisierung abgebildeten Routen werden anhand der vermuteten Start- und Endpunkte der Trips geschätzt.
+In dem Projekt "Shared Mobility Flows" hat das CityLAB die Nutzung von Leihfahrrädern in der Stadt visualisiert. Die Daten stammen von zwei Leihfahrradanbietern, Nextbike und LIDL Bike, die Standortdaten für ihre geparkten Fahrräder über eine öffentliche API zur Verfügung stellen. Die in der Visualisierung abgebildeten Routen werden anhand der Start- und Endpunkte der Trips geschätzt.
 
 ## Beschreibung des Projekts
 
