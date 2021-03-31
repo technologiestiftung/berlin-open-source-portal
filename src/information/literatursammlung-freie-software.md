@@ -1,7 +1,7 @@
 ---
-title: Open Source Standards
+title: Literatursammlung freie Software
 tags: document
-link: https://standard.publiccode.net/
+link: https://www.bpb.de/gesellschaft/digitales/opensource/63955/literatur
 ---
 
-Standards für Open Source-Entwicklung von der Foundation for Public Code, um die Qualität von öffentlichem Software-Code zu verbessern. 
+Etwas ältere, aber immer noch relevante Zusammenstellung der Bundeszentrale für Politische Bildung mit Literaturklassikern zum Thema. 
