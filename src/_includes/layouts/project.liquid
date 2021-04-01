@@ -138,8 +138,12 @@ permalink: /projekt/{{ id | slug }}/
   </div>
   <div class="col-span-12 md:col-span-7 mt-12 md:mt-0">
     {% include partials/breadcrumbs.liquid %}
-    <article class="mt-12 prose">
+    <article class="mt-12 prose mb-16">
       {{ content }}
     </article>
+    <a href="/projekte" rel="noopener noreferrer" class="component-button sm:w-2/5 md:w-3/5 flex float-right justify-center items-center">
+      <span class="inline-block pr-2">{% include partials/icon-back.html %}</span>
+      <span class="ml-1">Zur Projekt-Übersicht</span>
+    </a>
   </div>
 </div>
