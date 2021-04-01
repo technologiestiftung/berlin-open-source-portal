@@ -19,12 +19,6 @@ describe("Header", () => {
     cy.get("header").findByRole("link", { name: /Links/i }).should("exist");
   });
 
-  it("displays a link to /mitmachen", () => {
-    cy.get("header")
-      .findByRole("link", { name: /Mitmachen/i })
-      .should("exist");
-  });
-
   it("displays a link to the home page", () => {
     cy.get("header")
       .findByLabelText(/Zur Startseite/i)
