@@ -2,24 +2,28 @@
 layout: layouts/wrapper.liquid
 title: Warum Open Source?
 abstract: Als „Open Source“ wird Software bezeichnet, deren Quelltext öffentlich eingesehen, geändert und genutzt werden kann. Der Einsatz von Offener Software ist auch im öffentlichen Sektor zunehmend verbreitet, da sich daraus viele Vorteile ergeben.  
-permalink: /open-source-standards/
+permalink: /warum-open-source/
 tags: ["nav", "nav-item-2"]
 ---
 
 <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
   {% for principle in principles %}
   <li class="{% if principle.id == "collaboration" %}
-    md:col-span-2
+    lg:col-span-2
     {% endif %}
-    p-8 bg-white border-2 border-gray-200">
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-      <div class="col-span-1 flex items-center md:justify-center">
-        <img src="/assets/images/icons/icon_{{principle.id}}.svg" alt="{{ principle.title }}">
+    p-8 bg-white border-2 border-gray-100">
+    <div class="grid grid-cols-1 lg:grid-cols-8rem-auto gap-4">
+      <div class="flex items-center md:justify-center">
+        <img
+          src="/assets/images/icons/icon_{{principle.id}}.svg"
+          alt="{{ principle.title }}"
+          class="w-32"
+        >
       </div>
-      <div class="md:col-span-3">
-        <h3>{{ principle.title }}</h3>
+      <div class="">
+        <h2 class="text-xl">{{ principle.title }}</h2>
         {% for item in principle.content %}
-        <p class="my-3">
+        <p class="my-3 max-w-prose">
           {{ item }}
         </p>
         {% endfor %}

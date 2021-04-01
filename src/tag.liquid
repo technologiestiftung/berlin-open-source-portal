@@ -12,9 +12,10 @@ pagination:
 permalink: /tag/{{ tag | slug }}/
 eleventyComputed:
   title: "{{ tag | capitalize }}"
+tags: project
 ---
 
-<ul class="mt-4 md:mt-12 mb-12 grid md:grid-cols-2 gap-4 md:gap-8">
+<ul class="mt-4 md:mt-12 mb-16 grid md:grid-cols-2 gap-4 md:gap-8">
   {% for project in collections[tag] %}
   <li>
     {% include partials/project-card.liquid, url: project.url, title:
@@ -23,3 +24,7 @@ eleventyComputed:
   </li>
   {% endfor %}
 </ul>
+<a href="/projekte" rel="noopener noreferrer" class="group component-button sm:w-2/5 md:w-2/7 flex float-right justify-center items-center">
+  <span class="inline-block md:pr-2">{% include partials/icon-back.html %}</span>
+  <span class="ml-1">Zur Projekt-Übersicht</span>
+</a>
