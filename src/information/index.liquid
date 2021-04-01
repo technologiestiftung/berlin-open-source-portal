@@ -9,7 +9,7 @@ tags: ["nav", "nav-item-3"]
 <section>
   <ul>
     {% for doc in collections.document %}
-    <li class="mx-auto mt-8 first:mt-0 p-8 border-b-2 border-dotted border-gray-200 prose">
+    <li class="mx-auto mt-8 first:mt-0 py-8 border-b-2 border-dotted border-gray-200 prose">
         <h1>{{ doc.data.title }}</h1>
         {{ doc.templateContent }}
         <a
