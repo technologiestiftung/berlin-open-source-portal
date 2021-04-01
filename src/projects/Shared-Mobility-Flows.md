@@ -1,6 +1,6 @@
 ---
 layout: layouts/project.liquid
-tags: ["Fahrrad", "Mobilität"]
+tags: ["Geodaten", "Mobilität"]
 id: bikesharing-viz
 title: Shared Mobility Flows
 abstract: Visualisierung von Leihfahrrad-Routen in Berlin

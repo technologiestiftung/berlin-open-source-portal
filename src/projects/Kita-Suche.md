@@ -1,6 +1,6 @@
 ---
 layout: layouts/project.liquid
-tags: ["Kita", "Kinder"]
+tags: ["Soziales"]
 id: kita-suche
 title: Berliner Kita-Suche
 abstract: Interaktive Karte mit allen Berliner Kitas und zahlreichen Zusatzinformationen

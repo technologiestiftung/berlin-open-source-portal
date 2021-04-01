@@ -1,6 +1,6 @@
 ---
 layout: layouts/project.liquid
-tags: ["Geodaten", "Validierung", "Datenqualität"]
+tags: ["Geodaten"]
 id: validator
 title: Prüftool für Geodaten
 abstract: Tool zur Schemavalidierung von Geodaten im GML-Format

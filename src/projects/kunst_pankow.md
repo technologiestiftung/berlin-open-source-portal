@@ -1,6 +1,6 @@
 ---
 layout: layouts/project.liquid
-tags: ["Kunst", "Kultur", "Pankow", "Bezirksamt"]
+tags: ["Bildung", "Kultur", ]
 id: kunst_pankow
 title: Kunst im öffentlichen Raum Pankow
 abstract: Durch eine interaktive Webanwendung Pankows Kunstwerke erkunden

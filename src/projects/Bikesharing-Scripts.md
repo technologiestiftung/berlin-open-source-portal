@@ -1,6 +1,6 @@
 ---
 layout: layouts/project.liquid
-tags: ["Fahrrad", "Mobilität"]
+tags: ["Geodaten", "Mobilität"]
 id: bikesharing-scripts
 title: Bikesharing-Skripte
 abstract: Python-Skript zur Analyse von Bikesharing-Daten
