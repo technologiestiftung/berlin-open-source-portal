@@ -21,7 +21,7 @@ To add a project just create a new markdown file in `src/projects/`. Take a look
 ```yaml
 ---
 layout: layouts/project.liquid
-tags: ["Unwelt"] # optional
+tags: ["Umwelt"] # optional
 id: giessdenkiez
 title: Gieß den Kiez
 abstract: Alle Berliner Stadtbäume in einer Anwendung
