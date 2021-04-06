@@ -15,7 +15,8 @@ date: 2021-04-05
 
 ## Zusammenfassung
 
-Dieses Tool ist ein Prototyp, der für den Bezirk Tempelhof-Schöneberg entwickelt wurde, um beim Zuschneiden der neuen Wahlbezirke zu unterstützen. Mit dem Tool können Mitarbeiter\*innen der bezirklichen Wahlämter leicht neue Wahlbezirke zuschneiden, indem sie im Editor Straßenblöcke zu neuen Wahlbezirke zuweisen können, um möglichst gleich große Wahlbezirke (anhand der Bevölkerungszahlen) zu generieren.
+Dieses Tool ist ein Prototyp, das für den Bezirk Tempelhof-Schöneberg entwickelt wurde, um beim Zuschneiden von neuen Wahlbezirken zu unterstützen. Mitarbeiter\*innen der bezirklichen Wahlämter können über das Tool auf einfache Art und Weise neue Wahlbezirke zuschneiden, indem sie im Editor Straßenblöcke zu neuen Wahlbezirken zuweisen. So können Wahlbezirke mit möglichst gleich großer Bevölkerungsanzahl generiert werden.
+
 
 ## Beschreibung des Projekts
 
