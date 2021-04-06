@@ -1,6 +1,6 @@
 ---
 layout: layouts/project.liquid
-tags: ["Bäume", "Wasser"]
+tags: ["Umwelt", "Beteiligung", "Geodaten"]
 id: giessdenkiez
 title: Gieß den Kiez
 abstract: Alle Berliner Stadtbäume in einer Anwendung

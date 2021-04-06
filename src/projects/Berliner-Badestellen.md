@@ -1,6 +1,6 @@
 ---
 layout: layouts/project.liquid
-tags: ["Wasser", "Baden", "Wasserqualität"]
+tags: ["Umwelt", "Geodaten"]
 id: badestellen
 title: Berliner Badestellen
 abstract: Übersicht über Berliner Badestellen mit aktuellen Informationen zur Wasserqualität
