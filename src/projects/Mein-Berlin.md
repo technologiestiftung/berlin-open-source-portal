@@ -1,6 +1,6 @@
 ---
 layout: layouts/project.liquid
-tags: ["Projekt", "Beteiligung"]
+tags: ["Beteiligung", "Soziales"]
 id: mein-berlin
 title: meinBerlin
 abstract: Beteiligungsplattform des Landes Berlin
