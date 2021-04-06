@@ -15,14 +15,15 @@ date: 2021-02-16
 
 ## Zusammenfassung 
 
-Die Berliner Verwaltung teilt durch meinBerlin Informationen über die Projekte der Berliner Verwaltung und können eigene Ideen und Anregungen einbringen. Mitmachen können dabei alle, die sich für die Gestaltung von Berlin interessieren.
+Über meinBerlin teilt die Berliner Verwaltung Informationen zu Projekten, bei denen Bürger*innen eigene Ideen und Anmerkungen einbringen können.
+Mitmachen können dabei alle, die sich für die Gestaltung von Berlin interessieren.
 
 ## Beschreibung des Projekts
 
-meinBerlin ist die zentrale Online-Plattform für Bürgerbeteiligungsverfahren in Berlin. Mit der Kartenübersicht können Bürger\*innen leicht Beteiligungsmöglichkeiten in ihrer Nähe finden. Auf der Plattform können Bürger\*innen sich über geplante Maßnahmen informieren, Ideen oder Vorschläge für Maßnahmen einreichen (sowie Einreichungen von anderen bewerten und kommentieren), und Texte kommentieren.
+meinBerlin ist die zentrale Online-Plattform für Bürgerbeteiligungsverfahren in Berlin. Durch eine Kartenübersicht können Bürger\*innen leicht Beteiligungsmöglichkeiten in ihrer Nähe finden und sich über geplante Maßnahmen informieren. Neben eigenen Ideen oder Vorschlägen können auch Einreichungen anderer bewertet und kommentiert werden.
 
 [![meinBerlin](/assets/images/projects/meinBerlin.png)](https://mein.berlin.de/)
 
 ## Weitere Informationen
 
-Die Plattform nutzt die Open Source Software "adhocracy+", die vom Liquid Democracy e.V. entwickelt wird. Mehr zu adhochracy+ findet man [hier](https://adhocracy.plus/). 
+Die Plattform nutzt die Open Source Software "adhocracy+", die vom Liquid Democracy e.V. entwickelt wurde. Mehr zu adhochracy+ findet man [hier](https://adhocracy.plus/). 
