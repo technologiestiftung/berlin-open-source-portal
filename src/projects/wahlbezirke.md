@@ -3,7 +3,7 @@ layout: layouts/project.liquid
 tags: ["Geodaten"]
 id: wahlbezirke
 title: Wahlbezirke-Editor
-abstract: Ein Tool, das das Zuschneiden der Berliner Wahlbezirke unsterstützt
+abstract: Ein Tool, das das Zuschneiden der Berliner Wahlbezirke unterstützt
 languages: ["Svelte", "TypeScript"]
 license: MIT License
 link: https://odis-berlin.de/projekte/wahlbezirke/
