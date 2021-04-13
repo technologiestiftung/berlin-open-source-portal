@@ -1,0 +1,9 @@
+{% capture classes %}
+  fixed right-0 top-0 w-40 h-40 p-6 rounded-full shadow {% if title == "Projekt vorschlagen" %}bg-blue-500 text-white{% else %}bg-white text-gray-900{% endif %} hover:bg-blue-500 hover:text-white flex items-start text-center font-bold text-sm z-40 transform translate-y-roughly-75vh md:translate-y-25vh -rotate-90 translate-x-1/2 {% endcapture %}
+
+<a
+  href="/projekt-vorschlagen"
+  class="{{ classes }}"
+>
+  Projekt vorschlagen
+</a>

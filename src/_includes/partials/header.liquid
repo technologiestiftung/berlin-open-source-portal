@@ -1,14 +1,31 @@
 <header
-  class="w-full relative md:sticky top-0 p-4 md:p-6 lg:p-6 flex justify-between bg-white shadow z-50"
+  class="w-full sticky top-0 p-4 flex justify-between bg-white shadow z-50"
 >
-  <a href="{{ site.baseurl }}/" aria-label="Zur Startseite von Berlin Open Source" class="flex-shrink-0 flex items-center">
+  <a
+    href="/"
+    aria-label="Zur Startseite von Berlin Open Source"
+    class="flex-shrink-0 flex items-start sm:items-center"
+  >
     <img
-      src="{{ site.baseurl }}/icon.svg"
+      src="/assets/images/logo.svg"
       alt="Logo von Berlin Open Source"
-      class="w-10 md:w-12"
+      class="h-10"
     />
   </a>
-  <div class="ml-4 md:ml-0 flex">
+  <div class="ml-4 md:ml-0 flex items-start sm:items-center">
     {% include partials/nav.liquid %}
+    <a
+      href="https://www.technologiestiftung-berlin.de/"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Zur Website der Technologiestiftung Berlin"
+      class="flex-shrink-0"
+    >
+      <img
+        src="/assets/images/tsb-icon.svg"
+        alt="Bildmarke der Technologiestiftung Berlin"
+        class="h-10 transform scale-60"
+      >
+    </a>
   </div>
 </header>

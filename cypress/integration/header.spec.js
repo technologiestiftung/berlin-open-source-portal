@@ -15,16 +15,8 @@ describe("Header", () => {
       .should("exist");
   });
 
-  it("displays a link to /informationen", () => {
-    cy.get("header")
-      .findByRole("link", { name: /Informationen/i })
-      .should("exist");
-  });
-
-  it("displays a link to /mitmachen", () => {
-    cy.get("header")
-      .findByRole("link", { name: /Mitmachen/i })
-      .should("exist");
+  it("displays a link to /links", () => {
+    cy.get("header").findByRole("link", { name: /Links/i }).should("exist");
   });
 
   it("displays a link to the home page", () => {

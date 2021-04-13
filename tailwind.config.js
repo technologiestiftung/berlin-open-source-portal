@@ -1,7 +1,7 @@
 module.exports = {
   purge: {
     enabled: process.env.NODE_ENV === "production",
-    content: ["./src/**/*.{html,liquid,njk}"],
+    content: ["./src/**/*.{html,liquid,njk}", "./src/assets/js/nav.js"],
   },
   darkMode: false,
   theme: {
@@ -64,14 +64,33 @@ module.exports = {
       gridTemplateRows: {
         "stretch-last": "auto minmax(auto, 1fr)",
       },
+      gridTemplateColumns: {
+        "8rem-auto": "8rem auto",
+      },
       backgroundImage: (_theme) => ({
         "intro-pattern": "url('/assets/images/bg_default.svg')",
       }),
+      scale: {
+        60: ".6",
+      },
+      translate: {
+        "10px": "10px",
+        "25vh": "25vh",
+        "roughly-75vh": "calc(75vh - 80px)",
+      },
+      minHeight: {
+        "25vh": "25vh",
+        "50vh": "50vh",
+        "75vh": "75vh",
+      },
     },
   },
   variants: {
     extend: {
       translate: ["group-hover"],
+      margin: ["first"],
+      stroke: ["group-hover"],
+      fill: ["group-hover"],
     },
   },
   plugins: [require("@tailwindcss/typography")],

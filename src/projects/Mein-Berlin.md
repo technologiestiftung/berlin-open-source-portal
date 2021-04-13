@@ -1,6 +1,6 @@
 ---
 layout: layouts/project.liquid
-tags: ["Beteiligung","Bürgerkommunikation"]
+tags: ["Beteiligung", "Soziales"]
 id: mein-berlin
 title: meinBerlin
 abstract: Beteiligungsplattform des Landes Berlin

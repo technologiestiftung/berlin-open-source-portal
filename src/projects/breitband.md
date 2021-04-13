@@ -1,6 +1,6 @@
 ---
 layout: layouts/project.liquid
-tags: ["Internet", "Smart City", "Telekommunikation", "Bedarfsmeldung", "Karte"]
+tags: ["Beteiligung"]
 id: breitband
 title: Berliner-Breitband-Portal
 abstract: Tool zur Bedarfsmeldung für den Breitbandausbau

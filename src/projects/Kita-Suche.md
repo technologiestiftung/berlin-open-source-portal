@@ -1,16 +1,28 @@
 ---
 layout: layouts/project.liquid
-tags: ["Kita", "Kinder"]
+tags: ["Soziales"]
 id: kita-suche
-title: Berliner Kita-Suche
+title: Kita-Suche
 abstract: Interaktive Karte mit allen Berliner Kitas und zahlreichen Zusatzinformationen
 languages: ["Javascript", "CSS", "HTML"]
 license: GNU General Public License
+repository: https://github.com/technologiestiftung/kita-explorer
+institution: Technologiestiftung Berlin
 link: https://kita-suche.berlin
 has-thumb: true
 date: 2021-02-16
 ---
 
-Die Senatsverwaltung für Bildung, Jugend und Familie bietet den Berliner Bürger\*innen Informationen zu den Berliner Kitas bereits durch eine Suchmaske über Berlin.de an. Im Sinne der Exploration moderner Möglichkeiten der nutzerfreundlichen Informationsaufbereitung hat das Ideation & Protoyping Lab sich mit den Kita-Daten des Landes Berlin beschäftigt. Das Ergebnis ist eine Kartenanwendung, welche es erlaubt, die passende Kita in Ihrer Nähe zu finden.
+## Zusammenfassung
+
+Kita-Suche ist eine interaktive Karte, die die Standorte aller Berliner Kitas mit jeweiligen Zusatzfunktionen anzeigt. Neben der Addressuche von Kitas in einem bestimmten Umkreis können Nutzer\*innen deren Standorte in einer Merkliste speichern.
+
+## Beschreibung des Projekts
+
+Kita-Suche wurde Ende 2017 von dem Ideation & Prototyping Lab der Technologiestiftung Berlin entwickelt. Die Daten stammen von einer Webseite der Senatsverwaltung für Bildung, Jugend und Familie, die über eine Suchmaske diverse Informationen zu Kitastandorten in Berlin anbietet. Im Sinne einer Exploration von Möglichkeiten der nutzerfreundlichen Informationsaufbereitung hat das Ideation & Protoyping Lab diese Kartenanwendung entwickelt, um die Informationen zu Kitastandorten nutzerfreundlicher anzubieten.
 
 ![Kita-Suche](/assets/images/projects/kita-suche.png)
+
+## Weitere Informationen
+
+Diese Anwendung und ihr Datenbestand werden nicht mehr gepflegt, da die Senatsverwaltung für Bildung, Jugend und Familie inzwischen einen "[Kita-Navigator](https://kita-navigator.berlin.de/)" anbietet, bei dem diverse Standortdaten, inklusive aktueller Angaben zu freien Plätzen, angeboten werden.

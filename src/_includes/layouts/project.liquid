@@ -136,11 +136,14 @@ permalink: /projekt/{{ id | slug }}/
       {% endif %}
     </table>
   </div>
-  <article class="col-span-12 md:col-span-7 mt-8 md:mt-0 prose">
-    {{ content }}
-  </article>
-  <aside class="col-span-12 mt-12">
-    <h2 class="mx-auto text-center">Alle Projekte auf einen Blick</h2>
-    <div class="mt-8">{% include partials/project-overview.liquid %}</div>
-  </aside>
+  <div class="col-span-12 md:col-span-7 mt-12 md:mt-0">
+    {% include partials/breadcrumbs.liquid %}
+    <article class="mt-12 prose mb-16">
+      {{ content }}
+    </article>
+    <a href="/projekte" rel="noopener noreferrer" class="group component-button sm:w-2/5 md:w-3/5 flex float-right justify-center items-center">
+      <span class="inline-block pr-2">{% include partials/icon-back.html %}</span>
+      <span class="ml-1">Zur Projekt-Übersicht</span>
+    </a>
+  </div>
 </div>
