@@ -75,6 +75,7 @@ module.exports = {
       },
       translate: {
         "10px": "10px",
+        "25vh": "25vh",
         "roughly-75vh": "calc(75vh - 80px)",
       },
       minHeight: {
@@ -88,8 +89,8 @@ module.exports = {
     extend: {
       translate: ["group-hover"],
       margin: ["first"],
-      stroke:['group-hover'],
-      fill:['group-hover'],
+      stroke: ["group-hover"],
+      fill: ["group-hover"],
     },
   },
   plugins: [require("@tailwindcss/typography")],

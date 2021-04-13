@@ -47,12 +47,8 @@ defaultAbstract: Überblick über Open Source-Projekte, die im Land Berlin von �
       {{ content }}
     </main>
     {% include partials/footer.liquid %}
-    {% include partials/cookies.liquid %}
-    {% unless title == "Projekt vorschlagen" %}
-      {% include partials/submit-project-button.liquid %}
-    {% endunless %}
+    {% include partials/submit-project-button.liquid %}
 
-    <script src="/assets/js/cookies.js"></script>
     <script src="/assets/js/nav.js"></script>
   </body>
 </html>

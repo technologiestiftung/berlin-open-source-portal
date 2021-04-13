@@ -21,7 +21,7 @@ To add a project just create a new markdown file in `src/projects/`. Take a look
 ```yaml
 ---
 layout: layouts/project.liquid
-tags: ["Bäume", "Wasser"] # optional
+tags: ["Umwelt"] # optional
 id: giessdenkiez
 title: Gieß den Kiez
 abstract: Alle Berliner Stadtbäume in einer Anwendung
@@ -42,17 +42,19 @@ If you want your project to be presented with images, you add them in `src/asset
 
 > Also take a look at our (German-language) [contribution guidelines](/CONTRIBUTING.md).
 
-### Adding a document
+### Adding an external link
 
-To add an info document just make a new markdown file in `/src/information/`. In order to give your document the right title you should add the `title` in the front matter. Keep the `title` short and simple to understand. Also add an `abstract` and add `tags: document`, in order to associate the document with the right category.
+To add a link with external information regarding Open Source software simply create a new markdown file in `/src/links/`. In order to give your link the right title you should add the `title` in the front matter. Keep the `title` short and simple to understand. Also add a short description, `link: YOUR-LINK-HERE` and `tags: document` in order to associate the document with the right category.
+
+Example:
 
 ```yaml
 ---
-title: A title
-abstract: A short abstract
+title: Choose a License
 tags: document
+link: https://choosealicense.com/
 ---
-
+Welche Lizenz passt zu meinem Open Source-Projekt?
 ```
 
 ## Installing, running and building
