@@ -7,7 +7,6 @@ abstract: Interaktive Karte mit allen Berliner Kitas und zahlreichen Zusatzinfor
 languages: ["Javascript", "CSS", "HTML"]
 license: GNU General Public License
 repository: https://github.com/technologiestiftung/kita-explorer
-institution: Technologiestiftung Berlin
 link: https://kita-suche.berlin
 has-thumb: true
 date: 2021-02-16
@@ -15,11 +14,11 @@ date: 2021-02-16
 
 ## Zusammenfassung
 
-Kita-Suche ist eine interaktive Karte, die die Standorte aller Berliner Kitas mit jeweiligen Zusatzfunktionen anzeigt. Neben der Addressuche von Kitas in einem bestimmten Umkreis können Nutzer\*innen deren Standorte in einer Merkliste speichern.
+Die Kita-Suche ist eine interaktive Karte, die die Standorte aller Berliner Kitas mit jeweiligen Zusatzfunktionen anzeigt. Neben der Addressuche von Kitas in einem bestimmten Umkreis können Nutzer\*innen deren Standorte in einer Merkliste speichern.
 
 ## Beschreibung des Projekts
 
-Kita-Suche wurde Ende 2017 von dem Ideation & Prototyping Lab der Technologiestiftung Berlin entwickelt. Die Daten stammen von einer Webseite der Senatsverwaltung für Bildung, Jugend und Familie, die über eine Suchmaske diverse Informationen zu Kitastandorten in Berlin anbietet. Im Sinne einer Exploration von Möglichkeiten der nutzerfreundlichen Informationsaufbereitung hat das Ideation & Protoyping Lab diese Kartenanwendung entwickelt, um die Informationen zu Kitastandorten nutzerfreundlicher anzubieten.
+Die Kita-Suche wurde Ende 2017 vom Ideation & Prototyping Lab der Technologiestiftung Berlin entwickelt. Die Daten stammen von einer Webseite der Senatsverwaltung für Bildung, Jugend und Familie, die über eine Suchmaske diverse Informationen zu Kitastandorten in Berlin anbietet. Im Sinne einer Exploration von Möglichkeiten der nutzerfreundlichen Informationsaufbereitung hat das Ideation & Protoyping Lab diese Kartenanwendung entwickelt, um die Informationen zu Kitastandorten nutzerfreundlicher anzubieten.
 
 ![Kita-Suche](/assets/images/projects/kita-suche.png)
 
