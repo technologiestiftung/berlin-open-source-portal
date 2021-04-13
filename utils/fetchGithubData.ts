@@ -1,6 +1,9 @@
 import { readdir, readFile, writeFileSync } from "fs";
 const frontmatter = require("@github-docs/frontmatter"); // import syntax can't be used here currently
-import { fetchGithubRepo as fetchGithubRepoData } from "./requests";
+import {
+  fetchGithubRepo as fetchGithubRepoData,
+  fetchOpenIssues,
+} from "./requests";
 
 import { GithubDataType, RepoDataType, GithubResponseType } from "./types";
 
@@ -38,19 +41,26 @@ readdir("./src/projects", (error: Error, filenames: string[]) => {
           frontMatter.repository &&
           frontMatter.repository.startsWith("https://github.com/")
         ) {
-          const API_URL: string = frontMatter.repository.replace(
+          const ORG_AND_REPO: string = frontMatter.repository.replace(
             "https://github.com/",
-            "https://api.github.com/repos/"
+            ""
           );
+
+          const GITHUB_API_URL: string = `https://api.github.com/repos/${ORG_AND_REPO}`;
+
+          const OPEN_ISSUES_API_URL = `https://api.github.com/search/issues?q=repo:${ORG_AND_REPO}%20is:issue%20is:open`;
 
           const {
             language,
             archived,
             license,
-            open_issues_count,
             updated_at,
             html_url,
-          }: GithubResponseType = await fetchGithubRepoData(API_URL);
+          }: GithubResponseType = await fetchGithubRepoData(GITHUB_API_URL);
+
+          const { total_count: open_issues_count } = await fetchOpenIssues(
+            OPEN_ISSUES_API_URL
+          );
 
           const extractedData: RepoDataType = {
             language: language,
@@ -64,7 +74,7 @@ readdir("./src/projects", (error: Error, filenames: string[]) => {
           githubData.repos[extractedData["html_url"]] = extractedData;
           let stringifiedData = JSON.stringify(githubData);
           writeFileSync("./src/_data/githubData.json", stringifiedData);
-          console.info(`Successfully fetched data for: ${API_URL}`);
+          console.info(`Successfully fetched data for: ${ORG_AND_REPO}`);
         }
       }
     );

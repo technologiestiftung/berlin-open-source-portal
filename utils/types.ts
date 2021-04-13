@@ -35,3 +35,9 @@ export interface GithubDataType {
   timestamp: Date;
   repos: RepoObjectType | {};
 }
+
+export interface GithubSearchApiResponseType {
+  total_count: number;
+  // there is much more data coming:
+  [key: string]: unknown;
+}
