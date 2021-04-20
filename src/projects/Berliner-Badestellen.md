@@ -7,6 +7,7 @@ abstract: Übersicht über Berliner Badestellen mit aktuellen Informationen zur 
 languages: ["Typescript"]
 license: MIT
 link: https://badegewaesser-berlin.de/
+link-is-temporarily-offline: true
 repository: https://github.com/technologiestiftung/flusshygiene
 has-hero: true
 has-thumb: true
@@ -23,8 +24,8 @@ Die Anwendung wurde vom Ideation & Prototyping Lab der Technologiestiftung Berli
 
 ![Berliner Badestellen](/assets/images/projects/badestellen_overview.jpg)
 
-Hervorgegangen ist das Projekt aus dem Forschungsprojekt Flusshygiene. In dem seit 2015 laufenden Projekt haben Wissenschaftler\*innen die von Starkregen beeinflussten Badestellen modelliert. Vorhersagen über die Gewässerqualität bei derartigen Ereignissen werden so möglich. 
-Bisher wurden die Werte der Beprobung der Badestellen durch das LaGeSo alle zwei Wochen bereit gestellt. Durch das konzipierte Modellierungsverfahren stehen nun tagesaktuelle Werte zur Verfügung. 
+Hervorgegangen ist das Projekt aus dem Forschungsprojekt Flusshygiene. In dem seit 2015 laufenden Projekt haben Wissenschaftler\*innen die von Starkregen beeinflussten Badestellen modelliert. Vorhersagen über die Gewässerqualität bei derartigen Ereignissen werden so möglich.
+Bisher wurden die Werte der Beprobung der Badestellen durch das LaGeSo alle zwei Wochen bereit gestellt. Durch das konzipierte Modellierungsverfahren stehen nun tagesaktuelle Werte zur Verfügung.
 Das Modell betrifft spezifisch die kleine Badewiese und den Grunewaldturm, da die Einflüsse bei Starkregenereignissen dort am stärksten sind. Die meisten anderen Badestellen, speziell Seen, bleiben davon unbeeinflusst.
 
 ![Architektur](/assets/images/projects/badestellen_arc.jpg)
