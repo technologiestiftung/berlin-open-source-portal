@@ -64,6 +64,9 @@ module.exports = {
       gridTemplateRows: {
         "stretch-last": "auto minmax(auto, 1fr)",
       },
+      gridAutoRows: {
+        "1fr": "1fr",
+      },
       gridTemplateColumns: {
         "8rem-auto": "8rem auto",
       },
