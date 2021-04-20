@@ -6,7 +6,7 @@ title: Berliner Badestellen
 abstract: Übersicht über Berliner Badestellen mit aktuellen Informationen zur Wasserqualität
 languages: ["Typescript"]
 license: MIT
-link: https://badegewaesser-berlin.de/
+link: https://pedantic-newton-ac47fc.netlify.app/index.html
 repository: https://github.com/technologiestiftung/flusshygiene
 has-hero: true
 has-thumb: true
