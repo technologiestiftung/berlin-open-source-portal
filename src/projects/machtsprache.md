@@ -20,13 +20,19 @@ Das Projekt macht.sprache. entwickelt eine Web-App, um **politisch sensible Übe
 
 Über Crowdsourcing wird eine Datenbank mit Übersetzungsbeispielen und Begriffen gesammelt, es gibt virtuelle Veranstaltungen mit Expert:innen und letztendlich entsteht ein Tool, das beim Übersetzen von sensiblen Begriffen unterstützt.
 
+## Beschreibung des Projekts
+
 ![Smartphone mit macht.sprache. im Gras](/assets/images/projects/machtsprache_wiese.jpg)
 
-## Über uns
+Unsere gemeinsamen Bemühungen werden in das endgültige **Übersetzungstool** einfließen, das vom Projektteam konzeptionell kuratiert und technisch entwickelt wird.
+
+Wir sind uns voll und ganz bewusst, dass unser Projekt niemals allumfassend sein kann und ein unser finales Tool niemals alle Probleme lösen wird. Gleichzeitig vertrauen wir auf die Kraft, die in kollaborativen Prozessen und ausführlichen Diskussionen steckt.
+
+Im Anschluss an das Projekt wird die Software als **Open Source zur Weiterentwicklung**, für Projekte mit anderen Schwerpunkten oder für die Übersetzung in andere Sprachen zur Verfügung stehen.
+
+## Weitere Information
 
 [poco.lit.](https://pocolit.com) und [völlig ohne](https://volligohne.de) stehen hinter macht.sprache. Für die Konzeption und inhaltliche Ausgestaltung sind Anna von Rath und Lucy Gasser verantwortlich. Webdesign und technische Umsetzung stammen von Timur Celikel und Kolja Lange.
-
-## Links
 
 * [Über das Projekt und zum Mitmachen](https://www.machtsprache.de/about)
 * [Aktuelles zu macht.sprache.](https://www.machtsprache.de/news)
