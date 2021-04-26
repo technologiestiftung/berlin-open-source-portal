@@ -16,7 +16,7 @@ date: 2021-04-22
 ## Zusammenfassung
 
 
-Das zentrale Berliner Datenportal [Berlin Open Data](https://daten.berlin.de) macht die Datenbestände der Berliner Verwaltung und der landeseigenen Betriebe für die Öffentlichkeit auffindbar.
+Das zentrale Berliner Datenportal _[Berlin Open Data](https://daten.berlin.de)_ macht die Datenbestände der Berliner Verwaltung und der landeseigenen Betriebe für die Öffentlichkeit auffindbar.
 Alle Behörden und Betriebe können hier in Eigentverantwortung Datensätze hinzufügen und pflegen.
 
 ## Beschreibung des Projekts
@@ -33,12 +33,12 @@ Technisch gesehen besteht das Datenportal aus mehreren Teilen.
 Dies sind insbesondere ein [Drupal](https://www.drupal.org)-basiertes CMS, welches das eigentliche Portal auf [daten.berlin.de](https://daten.berlin.de "Berlin Open Data") ausspielt, sowie ein [CKAN](https://ckan.org)-basiertes Redaktionssystem (das „Datenregister“), über das die unterschiedlichen Behörden ihre Datensätze ins Portal einbinden können.
 Eine detailliertere Übersicht zum Aufbau des Portals findet sich im Berliner [Open-Data-Handbuch](https://berlinonline.github.io/open-data-handbuch/#das-berliner-datenportal "Kapitel 'Das Berliner Datenportal' im Berliner Open-Data-Handbuch").
 
-![Die Grafik zeigt den Weg der Metadaten im Berliner Datenportal. Datenbereitsteller können Datensätze manuell über Imperia und Datenregister bereitstellen, oder automatisch über Harvester und API. Datennutzende können manuell suchen und browsen über das Datenportal, oder für automatische Auswertungen über die APIs gehen.](/assets/images/projects/berlin-open-data_uebersicht.png "Architektur-Übersicht des Berliner Open-Data-Portals")
+![Die Grafik zeigt den Weg der Metadaten im Berliner Datenportal. Datenbereitsteller können Datensätze manuell über Imperia und Datenregister bereitstellen, oder automatisch über Harvester und API. Datennutzende können manuell suchen und browsen über das Datenportal, oder für automatische Auswertungen über die APIs gehen.](../assets/images/projects/berlin-open-data_uebersicht.png "Architektur-Übersicht des Berliner Open-Data-Portals")
 
-Dementsprechend ist auch der Quellcode für das Projekt nicht an einem einzelnen Ort zu Hause, sondern verteilt sich auf verschiedene Repositories.
+Dementsprechend ist auch der Quellcode für das Projekt nicht an einem einzelnen Ort zu Hause, sondern verteilt sich auf zahlreiche Repositories.
 Dazu zählen etwa verschiedene Plugins für CKAN und Drupal.
 Nicht alle Teile des Gesamtportals sind bereits als Open Source öffentlich verfügbar – im Laufe der Zeit sollen aber mehr und mehr dazukommen.
-Hier geht es zur [Liste aller aktuell verfügbaren Repositories von Berlin Open Data](https://github.com/search?q=org%3Aberlinonline+topic%3Aberlinopendata).
+Hier geht es zur [Liste aller aktuell verfügbaren Repositories von _Berlin Open Data_](https://github.com/search?q=org%3Aberlinonline+topic%3Aberlinopendata).
 
 ## Weitere Information
 
@@ -46,8 +46,8 @@ Das Thema Open Data liegt in Berlin bei der [Senatsverwaltung für Wirtschaft, E
 Die technische Betreuung des Datenportals liegt bei dem Dienstleister [BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net/).
 Weitere Informationen zum Thema Open Data in Berlin gibt es an folgenden Stellen:
 
-* Das [Berliner Open-Data-Handbuch](https://berlinonline.github.io/open-data-handbuch/)
-* Die [Informationsseite zu Open Data](https://www.berlin.de/sen/web/) der Senatsverwaltung
+* das [Berliner Open-Data-Handbuch](https://berlinonline.github.io/open-data-handbuch/)
+* die [Informationsseite zu Open Data](https://www.berlin.de/sen/web/) der Senatsverwaltung
 * [@OpenDataBerlin](https://twitter.com/OpenDataBerlin "Berlin Open Data auf Twitter") auf Twitter
 
 ---
