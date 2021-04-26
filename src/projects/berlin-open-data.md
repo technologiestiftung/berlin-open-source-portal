@@ -10,7 +10,7 @@ link: https://daten.berlin.de
 repository: https://github.com/search?q=org%3Aberlinonline+topic%3Aberlinopendata
 has-hero: true
 has-thumb: true
-date: 2021-04-22
+date: 2021-04-26
 ---
 
 ## Zusammenfassung
@@ -33,7 +33,7 @@ Technisch gesehen besteht das Datenportal aus mehreren Teilen.
 Dies sind insbesondere ein [Drupal](https://www.drupal.org)-basiertes CMS, welches das eigentliche Portal auf [daten.berlin.de](https://daten.berlin.de "Berlin Open Data") ausspielt, sowie ein [CKAN](https://ckan.org)-basiertes Redaktionssystem (das „Datenregister“), über das die unterschiedlichen Behörden ihre Datensätze ins Portal einbinden können.
 Eine detailliertere Übersicht zum Aufbau des Portals findet sich im Berliner [Open-Data-Handbuch](https://berlinonline.github.io/open-data-handbuch/#das-berliner-datenportal "Kapitel 'Das Berliner Datenportal' im Berliner Open-Data-Handbuch").
 
-![Die Grafik zeigt den Weg der Metadaten im Berliner Datenportal. Datenbereitsteller können Datensätze manuell über Imperia und Datenregister bereitstellen, oder automatisch über Harvester und API. Datennutzende können manuell suchen und browsen über das Datenportal, oder für automatische Auswertungen über die APIs gehen.](../assets/images/projects/berlin-open-data_uebersicht.png "Architektur-Übersicht des Berliner Open-Data-Portals")
+![Die Grafik zeigt den Weg der Metadaten im Berliner Datenportal. Datenbereitsteller können Datensätze manuell über Imperia und Datenregister bereitstellen, oder automatisch über Harvester und API. Datennutzende können manuell suchen und browsen über das Datenportal, oder für automatische Auswertungen über die APIs gehen.](/assets/images/projects/berlin-open-data_uebersicht.png "Architektur-Übersicht des Berliner Open-Data-Portals")
 
 Dementsprechend ist auch der Quellcode für das Projekt nicht an einem einzelnen Ort zu Hause, sondern verteilt sich auf zahlreiche Repositories.
 Dazu zählen etwa verschiedene Plugins für CKAN und Drupal.
