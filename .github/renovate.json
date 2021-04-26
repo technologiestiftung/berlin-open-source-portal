@@ -1,7 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["@inpyjamas"],
-  "baseBranches": [
-    "staging" 
-  ]
+  "extends": ["@inpyjamas"]
 }
