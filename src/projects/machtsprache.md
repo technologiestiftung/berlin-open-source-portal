@@ -11,7 +11,7 @@ repository: https://github.com/macht-sprache/macht-sprache-app
 institution: poco.lit. & völlig ohne
 has-hero: true
 has-thumb: true
-date: 2021-05-20
+date: 2021-04-20
 ---
 
 ## Zusammenfassung
