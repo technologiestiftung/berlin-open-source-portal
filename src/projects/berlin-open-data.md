@@ -7,10 +7,10 @@ abstract: Offene Daten der Berliner Verwaltungen und landeseigenen Betriebe
 languages: ["Python", "PHP", "JavaScript"]
 license: GPL-2.0, AGPL-3.0, MIT (verschiedene Repositories)
 link: https://daten.berlin.de
-repository: https://github.com/search?q=org%3Aberlinonline+topic%3Aberlinopendata
+repository_collection: https://github.com/search?q=org%3Aberlinonline+topic%3Aberlinopendata
 has-hero: true
 has-thumb: true
-date: 2021-04-26
+date: 2021-04-29
 ---
 
 ## Zusammenfassung
