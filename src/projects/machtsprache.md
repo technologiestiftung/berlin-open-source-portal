@@ -8,7 +8,8 @@ languages: ["react", "TypeScript"]
 license: GPLv3
 link: https://machtsprache.de
 repository: https://github.com/macht-sprache/macht-sprache-app
-institution: poco.lit. & völlig ohne
+developers: ["poco.lit.", "völlig ohne"]
+backers: ["Senatsverwaltung für Kultur und Europa"]
 has-hero: true
 has-thumb: true
 date: 2021-04-20
@@ -34,6 +35,6 @@ Im Anschluss an das Projekt wird die Software als **Open Source zur Weiterentwic
 
 [poco.lit.](https://pocolit.com) und [völlig ohne](https://volligohne.de) stehen hinter macht.sprache. Für die Konzeption und inhaltliche Ausgestaltung sind Anna von Rath und Lucy Gasser verantwortlich. Webdesign und technische Umsetzung stammen von Timur Celikel und Kolja Lange.
 
-* [Über das Projekt und zum Mitmachen](https://www.machtsprache.de/about)
-* [Aktuelles zu macht.sprache.](https://www.machtsprache.de/news)
-* Hinter den Kulissen [hier](https://pocolit.com/2021/03/05/macht-sprache-hinter-den-kulissen-ueber-das-design-barrierefreiheit-und-den-umgang-mit-diskriminierenden-begriffen/) und [hier](https://pocolit.com/2021/04/02/macht-sprache-hinter-den-kulissen-verhaltenskodex-uebersetzungen-bewerten-und-mitmachen/)
+- [Über das Projekt und zum Mitmachen](https://www.machtsprache.de/about)
+- [Aktuelles zu macht.sprache.](https://www.machtsprache.de/news)
+- Hinter den Kulissen [hier](https://pocolit.com/2021/03/05/macht-sprache-hinter-den-kulissen-ueber-das-design-barrierefreiheit-und-den-umgang-mit-diskriminierenden-begriffen/) und [hier](https://pocolit.com/2021/04/02/macht-sprache-hinter-den-kulissen-verhaltenskodex-uebersetzungen-bewerten-und-mitmachen/)

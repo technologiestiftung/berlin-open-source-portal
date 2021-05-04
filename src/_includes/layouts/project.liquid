@@ -58,13 +58,36 @@ permalink: /projekt/{{ id | slug }}/
       {% endif %}
     </div>
     <table class="mt-8 w-full text-left">
-      {% if institution %}
+      {% if developers %}
       <tr
-        class="grid gap-1 py-2 border-b-2 border-gray-300 border-dotted"
+        class="grid py-2 border-b-2 border-gray-300 border-dotted"
       >
-        <th class="text-xs">Institution:</th>
+        <th class="text-xs">Entwickelt durch:</th>
         <td>
-          {{ institution }}
+          {% for developer in developers %}
+          <span>
+            {% unless forloop.first %}
+            <span aria-hidden="true">&#8226;</span>
+            {% endunless %}
+            {{ developer }}
+          </span>
+          {% endfor %}
+        </td>
+      </tr>
+      {% endif %} {% if backers %}
+      <tr
+        class="grid py-2 border-b-2 border-gray-300 border-dotted"
+      >
+        <th class="text-xs">Beauftragt durch / gefördert von:</th>
+        <td>
+          {% for backer in backers %}
+          <span>
+            {% unless forloop.first %}
+            <span aria-hidden="true">&#8226;</span>
+            {% endunless %}
+            {{ backer }}
+          </span>
+          {% endfor %}
         </td>
       </tr>
       {% endif %} {% if githubData.repos[repository].updated_at %}
