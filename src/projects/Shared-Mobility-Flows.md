@@ -8,6 +8,8 @@ languages: ["Javascript"]
 license: MIT
 link: http://bikesharing.citylab-berlin.org/
 repository: https://github.com/technologiestiftung/bikesharing-vis
+developers: ["Technologiestiftung Berlin"]
+backers: ["Senatskanzlei Berlin"]
 has-hero: true
 has-thumb: true
 date: 2021-02-16

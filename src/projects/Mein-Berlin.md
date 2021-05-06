@@ -8,15 +8,16 @@ languages: ["Python", "HTML", "Javascript"]
 license: GNU Affero General Public License
 link: https://mein.berlin.de/
 repository: https://github.com/liqd/a4-meinberlin
-institution: Berliner Senatzskanzlei
+developers: ["Liquid Democracy"]
+backers: ["Senatskanzlei Berlin"]
 has-hero: true
 has-thumb: true
 date: 2021-02-16
 ---
 
-## Zusammenfassung 
+## Zusammenfassung
 
-Über mein.berlin.de teilt die Berliner Verwaltung Informationen zu Projekten, bei denen Bürger*innen eigene Ideen und Anmerkungen einbringen können.
+Über mein.berlin.de teilt die Berliner Verwaltung Informationen zu Projekten, bei denen Bürger\*innen eigene Ideen und Anmerkungen einbringen können.
 Mitmachen können dabei alle, die sich für die Gestaltung von Berlin interessieren.
 
 ## Beschreibung des Projekts

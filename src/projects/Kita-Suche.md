@@ -8,6 +8,8 @@ languages: ["Javascript", "CSS", "HTML"]
 license: GNU General Public License
 repository: https://github.com/technologiestiftung/kita-explorer
 link: https://kita-suche.berlin
+developers: ["Technologiestiftung Berlin"]
+backers: ["Senatsverwaltung für Wirtschaft, Energie und Betriebe"]
 has-thumb: true
 date: 2021-02-16
 ---

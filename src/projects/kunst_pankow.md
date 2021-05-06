@@ -7,6 +7,8 @@ abstract: Durch eine interaktive Webanwendung Pankows Kunstwerke erkunden
 link: https://vikus.kunst-im-oeffentlichen-raum-pankow.de
 license: MIT License
 repository: https://github.com/cpietsch/vikus-viewer
+developers: ["Christopher Pietsch"]
+backers: ["Senatsverwaltung für Kultur und Europa"]
 has-thumb: true
 date: 2021-02-16
 ---

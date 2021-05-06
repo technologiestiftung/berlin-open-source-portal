@@ -8,13 +8,14 @@ languages: ["Python", "PHP", "JavaScript"]
 license: GPL-2.0, AGPL-3.0, MIT (verschiedene Repositories)
 link: https://daten.berlin.de
 repository_collection: https://github.com/search?q=org%3Aberlinonline+topic%3Aberlinopendata
+developers: ["BerlinOnline", "Fraunhofer FOKUS"]
+backers: ["Senatsverwaltung für Wirtschaft, Energie und Betriebe"]
 has-hero: true
 has-thumb: true
 date: 2021-04-29
 ---
 
 ## Zusammenfassung
-
 
 Das zentrale Berliner Datenportal _[Berlin Open Data](https://daten.berlin.de)_ macht die Datenbestände der Berliner Verwaltung und der landeseigenen Betriebe für die Öffentlichkeit auffindbar.
 Alle Behörden und Betriebe können hier in Eigentverantwortung Datensätze hinzufügen und pflegen.
@@ -46,11 +47,10 @@ Das Thema Open Data liegt in Berlin bei der [Senatsverwaltung für Wirtschaft, E
 Die technische Betreuung des Datenportals liegt bei dem Dienstleister [BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net/).
 Weitere Informationen zum Thema Open Data in Berlin gibt es an folgenden Stellen:
 
-* das [Berliner Open-Data-Handbuch](https://berlinonline.github.io/open-data-handbuch/)
-* die [Informationsseite zu Open Data](https://www.berlin.de/sen/web/) der Senatsverwaltung
-* [@OpenDataBerlin](https://twitter.com/OpenDataBerlin "Berlin Open Data auf Twitter") auf Twitter
+- das [Berliner Open-Data-Handbuch](https://berlinonline.github.io/open-data-handbuch/)
+- die [Informationsseite zu Open Data](https://www.berlin.de/sen/web/) der Senatsverwaltung
+- [@OpenDataBerlin](https://twitter.com/OpenDataBerlin "Berlin Open Data auf Twitter") auf Twitter
 
 ---
 
 Grafik „Architektur-Übersicht des Berliner Open-Data-Portals“ von Nadine Wohlfahrt ([BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net/)). Veröffentlicht unter [Creative Commons Namensnennung 4.0 International Lizenz](https://creativecommons.org/licenses/by/4.0/deed.de) (CC BY 4.0).
-
