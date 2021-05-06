@@ -8,7 +8,7 @@ languages: ["JavaScript", "PHP"]
 license: MIT License
 link: https://www.breitband.berlin.de
 repository: https://github.com/BerlinerBreitbandPortal/BBP
-developers: ["..."]
+developers: ["geoSYS"]
 backers: ["Senatsverwaltung für Wirtschaft, Energie und Betriebe"]
 has-hero: true
 has-thumb: true

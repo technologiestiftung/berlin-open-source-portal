@@ -9,7 +9,7 @@ license: GNU Affero General Public License
 link: https://mein.berlin.de/
 repository: https://github.com/liqd/a4-meinberlin
 developers: ["Liquid Democracy e.V."]
-backers: ["Berliner Senatzskanzlei"]
+backers: ["Senatskanzlei Berlin"]
 has-hero: true
 has-thumb: true
 date: 2021-02-16

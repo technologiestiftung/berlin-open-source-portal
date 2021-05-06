@@ -8,7 +8,7 @@ languages: ["Python", "PHP", "JavaScript"]
 license: GPL-2.0, AGPL-3.0, MIT (verschiedene Repositories)
 link: https://daten.berlin.de
 repository_collection: https://github.com/search?q=org%3Aberlinonline+topic%3Aberlinopendata
-developers: ["BerlinOnline Stadtportal GmbH & Co. KG"]
+developers: ["BerlinOnline", "Fraunhofer FOKUS"]
 backers: ["Senatsverwaltung für Wirtschaft, Energie und Betriebe"]
 has-hero: true
 has-thumb: true

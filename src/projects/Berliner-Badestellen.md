@@ -9,7 +9,7 @@ license: MIT
 link: https://badestellen.netlify.app/
 repository: https://github.com/technologiestiftung/flusshygiene
 developers: ["Technologiestiftung Berlin"]
-backers: ["..."]
+backers: ["Senatsverwaltung für Wirtschaft, Energie und Betriebe"]
 has-hero: true
 has-thumb: true
 date: 2021-02-16
