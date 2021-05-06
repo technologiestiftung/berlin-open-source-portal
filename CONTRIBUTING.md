@@ -28,8 +28,8 @@ languages: ["Typescript"]
 license: MIT
 link: https://www.giessdenkiez.de
 repository: https://github.com/technologiestiftung/giessdenkiez-de
-developers: ["CityLAB Berlin"]
-backers: ["Berliner Senatskanzlei"]
+developers: ["Technologiestiftung Berlin"]
+backers: ["Senatskanzlei Berlin"]
 has-hero: true
 has-thumb: true
 date: 2021-02-16
