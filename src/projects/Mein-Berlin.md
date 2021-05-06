@@ -8,7 +8,7 @@ languages: ["Python", "HTML", "Javascript"]
 license: GNU Affero General Public License
 link: https://mein.berlin.de/
 repository: https://github.com/liqd/a4-meinberlin
-developers: ["Liquid Democracy e.V."]
+developers: ["Liquid Democracy"]
 backers: ["Senatskanzlei Berlin"]
 has-hero: true
 has-thumb: true
