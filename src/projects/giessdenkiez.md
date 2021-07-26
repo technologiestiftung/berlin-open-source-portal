@@ -23,7 +23,7 @@ Kartenanwendung zur Koordination der Bewässerung von Stadtbäumen – Informier
 
 Gieß den Kiez ist eine kartenbasierte Web-Anwendung. Einige Features:
 
-- Mehr als 625.000 verzeichnete Stadtbäume mit Infos zu Alter, Art und Wasserbedarf
+- Mehr als 750.000 verzeichnete Stadtbäume mit Infos zu Alter, Art und Wasserbedarf
 - Tagesaktuelle, hochaufgelöste Niederschlagsdaten des Deutschen Wetterdienstes
 - Abonniere Bäume und markiere, wenn Du Sie gegossen hast.
 - Standorte aller öffentlichen Wasserpumpen
