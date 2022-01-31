@@ -33,7 +33,7 @@ permalink: /projekt/{{ id | slug }}/
     <div class="mt-4 md:mt-0">
       {% for tag in tags %} {% unless tag == "project" or tag == "documents" %}
       <li class="inline-block mt-2">
-        {% include partials/tag.liquid, tag: tag %}
+        {% include "partials/tag.liquid", tag: tag %}
       </li>
       {% endunless %} {% endfor %}
     </div>
@@ -41,18 +41,18 @@ permalink: /projekt/{{ id | slug }}/
     <div class="mt-8 grid gap-4">
       {% if link %}
       <a href="{{ link }}" target="_blank" rel="noopener noreferrer" class="component-button w-4/5 sm:w-2/5 md:w-4/5 flex justify-center items-center">
-        <span class="inline-block">{% include partials/icon-link.html %}</span>
+        <span class="inline-block">{% include "partials/icon-link.html" %}</span>
         <span class="ml-1">Zur Website</span>
       </a>
       {% endif %} {% if repository %}
       <a href="{{ repository }}" target="_blank" rel="noopener noreferrer" class="component-button w-4/5 sm:w-2/5 md:w-4/5 flex justify-center items-center">
-        <span class="inline-block">{% include partials/icon-github.html %}</span>
+        <span class="inline-block">{% include "partials/icon-github.html" %}</span>
         <span class="ml-1">Zum Repository</span>
       </a>
       {% endif %}
       {% if repository_collection %}
       <a href="{{ repository_collection }}" target="_blank" rel="noopener noreferrer" class="component-button w-4/5 sm:w-2/5 md:w-4/5 flex justify-center items-center">
-        <span class="inline-block">{% include partials/icon-repository.html %}</span>
+        <span class="inline-block">{% include "partials/icon-repository.html" %}</span>
         <span class="ml-1">Zum Source Code</span>
       </a>
       {% endif %}
@@ -166,12 +166,12 @@ permalink: /projekt/{{ id | slug }}/
     </table>
   </div>
   <div class="col-span-12 md:col-span-7 mt-12 md:mt-0">
-    {% include partials/breadcrumbs.liquid %}
+    {% include "partials/breadcrumbs.liquid" %}
     <article class="mt-12 prose mb-16">
       {{ content }}
     </article>
     <a href="/projekte" rel="noopener noreferrer" class="group component-button sm:w-2/5 md:w-3/5 flex float-right justify-center items-center">
-      <span class="inline-block pr-2">{% include partials/icon-back.html %}</span>
+      <span class="inline-block pr-2">{% include "partials/icon-back.html" %}</span>
       <span class="ml-1">Zur Projekt-Übersicht</span>
     </a>
   </div>
