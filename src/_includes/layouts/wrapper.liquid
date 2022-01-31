@@ -9,15 +9,15 @@ layout: layouts/root.liquid
     <h1 class="pb-2 md:pb-0 md:text-right">{{ title }}</h1>
     <div class="transform md:translate-y-10px">
       {% if page.fileSlug == "contribute" %} {% include
-      partials/contribute-intro.liquid %} {% elsif page.fileSlug == "projects"
-      %} {% include partials/project-intro.liquid %} {% elsif abstract %}
+      "partials/contribute-intro.liquid" %} {% elsif page.fileSlug == "projects"
+      %} {% include "partials/project-intro.liquid" %} {% elsif abstract %}
       {{ abstract }}
       {% endif %}
     </div>
   </div>
 </section>
 <section class="max-w-screen-lg p-8 mx-auto mt-0 md:mt-4">
-  {% include partials/breadcrumbs.liquid %}
+  {% include "partials/breadcrumbs.liquid" %}
   <div class="mt-12">
     {{ content }}
   </div>

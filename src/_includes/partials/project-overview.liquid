@@ -1,6 +1,6 @@
 <div class="grid md:grid-cols-2 gap-4 md:gap-8 auto-rows-1fr">
   {% assign projectsOrderedByDate = collections.project | reverse %}
   {% for project in projectsOrderedByDate %} {% include
-  partials/project-card.liquid, url: project.url, title: project.data.title,
+  "partials/project-card.liquid", url: project.url, title: project.data.title,
   abstract: project.data.abstract, id: project.data.id, has-thumb: project.data.has-thumb %} {% endfor %}
 </div>

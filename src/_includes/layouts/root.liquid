@@ -17,7 +17,7 @@ defaultAbstract: Überblick über Open Source-Projekte, die im Land Berlin von �
     <link rel="icon" href="/icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
-    {% include partials/social-head.liquid %}
+    {% include "partials/social-head.liquid" %}
 
     <!-- Matomo -->
     <script type="text/javascript">
@@ -43,12 +43,12 @@ defaultAbstract: Überblick über Open Source-Projekte, die im Land Berlin von �
   </head>
 
   <body>
-    {% include partials/header.liquid %}
+    {% include "partials/header.liquid" %}
     <main class="w-full mb-16 md:mb-32">
       {{ content }}
     </main>
-    {% include partials/footer.liquid %}
-    {% include partials/submit-project-button.liquid %}
+    {% include "partials/footer.liquid" %}
+    {% include "partials/submit-project-button.liquid" %}
 
     <script src="/assets/js/nav.js"></script>
   </body>
