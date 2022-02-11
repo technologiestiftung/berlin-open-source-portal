@@ -28,7 +28,7 @@ Gieß den Kiez ist eine kartenbasierte Web-Anwendung. Einige Features:
 - Abonniere Bäume und markiere, wenn Du Sie gegossen hast.
 - Standorte aller öffentlichen Wasserpumpen
 
-![Wetterdaten](/assets/images/projects/giessdenkiez_weather.png)
+![Wetterdaten](/assets/images/projects/giessdenkiez_weather.jpg)
 
 ## Weitere Informationen
 
