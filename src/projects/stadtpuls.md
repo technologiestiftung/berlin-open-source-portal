@@ -5,9 +5,11 @@ id: stadtpuls
 title: Stadtpuls
 abstract: Die offene IoT-Plattform für Echtzeitsensorik in Berlin
 languages: ["Typescript", "React", "Supabase", "Tailwind"]
-license: MIT
+license: MIT License
 link: https://www.stadtpuls.com
 repository: https://github.com/technologiestiftung/stadtpuls
+developers: ["CityLAB Berlin"]
+backers: ["Senatskanzlei Berlin"]
 has-hero: true
 has-thumb: true
 date: 2022-02-11
