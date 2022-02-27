@@ -30,7 +30,7 @@ jobs:
       - uses: actions/checkout@v2
 
       # Set-up Node.js
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
 
       # Installs dependencies
       - name: Install dependencies
