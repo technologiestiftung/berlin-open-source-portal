@@ -114,6 +114,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/dnsos"><img src="https://avatars.githubusercontent.com/u/15640196?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Dennis Ostendorf</b></sub></a><br /><a href="https://github.com/technologiestiftung/CityLAB Slides/commits?author=dnsos" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Lisa-Stubert"><img src="https://avatars.githubusercontent.com/u/61182572?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Lisa-Stubert</b></sub></a><br /><a href="https://github.com/technologiestiftung/CityLAB Slides/commits?author=Lisa-Stubert" title="Code">💻</a></td>
     <td align="center"><a href="http://toridykes.com/"><img src="https://avatars.githubusercontent.com/u/12991433?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Tori Boeck</b></sub></a><br /><a href="https://github.com/technologiestiftung/CityLAB Slides/commits?author=tori-d" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/bnjmnsbl"><img src="https://avatars.githubusercontent.com/u/11134234?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Benjamin Seibel</b></sub></a><br /><a href="https://github.com/technologiestiftung/CityLAB Slides/commits?author=bnjmnsbl" title="Code">💻</a></td>
   </tr>
 </table>
 
