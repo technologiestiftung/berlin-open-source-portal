@@ -1,0 +1,123 @@
+{
+  "projectName": "CityLAB Slides",
+  "projectOwner": "technologiestiftung",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 64,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "dnsos",
+      "name": "Dennis Ostendorf",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15640196?v=4",
+      "profile": "https://github.com/dnsos",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Lisa-Stubert",
+      "name": "Lisa-Stubert",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61182572?v=4",
+      "profile": "https://github.com/Lisa-Stubert",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "tori-d",
+      "name": "Tori Boeck",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12991433?v=4",
+      "profile": "http://toridykes.com/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "bnjmnsbl",
+      "name": "Benjamin Seibel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11134234?v=4",
+      "profile": "https://github.com/bnjmnsbl",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "inesweigand",
+      "name": "inesweigand",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79520450?v=4",
+      "profile": "https://github.com/inesweigand",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Esshahn",
+      "name": "Ingo Hinterding",
+      "avatar_url": "https://avatars.githubusercontent.com/u/434355?v=4",
+      "profile": "http://www.awsm.de/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "knudmoeller",
+      "name": "Knud Möller",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1128115?v=4",
+      "profile": "https://github.com/knudmoeller",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "edgalindo",
+      "name": "edgalindo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15638947?v=4",
+      "profile": "https://www.technologiestiftung-berlin.de/de/startseite/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "evelynebrie",
+      "name": "evelynebrie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32559774?v=4",
+      "profile": "https://github.com/evelynebrie",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "timurc",
+      "name": "Timur Çelikel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1699298?v=4",
+      "profile": "https://volligohne.de/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "denisyilmaz",
+      "name": "Denis Yılmaz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4189607?v=4",
+      "profile": "https://github.com/denisyilmaz",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "vogelino",
+      "name": "Lucas Vogel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2759340?v=4",
+      "profile": "https://vogelino.com/",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}

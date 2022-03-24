@@ -100,3 +100,62 @@ Launch test runner in watch mode:
 ```bash
 npm run test:watch
 ```
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/dnsos"><img src="https://avatars.githubusercontent.com/u/15640196?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Dennis Ostendorf</b></sub></a><br /><a href="https://github.com/technologiestiftung/CityLAB Slides/commits?author=dnsos" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Lisa-Stubert"><img src="https://avatars.githubusercontent.com/u/61182572?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Lisa-Stubert</b></sub></a><br /><a href="https://github.com/technologiestiftung/CityLAB Slides/commits?author=Lisa-Stubert" title="Code">💻</a></td>
+    <td align="center"><a href="http://toridykes.com/"><img src="https://avatars.githubusercontent.com/u/12991433?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Tori Boeck</b></sub></a><br /><a href="https://github.com/technologiestiftung/CityLAB Slides/commits?author=tori-d" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/bnjmnsbl"><img src="https://avatars.githubusercontent.com/u/11134234?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Benjamin Seibel</b></sub></a><br /><a href="https://github.com/technologiestiftung/CityLAB Slides/commits?author=bnjmnsbl" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/inesweigand"><img src="https://avatars.githubusercontent.com/u/79520450?v=4?s=64" width="64px;" alt=""/><br /><sub><b>inesweigand</b></sub></a><br /><a href="https://github.com/technologiestiftung/CityLAB Slides/commits?author=inesweigand" title="Code">💻</a></td>
+    <td align="center"><a href="http://www.awsm.de/"><img src="https://avatars.githubusercontent.com/u/434355?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Ingo Hinterding</b></sub></a><br /><a href="https://github.com/technologiestiftung/CityLAB Slides/commits?author=Esshahn" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/knudmoeller"><img src="https://avatars.githubusercontent.com/u/1128115?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Knud Möller</b></sub></a><br /><a href="https://github.com/technologiestiftung/CityLAB Slides/commits?author=knudmoeller" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://www.technologiestiftung-berlin.de/de/startseite/"><img src="https://avatars.githubusercontent.com/u/15638947?v=4?s=64" width="64px;" alt=""/><br /><sub><b>edgalindo</b></sub></a><br /><a href="https://github.com/technologiestiftung/CityLAB Slides/commits?author=edgalindo" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/evelynebrie"><img src="https://avatars.githubusercontent.com/u/32559774?v=4?s=64" width="64px;" alt=""/><br /><sub><b>evelynebrie</b></sub></a><br /><a href="https://github.com/technologiestiftung/CityLAB Slides/commits?author=evelynebrie" title="Code">💻</a></td>
+    <td align="center"><a href="https://volligohne.de/"><img src="https://avatars.githubusercontent.com/u/1699298?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Timur Çelikel</b></sub></a><br /><a href="https://github.com/technologiestiftung/CityLAB Slides/commits?author=timurc" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/denisyilmaz"><img src="https://avatars.githubusercontent.com/u/4189607?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Denis Yılmaz</b></sub></a><br /><a href="https://github.com/technologiestiftung/CityLAB Slides/commits?author=denisyilmaz" title="Code">💻</a></td>
+    <td align="center"><a href="https://vogelino.com/"><img src="https://avatars.githubusercontent.com/u/2759340?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Lucas Vogel</b></sub></a><br /><a href="https://github.com/technologiestiftung/CityLAB Slides/commits?author=vogelino" title="Documentation">📖</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+
+## Content Licencing
+
+Texts and content available as [CC BY](https://creativecommons.org/licenses/by/3.0/de/). 
+
+## Credits
+
+<table>
+  <tr>
+    <td>
+      A project by <a src="https://www.technologiestiftung-berlin.de/">
+        <br />
+        <br />
+        <img width="150" src="https://citylab-berlin.org/wp-content/uploads/2021/05/tsb.svg" />
+      </a>
+    </td>
+    <td>
+      Supported by <a src="https://www.berlin.de/">
+        <br />
+        <br />
+        <img width="150" src="https://berlinopensource.de/assets/images/senweb-logo.svg" />
+      </a>
+    </td>
+  </tr>
+</table>
