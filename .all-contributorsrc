@@ -36,6 +36,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "tori-d",
+      "name": "Tori Boeck",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12991433?v=4",
+      "profile": "http://toridykes.com/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7
