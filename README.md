@@ -118,6 +118,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/inesweigand"><img src="https://avatars.githubusercontent.com/u/79520450?v=4?s=64" width="64px;" alt=""/><br /><sub><b>inesweigand</b></sub></a><br /><a href="https://github.com/technologiestiftung/CityLAB Slides/commits?author=inesweigand" title="Code">💻</a></td>
     <td align="center"><a href="http://www.awsm.de/"><img src="https://avatars.githubusercontent.com/u/434355?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Ingo Hinterding</b></sub></a><br /><a href="https://github.com/technologiestiftung/CityLAB Slides/commits?author=Esshahn" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/knudmoeller"><img src="https://avatars.githubusercontent.com/u/1128115?v=4?s=64" width="64px;" alt=""/><br /><sub><b>Knud Möller</b></sub></a><br /><a href="https://github.com/technologiestiftung/CityLAB Slides/commits?author=knudmoeller" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->
