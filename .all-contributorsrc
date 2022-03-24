@@ -99,6 +99,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "timurc",
+      "name": "Timur Çelikel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1699298?v=4",
+      "profile": "https://volligohne.de/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7
