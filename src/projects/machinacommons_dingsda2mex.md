@@ -23,14 +23,11 @@ Gruppen, Ensembles und andere Institutionen können mit **dingsda 2mex** eigene 
 
 **dingsda 2meX** ist eine Lagerverwaltung-Software für Künstler:innen, die das gemeinsame Nutzen und Teilen von Requisiten und Equipment erleichtern soll. Die Funktionen von **dingsda 2meX** sind dabei speziell auf den Bedarf von Kulturschaffenden, Kollektiven und den Projekt- und Tourbetrieb in der freien Theater Szene zugeschnitten.
 
-<img src="https://machina_ex.gitlab.io/machina-commons-website/img/dingsda_001_start.png" height="300px"/>
-<img src="https://machina_ex.gitlab.io/machina-commons-website/img/dingsda_002_lager.png" height="300px"/>
-<img src="https://machina_ex.gitlab.io/machina-commons-website/img/dingsda_003_item_actions.png" height="300px"/>
+![screenshot dingsda 2mex](/src/assets/images/projects/dingsda-2meX_screenshots.jpeg)
 
 Bei machina eX setzen wir dingsda 2meX ein, um unser Lager nach innen wie aussen hin transparenter zu machen: Technische, elektronische und szenografische Objekte, die wir über die vergangenen zehn Jahre angesammelt haben, können auf der Plattform für alle, die einen Account haben, eingesehen und je nach Zugriffsrechten verwaltet, editiert, aus- oder umgebucht werden.
 
 Dabei sind die Funktionen auf das einfache Ein- und Ausbuchen von Gegenständen aus dem Lager am Mobilgerät oder Laptop optimiert, damit es im kollektiven Betrieb auch bei parallel laufenden Projekten und mehreren Künstler:innen mit Zugang zum Fundus immer übersichtlich bleibt.
-
 
 ## Weitere Informationen
 

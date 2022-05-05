@@ -24,7 +24,7 @@ date: 2022-05-05
 
 **adaptor:ex** bietet eine visuelle Programmieroberfläche, die von mehreren Partizipierenden mit Inhalten gefüllt und modifiziert werden kann. Sie bildet das Grundgerüst einer digitalen oder digital erweiterten Produktion und kann im Entstehungs- oder Probenprozess schnell angepasst werden.
 
-![Screenshot adaptor:ex](https://machina_ex.gitlab.io/machina-commons-website/img/editor_example.png)
+![Screenshot adaptor:ex](/src/assets/images/projects/adaptor-ex_screenshot.png)
 
 Über seine Plugins kann **adaptor:ex** Licht-, Sound-, Logik- und Sensorelemente sowie digitale Requisiten und Gegenstände ansteuern. Zusätzlich dazu verfügt es über Schnittstellen zu Telefonsystemen und der Messenger-App Telegram. So können virtuelle und physische Ebenen miteinander zu einzigartigen künstlerischen Spiel- und Erfahrungsräumen verschaltet werden.
 
