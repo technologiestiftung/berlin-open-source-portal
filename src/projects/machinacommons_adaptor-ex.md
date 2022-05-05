@@ -4,7 +4,7 @@ tags: ["Kultur","Theater","Games"]
 id: adaptor-ex
 title: MACHINA COMMONS - adaptor:ex
 abstract: adaptor:ex ist ein modulares, erweiterbares Framework um interaktive Performances, Theater-Games und andere Projekte zu erstellen
-languages: ["NodeJS","Javascript", "CSS", "HTML"]
+languages: ["NodeJS","Javascript", "CSS", "HTML","MongoDB"]
 license: MIT
 repository: https://gitlab.com/machina_ex/adaptor_ex
 link: https://machinacommons.world
