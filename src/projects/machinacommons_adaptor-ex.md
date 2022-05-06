@@ -1,10 +1,10 @@
 ---
 layout: layouts/project.liquid
 tags: ["Kultur","Theater","Games"]
-id: adaptor-ex
+id: adaptorex
 title: MACHINA COMMONS - adaptor:ex
 abstract: adaptor:ex ist ein modulares, erweiterbares Framework um interaktive Performances, Theater-Games und andere Projekte zu erstellen
-languages: ["NodeJS","Javascript", "CSS", "HTML","MongoDB"]
+languages: ["NodeJS","Javascript", "CSS", "HTML","MongoDB","python"]
 license: MIT
 repository: https://gitlab.com/machina_ex/adaptor_ex
 link: https://machinacommons.world
@@ -16,13 +16,15 @@ date: 2022-05-05
 
 ## Zusammenfassung
 
-**adaptor:ex** ist ein modulares, erweiterbares Framework, mit dem du interaktive Performances, Theater-Games, Installationen, Chatbot-Adventure oder Bonus-Level zu bestehenden Projekten kreieren kannst. Als RealLifeGame-Engine kannst du die Software in analogen oder digitalen Räumen anwenden. In der Dokumentation findest du heraus, wie du adaptor:ex installierst und nutzt.
+**adaptor:ex** ist ein modulares, erweiterbares Framework, mit dem du interaktive Performances, Theater-Games, Installationen, Chatbot-Adventure oder Bonus-Level zu bestehenden Projekten kreieren kannst. Eine grafische Programmieroberfläche erlaubt es dir die verschiedenen digitalen und analogen Elemente deines Projekts miteinander zu verschalten. In der [Dokumentation](https://machina_ex.gitlab.io/adaptor_ex/adaptor_ex_tutorials/) findest du heraus, wie du adaptor:ex installierst und nutzt.
 
 ## Beschreibung des Projekts
 
-**adaptor:ex** ist eine RealLifeGame-Engine für interaktive theatrale Erlebnisräume. Nutzer:innen können damit andere Soft- und Hardware zu umfangreichen Inszenierungen zusammenfügen und so zum Beispiel digital erweiterte Aufführungen, Ausstellungen, Vermittlungsangebote oder Ideen für die Öffentlichkeitsarbeit realisieren.
+**adaptor:ex** ist eine RealLifeGame-Engine für interaktive theatrale Erlebnisräume. Nutzer:innen können damit andere Soft- und Hardware zu umfangreichen Inszenierungen zusammenfügen und so zum Beispiel digital erweiterte Aufführungen, Ausstellungen, Games, Vermittlungsangebote oder Ideen für die Öffentlichkeitsarbeit realisieren.
 
-**adaptor:ex** bietet eine visuelle Programmieroberfläche, die von mehreren Partizipierenden mit Inhalten gefüllt und modifiziert werden kann. Sie bildet das Grundgerüst einer digitalen oder digital erweiterten Produktion und kann im Entstehungs- oder Probenprozess schnell angepasst werden.
+**adaptor:ex** bietet eine grafische Programmieroberfläche, die von mehreren Partizipierenden im Browser geöffnet und mit Inhalten gefüllt und modifiziert werden kann. Sie bildet das Grundgerüst einer digitalen oder digital erweiterten Produktion und kann im Entstehungs- oder Probenprozess schnell angepasst werden.
+
+Die Visualisierung und Logikbausteine sind für szenisches und multilineares Storytelling optimiert.
 
 ![Screenshot adaptor:ex](/src/assets/images/projects/adaptor-ex_screenshot.png)
 
