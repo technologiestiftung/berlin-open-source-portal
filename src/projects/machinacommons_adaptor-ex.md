@@ -39,4 +39,4 @@ Gestaltung und Betrieb dieser komplexen Systeme sollen durch das modulare und of
 
 gefördert durch
 
-![Logo Senatsverwaltung für Kultur und Europa ](https://machina_ex.gitlab.io/machina-commons-website/img/Logo_Senat_Berlin.png)
+![Logo Senatsverwaltung für Kultur und Europa ](/src/assets/images/projects/Logo_Senat_Berlin.png)
