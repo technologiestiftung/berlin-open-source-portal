@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Build%20with%20%E2%9D%A4%EF%B8%8F-at%20Technologiesitftung%20Berlin-blue)
+![](https://img.shields.io/badge/Built%20with%20%E2%9D%A4%EF%B8%8F-at%20Technologiestiftung%20Berlin-blue)
 
 # Berlin Open Source
 
@@ -37,7 +37,6 @@ has-hero: true # optional
 has-thumb: true # optional
 date: 2021-02-16
 ---
-
 ```
 
 If you want your project to be presented with images, you add them in `src/assets/images/projects/`. Make sure to name your images according to your `id` value in the markdown front matter, e.g. `giessdenkiez_thumb.png` or `giessdenkiez_hero.jpg`.
@@ -134,10 +133,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
-
 ## Content Licencing
 
-Texts and content available as [CC BY](https://creativecommons.org/licenses/by/3.0/de/). 
+Texts and content available as [CC BY](https://creativecommons.org/licenses/by/3.0/de/).
 
 ## Credits
 
