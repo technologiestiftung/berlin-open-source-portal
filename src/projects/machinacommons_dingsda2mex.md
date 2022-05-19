@@ -23,7 +23,7 @@ date: 2022-05-05
 **dingsda 2meX** ist eine Fundusverwaltung-Software für Künstler:innen, die das gemeinsame Nutzen und Teilen von Requisiten und Equipment erleichtern soll.
 Die Funktionen von **dingsda 2meX** sind dabei speziell auf den Bedarf von Kulturschaffenden, Kollektiven und den Projekt- und Tourbetrieb in der freien Theater Szene zugeschnitten.
 
-![screenshot dingsda 2mex](/src/assets/images/projects/dingsda-2meX_screenshots.jpeg)
+![screenshot dingsda 2mex](/assets/images/projects/dingsda-2meX_screenshots.jpeg)
 
 Bei machina eX setzen wir dingsda 2meX ein, um unser Lager nach innen wie aussen hin transparenter zu machen: Technische, elektronische und szenografische Objekte, die wir über die vergangenen zehn Jahre angesammelt haben, können auf der Plattform für alle, die einen Account haben, eingesehen und je nach Zugriffsrechten verwaltet, editiert, aus- oder umgebucht werden.
 
@@ -33,4 +33,4 @@ Dabei sind die Funktionen auf das einfache Ein- und Ausbuchen von Gegenständen 
 
 **adaptor:ex** & **dingsda 2meX** sind Teil der MACHINA COMMONS, die das Game-Theater-Kollektiv machina eX 2021/22 im Förderprogramm "Digitale Entwicklung im Kulturbereich" der Berliner Senatsverwaltung für Kultur und Europa entwickelt hat.
 
-![Logo Senatsverwaltung für Kultur und Europa ](/src/assets/images/projects/Logo_Senat_Berlin.png)
+![Logo Senatsverwaltung für Kultur und Europa ](/assets/images/projects/Logo_Senat_Berlin.png)

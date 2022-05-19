@@ -26,7 +26,7 @@ date: 2022-05-05
 
 Die Visualisierung und Logikbausteine sind für szenisches und multilineares Storytelling optimiert.
 
-![Screenshot adaptor:ex](/src/assets/images/projects/adaptor-ex_screenshot.png)
+![Screenshot adaptor:ex](/assets/images/projects/adaptor-ex_screenshot.png)
 
 Über seine Plugins kann **adaptor:ex** Licht-, Sound-, Logik- und Sensorelemente sowie digitale Requisiten und Gegenstände ansteuern. Zusätzlich dazu verfügt es über Schnittstellen zu Telefonsystemen und der Messenger-App Telegram. So können virtuelle und physische Ebenen miteinander zu einzigartigen künstlerischen Spiel- und Erfahrungsräumen verschaltet werden.
 
@@ -39,4 +39,4 @@ Gestaltung und Betrieb dieser komplexen Systeme sollen durch das modulare und of
 
 gefördert durch
 
-![Logo Senatsverwaltung für Kultur und Europa ](/src/assets/images/projects/Logo_Senat_Berlin.png)
+![Logo Senatsverwaltung für Kultur und Europa ](/assets/images/projects/Logo_Senat_Berlin.png)
