@@ -3,7 +3,7 @@ layout: layouts/project.liquid
 tags: ["Kultur","Theater","Fundus","Lager"]
 id: dingsda-2meX
 title: MACHINA COMMONS - dingsda 2mex
-abstract: dingsda 2meX ist eine Lagerverwaltungs-Software für Künstler:innen, die das gemeinsame Nutzen und Teilen von Requisiten und Equipment für Kollektive aus der freien Theater Szene erleichtern soll. 
+abstract: dingsda 2meX ist eine Fundus-Verwaltungs-Software für Künstler:innen Kollektive in der Freien Szene.
 languages: ["NodeJS","Javascript", "CSS", "HTML","PostgreSQL"]
 license: MIT
 repository: https://gitlab.com/machina_ex/dingsda_2mex
