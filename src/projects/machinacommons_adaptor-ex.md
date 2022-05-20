@@ -3,7 +3,7 @@ layout: layouts/project.liquid
 tags: ["Kultur","Theater","Games"]
 id: adaptorex
 title: MACHINA COMMONS - adaptor:ex
-abstract: adaptor:ex ist ein modulares, erweiterbares Framework um interaktive Performances, Theater-Games und andere Projekte zu erstellen
+abstract: adaptor:ex ist ein modulares Framework um interaktive Performances, Theater-Games, u.a. zu erstellen
 languages: ["NodeJS","Javascript", "CSS", "HTML","MongoDB","python"]
 license: MIT
 repository: https://gitlab.com/machina_ex/adaptor_ex
@@ -37,6 +37,6 @@ Gestaltung und Betrieb dieser komplexen Systeme sollen durch das modulare und of
 
 **adaptor:ex** & **dingsda 2meX** sind Teil der MACHINA COMMONS, die das Game-Theater-Kollektiv machina eX 2021/22 im Förderprogramm "Digitale Entwicklung im Kulturbereich" der Berliner Senatsverwaltung für Kultur und Europa entwickelt hat.
 
-gefördert durch
+Gefördert durch
 
 ![Logo Senatsverwaltung für Kultur und Europa ](/assets/images/projects/Logo_Senat_Berlin.png)
