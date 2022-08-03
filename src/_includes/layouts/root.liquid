@@ -6,7 +6,10 @@ defaultAbstract: Überblick über Open Source-Projekte, die im Land Berlin von �
 <!DOCTYPE html>
 <html lang="de">
   <head>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' https://piwik.technologiestiftung-berlin.de; script-src 'self' https://piwik.technologiestiftung-berlin.de; style-src 'self'; font-src 'self'; manifest-src 'self'; object-src 'none'">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; connect-src 'self' https://piwik.technologiestiftung-berlin.de; img-src 'self' https://piwik.technologiestiftung-berlin.de; script-src 'self' https://piwik.technologiestiftung-berlin.de; style-src 'self'; font-src 'self'; manifest-src 'self'; object-src 'none'"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -28,8 +31,8 @@ defaultAbstract: Überblick über Open Source-Projekte, die im Land Berlin von �
     <main class="w-full mb-16 md:mb-32">
       {{ content }}
     </main>
-    {% include "partials/footer.liquid" %}
-    {% include "partials/submit-project-button.liquid" %}
+    {% include "partials/footer.liquid" %} {% include
+    "partials/submit-project-button.liquid" %}
 
     <script src="/assets/js/nav.js"></script>
   </body>
