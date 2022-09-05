@@ -1,9 +1,5 @@
 module.exports = {
-  purge: {
-    enabled: process.env.NODE_ENV === "production",
-    content: ["./src/**/*.{html,liquid,njk}", "./src/assets/js/nav.js"],
-  },
-  darkMode: false,
+  content: ["./src/**/*.{html,liquid,njk}", "./src/assets/js/nav.js"],
   theme: {
     fontFamily: {
       sans: ["IBM Plex Sans", "sans-serif"],
