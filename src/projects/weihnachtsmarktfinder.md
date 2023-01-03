@@ -2,7 +2,7 @@
 layout: layouts/project.liquid
 tags: ["Wirtschaft", "Märkte","Open Data"]
 id: weihnachtsmarktfinder
-title: 'Berliner Weihnachtsmarkt-Finder'
+title: 'Berliner Weihnachts&shy;markt-Finder'
 abstract: Eine Webkarte mit den Berliner Weihnachtsmärkten zum Erkunden, Planen und Teilen
 languages: ["Typescript"]
 license: MIT
