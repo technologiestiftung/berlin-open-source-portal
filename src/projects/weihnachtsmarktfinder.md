@@ -17,7 +17,6 @@ date: 2022-12-22
 ## Zusammenfassung
 Weihnachtsmärkte stimmen nicht nur auf das Weihnachtsfest ein. Sie machen Städte auch attraktiv für Besucher:innen und sind damit ein Tourismus- und Wirtschaftsfaktor. Welche Weihnachtsmärkte laden an welchen Tagen zum Besuch ein? Wo kann ich mit meinen Kolleg:innenen noch nach 19 Uhr auf eine Tasse Glühwein? Und wo ist der Eintritt kostenlos? Diese und viele weitere Fragen beantwortet der Berliner Weihnachtsmarkt-Finder, der auf offenen Daten basiert und uns in der Vorweihnachtszeit die Stadt auf neue Art und Weise erkunden lässt. 
 
-
 ## Beschreibung des Projekts
 Auf der Webkarte werden zunächst über 60 Weihnachtsmärkte angezeigt, dargestellt mit einem Stern-Symbol. Mit einem Klick auf den Stern gelangen Nutzer:innen auf weiterführende Informationen wie Adresse, Anfahrt, Webseite, Eintrittspreise und Öffnungszeiten und weitere Informationen. Die zentrale Funktion der Anwendung sind verschiedende Filtermöglichkeiten. So können Nutzer:innen sich zum Beispiel nur Weihnachtsmärkte anzeigen lassen, die kostenlos sind, wo es spannende Attraktionen gibt oder die nah an einer U- Bahn oder S-Bahn liegen. Alle Weihnachtsmärkte, die der Filterung nicht entsprechen, werden danach ausgegraut. Zoomt man tiefer in die Karte rein, werden zusätzlich öffentliche Toilettenstandorte und Haltestationen zu öffentlichen Verkehrsmitteln sichtbar. Die Anwendung ist so konzipiert, dass sie problemlos mit einem Smartphone bedient werden kann. Zudem können ausgewählte Weihnachtsmärkte über eine Funktion mit Anderen geteilt werden.
 
