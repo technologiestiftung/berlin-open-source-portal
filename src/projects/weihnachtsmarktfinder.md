@@ -9,6 +9,7 @@ license: MIT
 link: https://weihnachtsmaerkte.odis-berlin.de/?id=
 repository: https://github.com/technologiestiftung/weihnachtsmarktkarte
 developers: ["Technologiestiftung Berlin"]
+backers: ["Senatsverwaltung für Inneres, Digitalisierung udn Sport"]
 has-hero: true
 has-thumb: true
 date: 2022-12-22
