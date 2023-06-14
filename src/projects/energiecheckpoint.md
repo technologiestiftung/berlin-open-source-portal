@@ -2,7 +2,7 @@
 layout: layouts/project.liquid
 tags: ["Gebäude", "Energiewende","Verbrauch","Klimaschutz" ]
 id: energiecheckpoint
-title: 'Berliner EnergieCheckpoint'
+title: 'Berliner Energie&shy;Checkpoint'
 abstract: Eine Exploration öffentlicher Gebäude nach Energieverbrauch und Sanierungsdaten 
 languages: ["Typescript"]
 license: MIT
