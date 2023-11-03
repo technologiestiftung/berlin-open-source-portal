@@ -7,7 +7,7 @@ abstract: adaptor:ex ist ein modulares Framework um interaktive Performances, Th
 languages: ["NodeJS","Javascript", "CSS", "HTML","MongoDB","python"]
 license: MIT
 repository: https://gitlab.com/machina_ex/adaptor_ex
-link: https://machinacommons.world
+link: https://docs.adaptorex.org
 developers: ["machina eX"]
 backers: ["Senatsverwaltung für Kultur und Europa Berlin"]
 has-thumb: true
@@ -16,7 +16,7 @@ date: 2022-05-05
 
 ## Zusammenfassung
 
-**adaptor:ex** ist ein modulares, erweiterbares Framework, mit dem du interaktive Performances, Theater-Games, Installationen, Chatbot-Adventure oder Bonus-Level zu bestehenden Projekten kreieren kannst. Eine grafische Programmieroberfläche erlaubt es dir die verschiedenen digitalen und analogen Elemente deines Projekts miteinander zu verschalten. In der [Dokumentation](https://machina_ex.gitlab.io/adaptor_ex/adaptor_ex_tutorials/) findest du heraus, wie du adaptor:ex installierst und nutzt.
+**adaptor:ex** ist ein modulares, erweiterbares Framework, mit dem du interaktive Performances, Theater-Games, Installationen, Chatbot-Adventure oder Bonus-Level zu bestehenden Projekten kreieren kannst. Eine grafische Programmieroberfläche erlaubt es dir die verschiedenen digitalen und analogen Elemente deines Projekts miteinander zu verschalten. In der [Dokumentation](https://docs.adaptorex.org) findest du heraus, wie du adaptor:ex installierst und nutzt.
 
 ## Beschreibung des Projekts
 
@@ -35,7 +35,7 @@ Gestaltung und Betrieb dieser komplexen Systeme sollen durch das modulare und of
 
 ## Weitere Informationen
 
-**adaptor:ex** & **dingsda 2meX** sind Teil der MACHINA COMMONS, die das Game-Theater-Kollektiv machina eX 2021/22 im Förderprogramm "Digitale Entwicklung im Kulturbereich" der Berliner Senatsverwaltung für Kultur und Europa entwickelt hat.
+**adaptor:ex** & **dingsda 2meX** sind Teil der [MACHINA COMMONS](https://commons.machinaex.org), die das Game-Theater-Kollektiv machina eX 2021/22 im Förderprogramm "Digitale Entwicklung im Kulturbereich" der Berliner Senatsverwaltung für Kultur und Europa entwickelt hat.
 
 Gefördert durch
 
