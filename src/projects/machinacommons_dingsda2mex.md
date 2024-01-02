@@ -7,7 +7,7 @@ abstract: dingsda 2meX ist eine Fundus-Verwaltungs-Software für Künstler:innen
 languages: ["NodeJS","Javascript", "CSS", "HTML","PostgreSQL"]
 license: MIT
 repository: https://gitlab.com/machina_ex/dingsda_2mex
-link: https://machinacommons.world
+link: https://commons.machinaex.org
 developers: ["machina eX"]
 backers: ["Senatsverwaltung für Kultur und Europa Berlin"]
 has-thumb: true
