@@ -5,9 +5,11 @@ let isMenuOpen = false;
 menuButton.addEventListener("click", () => {
   isMenuOpen = !isMenuOpen;
   menuButton.setAttribute("aria-expanded", isMenuOpen);
-  isMenuOpen
-    ? menuContent.classList.add("block") &
-      menuContent.classList.remove("hidden")
-    : menuContent.classList.add("hidden") &
-      menuContent.classList.remove("block");
+  if (isMenuOpen) {
+    menuContent.classList.remove("hidden");
+    menuContent.classList.add("block");
+  } else {
+    menuContent.classList.remove("block");
+    menuContent.classList.add("hidden");
+  }
 });
