@@ -30,7 +30,8 @@ export const fetchGithubRepo: (
 
     return (await response.json()) as GithubResponseType;
   } catch (error) {
-    throw new Error(error);
+    const message = error instanceof Error ? error.message : String(error);
+    throw new Error(`GitHub repo fetch failed: ${message}`);
   }
 };
 
@@ -55,6 +56,7 @@ export const fetchOpenIssues: (
 
     return (await response.json()) as GithubSearchApiResponseType;
   } catch (error) {
-    throw new Error(error);
+    const message = error instanceof Error ? error.message : String(error);
+    throw new Error(`GitHub issues fetch failed: ${message}`);
   }
 };
